@@ -1,0 +1,3074 @@
+config:  {'project': 'MHCCBM', 'name': 'CNN_81', 'config': {'hidden_channels': [128], 'epochs': 500, 'kernel_size': 5, 'pool_kernel_size': 5, 'classes': 2, 'seed': 42, 'batch_size': 32, 'lr': 0.001, 'dataset': 'X.pkl, y.pkl (embedded peptide seq from classification', 'dropout_p': 0.1, 'architecture': 'CNN'}}
+Seed:  42
+tensor(0.4369)
+epoch:  0
+[Epoch 1, Batch 10] loss: 12.456
+epoch:  1 val_f1:  0.5313316510970327 val_auroc:  0.7177221404025528 val_auprc:  0.8288215068204388
+epoch:  1
+[Epoch 2, Batch 10] loss: 0.909
+epoch:  2 val_f1:  0.751751326211758 val_auroc:  0.7641138929798724 val_auprc:  0.8813220724444093
+EarlyStopping counter: 1 out of 50
+epoch:  2
+[Epoch 3, Batch 10] loss: 0.769
+epoch:  3 val_f1:  0.5853772378229669 val_auroc:  0.7844869906725577 val_auprc:  0.8990533400044443
+EarlyStopping counter: 2 out of 50
+epoch:  3
+[Epoch 4, Batch 10] loss: 0.581
+epoch:  4 val_f1:  0.6876087591262989 val_auroc:  0.8414334806087383 val_auprc:  0.9340462154537913
+Validation loss improved to 0.724371
+epoch:  4
+[Epoch 5, Batch 10] loss: 0.277
+epoch:  5 val_f1:  0.7573003855683703 val_auroc:  0.7943053510063819 val_auprc:  0.9033111638851659
+Validation loss improved to 0.702519
+epoch:  5
+[Epoch 6, Batch 10] loss: 0.217
+epoch:  6 val_f1:  0.7672775806504117 val_auroc:  0.8244968090328916 val_auprc:  0.9240534266891598
+Validation loss improved to 0.585313
+epoch:  6
+[Epoch 7, Batch 10] loss: 0.156
+epoch:  7 val_f1:  0.778324933635979 val_auroc:  0.8227785959744722 val_auprc:  0.9180469517551425
+EarlyStopping counter: 1 out of 50
+epoch:  7
+[Epoch 8, Batch 10] loss: 0.168
+epoch:  8 val_f1:  0.7584532667010088 val_auroc:  0.8387334315169366 val_auprc:  0.932143761279323
+Validation loss improved to 0.501959
+epoch:  8
+[Epoch 9, Batch 10] loss: 0.145
+epoch:  9 val_f1:  0.7580594896895918 val_auroc:  0.8161512027491409 val_auprc:  0.9185558246819852
+EarlyStopping counter: 1 out of 50
+epoch:  9
+[Epoch 10, Batch 10] loss: 0.129
+epoch:  10 val_f1:  0.7831873586549224 val_auroc:  0.8041237113402062 val_auprc:  0.9096162023227773
+EarlyStopping counter: 2 out of 50
+epoch:  10
+[Epoch 11, Batch 10] loss: 0.134
+epoch:  11 val_f1:  0.7823449348629204 val_auroc:  0.812960235640648 val_auprc:  0.9143643969292321
+EarlyStopping counter: 3 out of 50
+epoch:  11
+[Epoch 12, Batch 10] loss: 0.099
+epoch:  12 val_f1:  0.7697841726618705 val_auroc:  0.8213058419243987 val_auprc:  0.9212941483406734
+EarlyStopping counter: 4 out of 50
+epoch:  12
+[Epoch 13, Batch 10] loss: 0.098
+epoch:  13 val_f1:  0.7879228532067962 val_auroc:  0.8259695630829652 val_auprc:  0.9195162000288677
+EarlyStopping counter: 5 out of 50
+epoch:  13
+[Epoch 14, Batch 10] loss: 0.085
+epoch:  14 val_f1:  0.7855581813618873 val_auroc:  0.8129602356406481 val_auprc:  0.9136560733255237
+EarlyStopping counter: 6 out of 50
+epoch:  14
+[Epoch 15, Batch 10] loss: 0.079
+epoch:  15 val_f1:  0.7653077537969624 val_auroc:  0.8333333333333334 val_auprc:  0.9281898180509656
+EarlyStopping counter: 7 out of 50
+epoch:  15
+[Epoch 16, Batch 10] loss: 0.084
+epoch:  16 val_f1:  0.76000113614692 val_auroc:  0.8168875797741777 val_auprc:  0.9174398210340802
+EarlyStopping counter: 8 out of 50
+epoch:  16
+[Epoch 17, Batch 10] loss: 0.069
+epoch:  17 val_f1:  0.7757738305193033 val_auroc:  0.8183603338242513 val_auprc:  0.9200611557670905
+EarlyStopping counter: 9 out of 50
+epoch:  17
+[Epoch 18, Batch 10] loss: 0.059
+epoch:  18 val_f1:  0.7697841726618705 val_auroc:  0.8215513009327442 val_auprc:  0.9215947366900918
+EarlyStopping counter: 10 out of 50
+epoch:  18
+[Epoch 19, Batch 10] loss: 0.053
+epoch:  19 val_f1:  0.7583841213433115 val_auroc:  0.8402061855670103 val_auprc:  0.9354784565931129
+EarlyStopping counter: 11 out of 50
+epoch:  19
+[Epoch 20, Batch 10] loss: 0.071
+epoch:  20 val_f1:  0.7644702419882276 val_auroc:  0.8262150220913108 val_auprc:  0.9283770599257755
+EarlyStopping counter: 12 out of 50
+epoch:  20
+[Epoch 21, Batch 10] loss: 0.051
+epoch:  21 val_f1:  0.7855581813618873 val_auroc:  0.7989690721649484 val_auprc:  0.9064873138138592
+EarlyStopping counter: 13 out of 50
+epoch:  21
+[Epoch 22, Batch 10] loss: 0.046
+epoch:  22 val_f1:  0.7712620601193464 val_auroc:  0.8151693667157585 val_auprc:  0.9144903397831537
+EarlyStopping counter: 14 out of 50
+epoch:  22
+[Epoch 23, Batch 10] loss: 0.040
+epoch:  23 val_f1:  0.7823449348629204 val_auroc:  0.823514972999509 val_auprc:  0.9205861718022164
+EarlyStopping counter: 15 out of 50
+epoch:  23
+[Epoch 24, Batch 10] loss: 0.033
+epoch:  24 val_f1:  0.8010188978004199 val_auroc:  0.810505645557192 val_auprc:  0.9146197523183132
+EarlyStopping counter: 16 out of 50
+epoch:  24
+[Epoch 25, Batch 10] loss: 0.030
+epoch:  25 val_f1:  0.7841726618705036 val_auroc:  0.8163966617574865 val_auprc:  0.9177342924432261
+EarlyStopping counter: 17 out of 50
+epoch:  25
+[Epoch 26, Batch 10] loss: 0.025
+epoch:  26 val_f1:  0.7855581813618873 val_auroc:  0.8195876288659794 val_auprc:  0.9188490896103668
+EarlyStopping counter: 18 out of 50
+epoch:  26
+[Epoch 27, Batch 10] loss: 0.027
+epoch:  27 val_f1:  0.8020613296596766 val_auroc:  0.819833087874325 val_auprc:  0.9216341062804575
+EarlyStopping counter: 19 out of 50
+epoch:  27
+[Epoch 28, Batch 10] loss: 0.023
+epoch:  28 val_f1:  0.7823449348629204 val_auroc:  0.8271968581246931 val_auprc:  0.925450139685973
+EarlyStopping counter: 20 out of 50
+epoch:  28
+[Epoch 29, Batch 10] loss: 0.022
+epoch:  29 val_f1:  0.7841726618705036 val_auroc:  0.8200785468826707 val_auprc:  0.9205895928014132
+EarlyStopping counter: 21 out of 50
+epoch:  29
+[Epoch 30, Batch 10] loss: 0.018
+epoch:  30 val_f1:  0.7879228532067962 val_auroc:  0.8247422680412371 val_auprc:  0.9235798805463804
+EarlyStopping counter: 22 out of 50
+epoch:  30
+[Epoch 31, Batch 10] loss: 0.018
+epoch:  31 val_f1:  0.7889150110486646 val_auroc:  0.826705940108002 val_auprc:  0.924867680332847
+EarlyStopping counter: 23 out of 50
+epoch:  31
+[Epoch 32, Batch 10] loss: 0.019
+epoch:  32 val_f1:  0.7580594896895918 val_auroc:  0.8109965635738832 val_auprc:  0.9123811595687062
+EarlyStopping counter: 24 out of 50
+epoch:  32
+[Epoch 33, Batch 10] loss: 0.016
+epoch:  33 val_f1:  0.7777125328082551 val_auroc:  0.8205694648993618 val_auprc:  0.9203236418089393
+EarlyStopping counter: 25 out of 50
+epoch:  33
+[Epoch 34, Batch 10] loss: 0.014
+epoch:  34 val_f1:  0.7954863587533922 val_auroc:  0.8252331860579283 val_auprc:  0.9247974267730629
+EarlyStopping counter: 26 out of 50
+epoch:  34
+[Epoch 35, Batch 10] loss: 0.014
+epoch:  35 val_f1:  0.76000113614692 val_auroc:  0.8190967108492881 val_auprc:  0.9203114422896456
+EarlyStopping counter: 27 out of 50
+epoch:  35
+[Epoch 36, Batch 10] loss: 0.013
+epoch:  36 val_f1:  0.7737843767539161 val_auroc:  0.8213058419243986 val_auprc:  0.9213623134741644
+EarlyStopping counter: 28 out of 50
+epoch:  36
+[Epoch 37, Batch 10] loss: 0.010
+epoch:  37 val_f1:  0.7841726618705036 val_auroc:  0.8252331860579284 val_auprc:  0.9245804940315896
+EarlyStopping counter: 29 out of 50
+epoch:  37
+[Epoch 38, Batch 10] loss: 0.013
+epoch:  38 val_f1:  0.8020613296596766 val_auroc:  0.832351497299951 val_auprc:  0.928866809027053
+EarlyStopping counter: 30 out of 50
+epoch:  38
+[Epoch 39, Batch 10] loss: 0.012
+epoch:  39 val_f1:  0.7855581813618873 val_auroc:  0.8230240549828178 val_auprc:  0.9223023617073906
+EarlyStopping counter: 31 out of 50
+epoch:  39
+[Epoch 40, Batch 10] loss: 0.009
+epoch:  40 val_f1:  0.7745465218349855 val_auroc:  0.8225331369661266 val_auprc:  0.9220486378051628
+EarlyStopping counter: 32 out of 50
+epoch:  40
+[Epoch 41, Batch 10] loss: 0.010
+epoch:  41 val_f1:  0.7762067639678805 val_auroc:  0.8208149239077074 val_auprc:  0.9214369003788156
+EarlyStopping counter: 33 out of 50
+epoch:  41
+[Epoch 42, Batch 10] loss: 0.011
+epoch:  42 val_f1:  0.7944676896257205 val_auroc:  0.8257241040746196 val_auprc:  0.9246466263013025
+EarlyStopping counter: 34 out of 50
+epoch:  42
+[Epoch 43, Batch 10] loss: 0.009
+epoch:  43 val_f1:  0.7727225509205256 val_auroc:  0.8168875797741777 val_auprc:  0.9177620215743515
+EarlyStopping counter: 35 out of 50
+epoch:  43
+[Epoch 44, Batch 10] loss: 0.007
+epoch:  44 val_f1:  0.7762067639678805 val_auroc:  0.8203240058910163 val_auprc:  0.9209103192981218
+EarlyStopping counter: 36 out of 50
+epoch:  44
+[Epoch 45, Batch 10] loss: 0.007
+epoch:  45 val_f1:  0.7777125328082551 val_auroc:  0.8215513009327442 val_auprc:  0.9218460768268821
+EarlyStopping counter: 37 out of 50
+epoch:  45
+[Epoch 46, Batch 10] loss: 0.006
+epoch:  46 val_f1:  0.7777125328082551 val_auroc:  0.8235149729995092 val_auprc:  0.9230792810362128
+EarlyStopping counter: 38 out of 50
+epoch:  46
+[Epoch 47, Batch 10] loss: 0.006
+epoch:  47 val_f1:  0.7790721385700611 val_auroc:  0.8217967599410898 val_auprc:  0.921931425114298
+EarlyStopping counter: 39 out of 50
+epoch:  47
+[Epoch 48, Batch 10] loss: 0.006
+epoch:  48 val_f1:  0.7823449348629204 val_auroc:  0.829160530191458 val_auprc:  0.9271766317504033
+EarlyStopping counter: 40 out of 50
+epoch:  48
+[Epoch 49, Batch 10] loss: 0.007
+epoch:  49 val_f1:  0.7712620601193464 val_auroc:  0.8215513009327442 val_auprc:  0.9219591703679579
+EarlyStopping counter: 41 out of 50
+epoch:  49
+[Epoch 50, Batch 10] loss: 0.005
+epoch:  50 val_f1:  0.7762067639678805 val_auroc:  0.8230240549828178 val_auprc:  0.92290276343823
+EarlyStopping counter: 42 out of 50
+epoch:  50
+[Epoch 51, Batch 10] loss: 0.005
+epoch:  51 val_f1:  0.7944676896257205 val_auroc:  0.8296514482081493 val_auprc:  0.9271547240178752
+EarlyStopping counter: 43 out of 50
+epoch:  51
+[Epoch 52, Batch 10] loss: 0.005
+epoch:  52 val_f1:  0.7777125328082551 val_auroc:  0.8242513500245459 val_auprc:  0.9238041324673799
+EarlyStopping counter: 44 out of 50
+epoch:  52
+[Epoch 53, Batch 10] loss: 0.004
+epoch:  53 val_f1:  0.766354189375772 val_auroc:  0.8181148748159057 val_auprc:  0.9199156401979266
+EarlyStopping counter: 45 out of 50
+epoch:  53
+[Epoch 54, Batch 10] loss: 0.005
+epoch:  54 val_f1:  0.7727225509205256 val_auroc:  0.8176239567992146 val_auprc:  0.9191733351345718
+EarlyStopping counter: 46 out of 50
+epoch:  54
+[Epoch 55, Batch 10] loss: 0.005
+epoch:  55 val_f1:  0.7841726618705036 val_auroc:  0.8217967599410898 val_auprc:  0.9219646007619045
+EarlyStopping counter: 47 out of 50
+epoch:  55
+[Epoch 56, Batch 10] loss: 0.004
+epoch:  56 val_f1:  0.7841726618705036 val_auroc:  0.8247422680412371 val_auprc:  0.9236331434744192
+EarlyStopping counter: 48 out of 50
+epoch:  56
+[Epoch 57, Batch 10] loss: 0.004
+epoch:  57 val_f1:  0.7879228532067962 val_auroc:  0.826705940108002 val_auprc:  0.9252087616925128
+EarlyStopping counter: 49 out of 50
+epoch:  57
+[Epoch 58, Batch 10] loss: 0.004
+epoch:  58 val_f1:  0.7748426784519089 val_auroc:  0.8289150711831125 val_auprc:  0.9267112284249154
+EarlyStopping counter: 50 out of 50
+Early stopping triggered
+Early stopping triggered!
+Time taken:  192.68790984153748
+{'time_elapsed': [192.68790984153748], 'epoch': [57], 'fold': [0], 'f1_train': [1.0], 'auroc_train': [1.0], 'auprc_train': [1.0], 'f1_test': [0.7748426784519089], 'auroc_test': [0.8289150711831125], 'auprc_test': [0.9267112284249154]}
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+TAPPredictor                             [32, 1]                   --
+├─Sequential: 1-1                        [32, 1]                   --
+│    └─Conv1d: 2-1                       [32, 128, 1278]           768
+│    └─BatchNorm1d: 2-2                  [32, 128, 1278]           256
+│    └─Tanh: 2-3                         [32, 128, 1278]           --
+│    └─MaxPool1d: 2-4                    [32, 128, 1274]           --
+│    └─Dropout: 2-5                      [32, 128, 1274]           --
+│    └─Flatten: 2-6                      [32, 163072]              --
+│    └─Linear: 2-7                       [32, 1]                   163,073
+==========================================================================================
+Total params: 164,097
+Trainable params: 164,097
+Non-trainable params: 0
+Total mult-adds (M): 36.63
+==========================================================================================
+Input size (MB): 0.16
+Forward/backward pass size (MB): 83.76
+Params size (MB): 0.66
+Estimated Total Size (MB): 84.58
+==========================================================================================
+tensor(0.4369)
+epoch:  0
+[Epoch 1, Batch 10] loss: 18.607
+epoch:  1 val_f1:  0.5736495549323253 val_auroc:  0.6805351006381933 val_auprc:  0.8344911853932158
+epoch:  1
+[Epoch 2, Batch 10] loss: 3.991
+epoch:  2 val_f1:  0.698190734000651 val_auroc:  0.7086401570937654 val_auprc:  0.8480176106672401
+Validation loss improved to 0.339275
+epoch:  2
+[Epoch 3, Batch 10] loss: 1.237
+epoch:  3 val_f1:  0.7868059619290214 val_auroc:  0.8109965635738832 val_auprc:  0.9090369684882804
+EarlyStopping counter: 1 out of 50
+epoch:  3
+[Epoch 4, Batch 10] loss: 0.384
+epoch:  4 val_f1:  0.6743799189283424 val_auroc:  0.8021600392734413 val_auprc:  0.9058954560733401
+EarlyStopping counter: 2 out of 50
+epoch:  4
+[Epoch 5, Batch 10] loss: 0.337
+epoch:  5 val_f1:  0.7841726618705036 val_auroc:  0.809278350515464 val_auprc:  0.9036868470674118
+Validation loss improved to 0.235693
+epoch:  5
+[Epoch 6, Batch 10] loss: 0.236
+epoch:  6 val_f1:  0.72389147505525 val_auroc:  0.8151693667157585 val_auprc:  0.9149565398346103
+EarlyStopping counter: 1 out of 50
+epoch:  6
+[Epoch 7, Batch 10] loss: 0.187
+epoch:  7 val_f1:  0.8104294593967373 val_auroc:  0.8276877761413844 val_auprc:  0.9188302713423664
+EarlyStopping counter: 2 out of 50
+epoch:  7
+[Epoch 8, Batch 10] loss: 0.193
+epoch:  8 val_f1:  0.7170452552783244 val_auroc:  0.8205694648993618 val_auprc:  0.9166441907843699
+EarlyStopping counter: 3 out of 50
+epoch:  8
+[Epoch 9, Batch 10] loss: 0.163
+epoch:  9 val_f1:  0.7308672563486676 val_auroc:  0.8350515463917526 val_auprc:  0.9273177480568218
+EarlyStopping counter: 4 out of 50
+epoch:  9
+[Epoch 10, Batch 10] loss: 0.218
+epoch:  10 val_f1:  0.7826417810500232 val_auroc:  0.8247422680412372 val_auprc:  0.9161895785536502
+Validation loss improved to 0.235644
+epoch:  10
+[Epoch 11, Batch 10] loss: 0.165
+epoch:  11 val_f1:  0.7944676896257205 val_auroc:  0.8240058910162004 val_auprc:  0.9155175602692007
+EarlyStopping counter: 1 out of 50
+epoch:  11
+[Epoch 12, Batch 10] loss: 0.134
+epoch:  12 val_f1:  0.7791090204759269 val_auroc:  0.8080510554737359 val_auprc:  0.9013608783242709
+Validation loss improved to 0.194213
+epoch:  12
+[Epoch 13, Batch 10] loss: 0.123
+epoch:  13 val_f1:  0.8095907478048824 val_auroc:  0.8377515954835543 val_auprc:  0.9250163851121904
+EarlyStopping counter: 1 out of 50
+epoch:  13
+[Epoch 14, Batch 10] loss: 0.108
+epoch:  14 val_f1:  0.8075789593997306 val_auroc:  0.8267059401080019 val_auprc:  0.9159661196352241
+EarlyStopping counter: 2 out of 50
+epoch:  14
+[Epoch 15, Batch 10] loss: 0.090
+epoch:  15 val_f1:  0.7855164986057286 val_auroc:  0.8296514482081492 val_auprc:  0.9088302167899568
+EarlyStopping counter: 3 out of 50
+epoch:  15
+[Epoch 16, Batch 10] loss: 0.099
+epoch:  16 val_f1:  0.8056228275806321 val_auroc:  0.8352970054000982 val_auprc:  0.9229295814418077
+EarlyStopping counter: 4 out of 50
+epoch:  16
+[Epoch 17, Batch 10] loss: 0.105
+epoch:  17 val_f1:  0.8020613296596766 val_auroc:  0.8370152184585173 val_auprc:  0.9218975089696475
+EarlyStopping counter: 5 out of 50
+epoch:  17
+[Epoch 18, Batch 10] loss: 0.081
+epoch:  18 val_f1:  0.7826417810500232 val_auroc:  0.8414334806087382 val_auprc:  0.9230249469867102
+EarlyStopping counter: 6 out of 50
+epoch:  18
+[Epoch 19, Batch 10] loss: 0.070
+epoch:  19 val_f1:  0.7770871369605723 val_auroc:  0.8244968090328915 val_auprc:  0.9119078327949067
+Validation loss improved to 0.190471
+epoch:  19
+[Epoch 20, Batch 10] loss: 0.071
+epoch:  20 val_f1:  0.766354189375772 val_auroc:  0.8301423662248405 val_auprc:  0.9141462662021891
+EarlyStopping counter: 1 out of 50
+epoch:  20
+[Epoch 21, Batch 10] loss: 0.055
+epoch:  21 val_f1:  0.7791090204759269 val_auroc:  0.8348060873834069 val_auprc:  0.9181824581997078
+EarlyStopping counter: 2 out of 50
+epoch:  21
+[Epoch 22, Batch 10] loss: 0.052
+epoch:  22 val_f1:  0.7879228532067962 val_auroc:  0.8276877761413844 val_auprc:  0.912458384286476
+EarlyStopping counter: 3 out of 50
+epoch:  22
+[Epoch 23, Batch 10] loss: 0.051
+epoch:  23 val_f1:  0.7745465218349855 val_auroc:  0.8348060873834069 val_auprc:  0.9135596088953482
+EarlyStopping counter: 4 out of 50
+epoch:  23
+[Epoch 24, Batch 10] loss: 0.049
+epoch:  24 val_f1:  0.7841726618705036 val_auroc:  0.8325969563082964 val_auprc:  0.9154902686110516
+EarlyStopping counter: 5 out of 50
+epoch:  24
+[Epoch 25, Batch 10] loss: 0.040
+epoch:  25 val_f1:  0.7661589271850144 val_auroc:  0.82793323514973 val_auprc:  0.9098767505466422
+EarlyStopping counter: 6 out of 50
+epoch:  25
+[Epoch 26, Batch 10] loss: 0.043
+epoch:  26 val_f1:  0.799854302604428 val_auroc:  0.8264604810996564 val_auprc:  0.9111563147006505
+EarlyStopping counter: 7 out of 50
+epoch:  26
+[Epoch 27, Batch 10] loss: 0.040
+epoch:  27 val_f1:  0.7834737923946559 val_auroc:  0.8311242022582229 val_auprc:  0.9129862159669189
+Validation loss improved to 0.178453
+epoch:  27
+[Epoch 28, Batch 10] loss: 0.039
+epoch:  28 val_f1:  0.7727225509205256 val_auroc:  0.8281786941580757 val_auprc:  0.9111987909743411
+EarlyStopping counter: 1 out of 50
+epoch:  28
+[Epoch 29, Batch 10] loss: 0.029
+epoch:  29 val_f1:  0.799854302604428 val_auroc:  0.8289150711831125 val_auprc:  0.913491839222327
+EarlyStopping counter: 2 out of 50
+epoch:  29
+[Epoch 30, Batch 10] loss: 0.031
+epoch:  30 val_f1:  0.7809570525397864 val_auroc:  0.8262150220913108 val_auprc:  0.9101645025464147
+EarlyStopping counter: 3 out of 50
+epoch:  30
+[Epoch 31, Batch 10] loss: 0.026
+epoch:  31 val_f1:  0.7598715939807772 val_auroc:  0.8313696612665685 val_auprc:  0.9128115579779118
+EarlyStopping counter: 4 out of 50
+epoch:  31
+[Epoch 32, Batch 10] loss: 0.023
+epoch:  32 val_f1:  0.7826417810500232 val_auroc:  0.825478645066274 val_auprc:  0.9116943143517049
+EarlyStopping counter: 5 out of 50
+epoch:  32
+[Epoch 33, Batch 10] loss: 0.023
+epoch:  33 val_f1:  0.7661589271850144 val_auroc:  0.8279332351497299 val_auprc:  0.9063082954119905
+EarlyStopping counter: 6 out of 50
+epoch:  33
+[Epoch 34, Batch 10] loss: 0.019
+epoch:  34 val_f1:  0.7826417810500232 val_auroc:  0.8281786941580757 val_auprc:  0.9115710203282636
+EarlyStopping counter: 7 out of 50
+epoch:  34
+[Epoch 35, Batch 10] loss: 0.019
+epoch:  35 val_f1:  0.766354189375772 val_auroc:  0.8294059891998037 val_auprc:  0.9110844647957885
+EarlyStopping counter: 8 out of 50
+epoch:  35
+[Epoch 36, Batch 10] loss: 0.017
+epoch:  36 val_f1:  0.7685409504908388 val_auroc:  0.829160530191458 val_auprc:  0.9103504933497018
+EarlyStopping counter: 9 out of 50
+epoch:  36
+[Epoch 37, Batch 10] loss: 0.016
+epoch:  37 val_f1:  0.7643829551743221 val_auroc:  0.8254786450662739 val_auprc:  0.9067162170374121
+EarlyStopping counter: 10 out of 50
+epoch:  37
+[Epoch 38, Batch 10] loss: 0.017
+epoch:  38 val_f1:  0.7580594896895918 val_auroc:  0.8269513991163475 val_auprc:  0.9070215267753843
+EarlyStopping counter: 11 out of 50
+epoch:  38
+[Epoch 39, Batch 10] loss: 0.015
+epoch:  39 val_f1:  0.7598715939807772 val_auroc:  0.8220422189494354 val_auprc:  0.898409902778738
+EarlyStopping counter: 12 out of 50
+epoch:  39
+[Epoch 40, Batch 10] loss: 0.019
+epoch:  40 val_f1:  0.8075789593997306 val_auroc:  0.8264604810996564 val_auprc:  0.9105481736342096
+EarlyStopping counter: 13 out of 50
+epoch:  40
+[Epoch 41, Batch 10] loss: 0.017
+epoch:  41 val_f1:  0.7536081085870222 val_auroc:  0.8276877761413844 val_auprc:  0.907847485458448
+Validation loss improved to 0.168567
+epoch:  41
+[Epoch 42, Batch 10] loss: 0.013
+epoch:  42 val_f1:  0.7841726618705036 val_auroc:  0.8242513500245459 val_auprc:  0.9089543002465682
+EarlyStopping counter: 1 out of 50
+epoch:  42
+[Epoch 43, Batch 10] loss: 0.011
+epoch:  43 val_f1:  0.7643829551743221 val_auroc:  0.8241286205203731 val_auprc:  0.9042882151275211
+EarlyStopping counter: 2 out of 50
+epoch:  43
+[Epoch 44, Batch 10] loss: 0.012
+epoch:  44 val_f1:  0.7841726618705036 val_auroc:  0.8235149729995092 val_auprc:  0.905502912979151
+EarlyStopping counter: 3 out of 50
+epoch:  44
+[Epoch 45, Batch 10] loss: 0.013
+epoch:  45 val_f1:  0.7622262794246104 val_auroc:  0.8251104565537555 val_auprc:  0.9025889872538897
+EarlyStopping counter: 4 out of 50
+epoch:  45
+[Epoch 46, Batch 10] loss: 0.011
+epoch:  46 val_f1:  0.7826417810500232 val_auroc:  0.8202012763868435 val_auprc:  0.9001950035384347
+EarlyStopping counter: 5 out of 50
+epoch:  46
+[Epoch 47, Batch 10] loss: 0.010
+epoch:  47 val_f1:  0.7920536597238516 val_auroc:  0.818605792832597 val_auprc:  0.902186514500011
+EarlyStopping counter: 6 out of 50
+epoch:  47
+[Epoch 48, Batch 10] loss: 0.009
+epoch:  48 val_f1:  0.7536081085870222 val_auroc:  0.8190967108492883 val_auprc:  0.8995427728707159
+EarlyStopping counter: 7 out of 50
+epoch:  48
+[Epoch 49, Batch 10] loss: 0.008
+epoch:  49 val_f1:  0.7906450372602754 val_auroc:  0.8249877270495828 val_auprc:  0.9087229528884965
+EarlyStopping counter: 8 out of 50
+epoch:  49
+[Epoch 50, Batch 10] loss: 0.010
+epoch:  50 val_f1:  0.7906450372602754 val_auroc:  0.8214285714285715 val_auprc:  0.9005096759571545
+EarlyStopping counter: 9 out of 50
+epoch:  50
+[Epoch 51, Batch 10] loss: 0.007
+epoch:  51 val_f1:  0.7598715939807772 val_auroc:  0.821060382916053 val_auprc:  0.8990384225389478
+EarlyStopping counter: 10 out of 50
+epoch:  51
+[Epoch 52, Batch 10] loss: 0.009
+epoch:  52 val_f1:  0.7826417810500232 val_auroc:  0.8150466372115857 val_auprc:  0.9013339932694232
+EarlyStopping counter: 11 out of 50
+epoch:  52
+[Epoch 53, Batch 10] loss: 0.008
+epoch:  53 val_f1:  0.7745465218349855 val_auroc:  0.8225331369661267 val_auprc:  0.9048888955451829
+EarlyStopping counter: 12 out of 50
+epoch:  53
+[Epoch 54, Batch 10] loss: 0.005
+epoch:  54 val_f1:  0.7707245329923307 val_auroc:  0.8230240549828178 val_auprc:  0.9052543382974638
+EarlyStopping counter: 13 out of 50
+epoch:  54
+[Epoch 55, Batch 10] loss: 0.005
+epoch:  55 val_f1:  0.7622262794246104 val_auroc:  0.8238831615120276 val_auprc:  0.9015049887676745
+EarlyStopping counter: 14 out of 50
+epoch:  55
+[Epoch 56, Batch 10] loss: 0.006
+epoch:  56 val_f1:  0.7727225509205256 val_auroc:  0.8231467844869907 val_auprc:  0.9011577050490682
+EarlyStopping counter: 15 out of 50
+epoch:  56
+[Epoch 57, Batch 10] loss: 0.005
+epoch:  57 val_f1:  0.7707245329923307 val_auroc:  0.8225331369661266 val_auprc:  0.8992040699239627
+EarlyStopping counter: 16 out of 50
+epoch:  57
+[Epoch 58, Batch 10] loss: 0.005
+epoch:  58 val_f1:  0.7707245329923307 val_auroc:  0.8235149729995092 val_auprc:  0.9020212685272951
+EarlyStopping counter: 17 out of 50
+epoch:  58
+[Epoch 59, Batch 10] loss: 0.005
+epoch:  59 val_f1:  0.766354189375772 val_auroc:  0.8224104074619538 val_auprc:  0.8996250353943152
+EarlyStopping counter: 18 out of 50
+epoch:  59
+[Epoch 60, Batch 10] loss: 0.005
+epoch:  60 val_f1:  0.7826417810500232 val_auroc:  0.8227785959744723 val_auprc:  0.9034939226540011
+EarlyStopping counter: 19 out of 50
+epoch:  60
+[Epoch 61, Batch 10] loss: 0.005
+epoch:  61 val_f1:  0.7707245329923307 val_auroc:  0.8243740795287188 val_auprc:  0.9024466309548111
+EarlyStopping counter: 20 out of 50
+epoch:  61
+[Epoch 62, Batch 10] loss: 0.004
+epoch:  62 val_f1:  0.7707245329923307 val_auroc:  0.8237604320078546 val_auprc:  0.8995877767882468
+EarlyStopping counter: 21 out of 50
+epoch:  62
+[Epoch 63, Batch 10] loss: 0.005
+epoch:  63 val_f1:  0.7707245329923307 val_auroc:  0.8237604320078546 val_auprc:  0.9029863989016875
+EarlyStopping counter: 22 out of 50
+epoch:  63
+[Epoch 64, Batch 10] loss: 0.005
+epoch:  64 val_f1:  0.7727225509205256 val_auroc:  0.8244968090328915 val_auprc:  0.9044054504045893
+EarlyStopping counter: 23 out of 50
+epoch:  64
+[Epoch 65, Batch 10] loss: 0.004
+epoch:  65 val_f1:  0.7826417810500232 val_auroc:  0.8242513500245459 val_auprc:  0.9055648645363068
+EarlyStopping counter: 24 out of 50
+epoch:  65
+[Epoch 66, Batch 10] loss: 0.004
+epoch:  66 val_f1:  0.7809570525397864 val_auroc:  0.824251350024546 val_auprc:  0.9044683115247056
+EarlyStopping counter: 25 out of 50
+epoch:  66
+[Epoch 67, Batch 10] loss: 0.004
+epoch:  67 val_f1:  0.7791090204759269 val_auroc:  0.822901325478645 val_auprc:  0.9022634215029949
+EarlyStopping counter: 26 out of 50
+epoch:  67
+[Epoch 68, Batch 10] loss: 0.004
+epoch:  68 val_f1:  0.7826417810500232 val_auroc:  0.8211831124202258 val_auprc:  0.8998341603768334
+EarlyStopping counter: 27 out of 50
+epoch:  68
+[Epoch 69, Batch 10] loss: 0.003
+epoch:  69 val_f1:  0.7707245329923307 val_auroc:  0.8236377025036818 val_auprc:  0.9027740229757312
+EarlyStopping counter: 28 out of 50
+epoch:  69
+[Epoch 70, Batch 10] loss: 0.004
+epoch:  70 val_f1:  0.7791090204759269 val_auroc:  0.8226558664702994 val_auprc:  0.9038257547951707
+EarlyStopping counter: 29 out of 50
+epoch:  70
+[Epoch 71, Batch 10] loss: 0.003
+epoch:  71 val_f1:  0.7791090204759269 val_auroc:  0.8219194894452626 val_auprc:  0.9016992049576724
+EarlyStopping counter: 30 out of 50
+epoch:  71
+[Epoch 72, Batch 10] loss: 0.003
+epoch:  72 val_f1:  0.7707245329923307 val_auroc:  0.8230240549828179 val_auprc:  0.9046943720398465
+EarlyStopping counter: 31 out of 50
+epoch:  72
+[Epoch 73, Batch 10] loss: 0.003
+epoch:  73 val_f1:  0.7707245329923307 val_auroc:  0.822901325478645 val_auprc:  0.8962851039361188
+EarlyStopping counter: 32 out of 50
+epoch:  73
+[Epoch 74, Batch 10] loss: 0.003
+epoch:  74 val_f1:  0.7791090204759269 val_auroc:  0.8233922434953362 val_auprc:  0.9044443445488195
+EarlyStopping counter: 33 out of 50
+epoch:  74
+[Epoch 75, Batch 10] loss: 0.003
+epoch:  75 val_f1:  0.7707245329923307 val_auroc:  0.8221649484536082 val_auprc:  0.8964910577918148
+EarlyStopping counter: 34 out of 50
+epoch:  75
+[Epoch 76, Batch 10] loss: 0.003
+epoch:  76 val_f1:  0.7622262794246104 val_auroc:  0.8226558664702994 val_auprc:  0.8992268507966399
+EarlyStopping counter: 35 out of 50
+epoch:  76
+[Epoch 77, Batch 10] loss: 0.003
+epoch:  77 val_f1:  0.7707245329923307 val_auroc:  0.8232695139911634 val_auprc:  0.899374953322137
+EarlyStopping counter: 36 out of 50
+epoch:  77
+[Epoch 78, Batch 10] loss: 0.003
+epoch:  78 val_f1:  0.7707245329923307 val_auroc:  0.8211831124202258 val_auprc:  0.895079371444345
+EarlyStopping counter: 37 out of 50
+epoch:  78
+[Epoch 79, Batch 10] loss: 0.003
+epoch:  79 val_f1:  0.7707245329923307 val_auroc:  0.8224104074619538 val_auprc:  0.899936736260905
+EarlyStopping counter: 38 out of 50
+epoch:  79
+[Epoch 80, Batch 10] loss: 0.003
+epoch:  80 val_f1:  0.7707245329923307 val_auroc:  0.8211831124202259 val_auprc:  0.895762040813003
+EarlyStopping counter: 39 out of 50
+epoch:  80
+[Epoch 81, Batch 10] loss: 0.002
+epoch:  81 val_f1:  0.7707245329923307 val_auroc:  0.8226558664702994 val_auprc:  0.9004349501084614
+EarlyStopping counter: 40 out of 50
+epoch:  81
+[Epoch 82, Batch 10] loss: 0.002
+epoch:  82 val_f1:  0.7622262794246104 val_auroc:  0.822901325478645 val_auprc:  0.9004416259315771
+EarlyStopping counter: 41 out of 50
+epoch:  82
+[Epoch 83, Batch 10] loss: 0.002
+epoch:  83 val_f1:  0.7791090204759269 val_auroc:  0.8190967108492881 val_auprc:  0.8969413608022023
+EarlyStopping counter: 42 out of 50
+epoch:  83
+[Epoch 84, Batch 10] loss: 0.002
+epoch:  84 val_f1:  0.7707245329923307 val_auroc:  0.820446735395189 val_auprc:  0.9000527084208088
+EarlyStopping counter: 43 out of 50
+epoch:  84
+[Epoch 85, Batch 10] loss: 0.002
+epoch:  85 val_f1:  0.7622262794246104 val_auroc:  0.8213058419243986 val_auprc:  0.9012871538785808
+EarlyStopping counter: 44 out of 50
+epoch:  85
+[Epoch 86, Batch 10] loss: 0.002
+epoch:  86 val_f1:  0.7707245329923307 val_auroc:  0.822287677957781 val_auprc:  0.9014096421665257
+EarlyStopping counter: 45 out of 50
+epoch:  86
+[Epoch 87, Batch 10] loss: 0.002
+epoch:  87 val_f1:  0.7727225509205256 val_auroc:  0.8215513009327442 val_auprc:  0.9009445598153895
+EarlyStopping counter: 46 out of 50
+epoch:  87
+[Epoch 88, Batch 10] loss: 0.002
+epoch:  88 val_f1:  0.7727225509205256 val_auroc:  0.8208149239077074 val_auprc:  0.9004711481382862
+EarlyStopping counter: 47 out of 50
+epoch:  88
+[Epoch 89, Batch 10] loss: 0.002
+epoch:  89 val_f1:  0.7727225509205256 val_auroc:  0.8213058419243986 val_auprc:  0.900852681726856
+EarlyStopping counter: 48 out of 50
+epoch:  89
+[Epoch 90, Batch 10] loss: 0.002
+epoch:  90 val_f1:  0.7727225509205256 val_auroc:  0.8217967599410898 val_auprc:  0.9012052641506698
+EarlyStopping counter: 49 out of 50
+epoch:  90
+[Epoch 91, Batch 10] loss: 0.002
+epoch:  91 val_f1:  0.7707245329923307 val_auroc:  0.8226558664702995 val_auprc:  0.9040021526936737
+EarlyStopping counter: 50 out of 50
+Early stopping triggered
+Early stopping triggered!
+Time taken:  294.7230017185211
+{'time_elapsed': [294.7230017185211], 'epoch': [90], 'fold': [1], 'f1_train': [1.0], 'auroc_train': [1.0], 'auprc_train': [1.0], 'f1_test': [0.7707245329923307], 'auroc_test': [0.8226558664702995], 'auprc_test': [0.9040021526936737]}
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+TAPPredictor                             [32, 1]                   --
+├─Sequential: 1-1                        [32, 1]                   --
+│    └─Conv1d: 2-1                       [32, 128, 1278]           768
+│    └─BatchNorm1d: 2-2                  [32, 128, 1278]           256
+│    └─Tanh: 2-3                         [32, 128, 1278]           --
+│    └─MaxPool1d: 2-4                    [32, 128, 1274]           --
+│    └─Dropout: 2-5                      [32, 128, 1274]           --
+│    └─Flatten: 2-6                      [32, 163072]              --
+│    └─Linear: 2-7                       [32, 1]                   163,073
+==========================================================================================
+Total params: 164,097
+Trainable params: 164,097
+Non-trainable params: 0
+Total mult-adds (M): 36.63
+==========================================================================================
+Input size (MB): 0.16
+Forward/backward pass size (MB): 83.76
+Params size (MB): 0.66
+Estimated Total Size (MB): 84.58
+==========================================================================================
+tensor(0.4369)
+epoch:  0
+[Epoch 1, Batch 10] loss: 4.750
+epoch:  1 val_f1:  0.5120930761218531 val_auroc:  0.7049582719685813 val_auprc:  0.8539915242590241
+epoch:  1
+[Epoch 2, Batch 10] loss: 1.730
+epoch:  2 val_f1:  0.6538912937446653 val_auroc:  0.7722140402552774 val_auprc:  0.8684964554282605
+Validation loss improved to 0.502371
+epoch:  2
+[Epoch 3, Batch 10] loss: 0.431
+epoch:  3 val_f1:  0.6376535972729985 val_auroc:  0.772459499263623 val_auprc:  0.87153435498479
+EarlyStopping counter: 1 out of 50
+epoch:  3
+[Epoch 4, Batch 10] loss: 0.345
+epoch:  4 val_f1:  0.7215941532488295 val_auroc:  0.7734413352970054 val_auprc:  0.8746889963651909
+Validation loss improved to 0.462710
+epoch:  4
+[Epoch 5, Batch 10] loss: 0.218
+epoch:  5 val_f1:  0.6441055155875299 val_auroc:  0.7768777614138439 val_auprc:  0.8906210860218194
+Validation loss improved to 0.371133
+epoch:  5
+[Epoch 6, Batch 10] loss: 0.187
+epoch:  6 val_f1:  0.7337314237416728 val_auroc:  0.7906234658811978 val_auprc:  0.8963445242028407
+Validation loss improved to 0.323388
+epoch:  6
+[Epoch 7, Batch 10] loss: 0.161
+epoch:  7 val_f1:  0.39723613514251893 val_auroc:  0.7238586156111929 val_auprc:  0.8677282712337859
+EarlyStopping counter: 1 out of 50
+epoch:  7
+[Epoch 8, Batch 10] loss: 0.262
+epoch:  8 val_f1:  0.7263486361521366 val_auroc:  0.7832596956308296 val_auprc:  0.8950930376519574
+EarlyStopping counter: 2 out of 50
+epoch:  8
+[Epoch 9, Batch 10] loss: 0.207
+epoch:  9 val_f1:  0.6814979364470806 val_auroc:  0.7994599901816396 val_auprc:  0.9029645374350724
+EarlyStopping counter: 3 out of 50
+epoch:  9
+[Epoch 10, Batch 10] loss: 0.177
+epoch:  10 val_f1:  0.6994072447658564 val_auroc:  0.7523318605792833 val_auprc:  0.8737137602036631
+EarlyStopping counter: 4 out of 50
+epoch:  10
+[Epoch 11, Batch 10] loss: 0.109
+epoch:  11 val_f1:  0.7094198370570532 val_auroc:  0.7746686303387333 val_auprc:  0.8900862766923625
+EarlyStopping counter: 5 out of 50
+epoch:  11
+[Epoch 12, Batch 10] loss: 0.109
+epoch:  12 val_f1:  0.6712840598961729 val_auroc:  0.7542955326460482 val_auprc:  0.881637795787054
+Validation loss improved to 0.255177
+epoch:  12
+[Epoch 13, Batch 10] loss: 0.104
+epoch:  13 val_f1:  0.7308479257525525 val_auroc:  0.7592047128129602 val_auprc:  0.8804530774336292
+EarlyStopping counter: 1 out of 50
+epoch:  13
+[Epoch 14, Batch 10] loss: 0.091
+epoch:  14 val_f1:  0.6992598845858601 val_auroc:  0.7704958271968582 val_auprc:  0.8852213385292743
+EarlyStopping counter: 2 out of 50
+epoch:  14
+[Epoch 15, Batch 10] loss: 0.094
+epoch:  15 val_f1:  0.69663104467882 val_auroc:  0.7663230240549828 val_auprc:  0.8758096870873004
+EarlyStopping counter: 3 out of 50
+epoch:  15
+[Epoch 16, Batch 10] loss: 0.078
+epoch:  16 val_f1:  0.6889535180366346 val_auroc:  0.7491408934707904 val_auprc:  0.8674572335612478
+EarlyStopping counter: 4 out of 50
+epoch:  16
+[Epoch 17, Batch 10] loss: 0.056
+epoch:  17 val_f1:  0.7060068982302729 val_auroc:  0.772459499263623 val_auprc:  0.8853896068048805
+EarlyStopping counter: 5 out of 50
+epoch:  17
+[Epoch 18, Batch 10] loss: 0.049
+epoch:  18 val_f1:  0.6826512463414706 val_auroc:  0.7530682376043201 val_auprc:  0.8733135185590475
+EarlyStopping counter: 6 out of 50
+epoch:  18
+[Epoch 19, Batch 10] loss: 0.060
+epoch:  19 val_f1:  0.7197172881491292 val_auroc:  0.751840942562592 val_auprc:  0.8671287433936019
+EarlyStopping counter: 7 out of 50
+epoch:  19
+[Epoch 20, Batch 10] loss: 0.044
+epoch:  20 val_f1:  0.7088095828755714 val_auroc:  0.7648502700049092 val_auprc:  0.8740491983500431
+EarlyStopping counter: 8 out of 50
+epoch:  20
+[Epoch 21, Batch 10] loss: 0.041
+epoch:  21 val_f1:  0.7117994924448791 val_auroc:  0.7763868433971527 val_auprc:  0.8771417113321784
+EarlyStopping counter: 9 out of 50
+epoch:  21
+[Epoch 22, Batch 10] loss: 0.041
+epoch:  22 val_f1:  0.7142089711496735 val_auroc:  0.7542955326460482 val_auprc:  0.8652861388794001
+EarlyStopping counter: 10 out of 50
+epoch:  22
+[Epoch 23, Batch 10] loss: 0.040
+epoch:  23 val_f1:  0.69663104467882 val_auroc:  0.7731958762886598 val_auprc:  0.8790005581754834
+EarlyStopping counter: 11 out of 50
+epoch:  23
+[Epoch 24, Batch 10] loss: 0.041
+epoch:  24 val_f1:  0.6997814539066421 val_auroc:  0.7555228276877761 val_auprc:  0.8640219592641138
+EarlyStopping counter: 12 out of 50
+epoch:  24
+[Epoch 25, Batch 10] loss: 0.060
+epoch:  25 val_f1:  0.7249644134959412 val_auroc:  0.7528227785959745 val_auprc:  0.8701791273443298
+EarlyStopping counter: 13 out of 50
+epoch:  25
+[Epoch 26, Batch 10] loss: 0.032
+epoch:  26 val_f1:  0.7088095828755714 val_auroc:  0.7655866470299459 val_auprc:  0.8703331373905732
+EarlyStopping counter: 14 out of 50
+epoch:  26
+[Epoch 27, Batch 10] loss: 0.021
+epoch:  27 val_f1:  0.7054786939679025 val_auroc:  0.7626411389297987 val_auprc:  0.8676541200982972
+EarlyStopping counter: 15 out of 50
+epoch:  27
+[Epoch 28, Batch 10] loss: 0.019
+epoch:  28 val_f1:  0.6967647049253406 val_auroc:  0.7646048109965636 val_auprc:  0.8710346460151737
+EarlyStopping counter: 16 out of 50
+epoch:  28
+[Epoch 29, Batch 10] loss: 0.021
+epoch:  29 val_f1:  0.717230470942395 val_auroc:  0.7658321060382915 val_auprc:  0.8730191967761614
+EarlyStopping counter: 17 out of 50
+epoch:  29
+[Epoch 30, Batch 10] loss: 0.019
+epoch:  30 val_f1:  0.7044810154681304 val_auroc:  0.7520864015709376 val_auprc:  0.8637468231353629
+EarlyStopping counter: 18 out of 50
+epoch:  30
+[Epoch 31, Batch 10] loss: 0.015
+epoch:  31 val_f1:  0.7054786939679025 val_auroc:  0.756872852233677 val_auprc:  0.8605703486067593
+EarlyStopping counter: 19 out of 50
+epoch:  31
+[Epoch 32, Batch 10] loss: 0.014
+epoch:  32 val_f1:  0.7088095828755714 val_auroc:  0.7496318114874816 val_auprc:  0.8543929582835976
+EarlyStopping counter: 20 out of 50
+epoch:  32
+[Epoch 33, Batch 10] loss: 0.014
+epoch:  33 val_f1:  0.7115566705387387 val_auroc:  0.7542955326460481 val_auprc:  0.8590489223513402
+EarlyStopping counter: 21 out of 50
+epoch:  33
+[Epoch 34, Batch 10] loss: 0.022
+epoch:  34 val_f1:  0.7057031525565856 val_auroc:  0.7439862542955327 val_auprc:  0.8611845731520873
+EarlyStopping counter: 22 out of 50
+epoch:  34
+[Epoch 35, Batch 10] loss: 0.017
+epoch:  35 val_f1:  0.7058128438779214 val_auroc:  0.7561364752086401 val_auprc:  0.8648380980775726
+EarlyStopping counter: 23 out of 50
+epoch:  35
+[Epoch 36, Batch 10] loss: 0.012
+epoch:  36 val_f1:  0.7057031525565856 val_auroc:  0.7383406971035836 val_auprc:  0.8486882769479811
+EarlyStopping counter: 24 out of 50
+epoch:  36
+[Epoch 37, Batch 10] loss: 0.015
+epoch:  37 val_f1:  0.7266187050359713 val_auroc:  0.7609229258713794 val_auprc:  0.8643631034493299
+EarlyStopping counter: 25 out of 50
+epoch:  37
+[Epoch 38, Batch 10] loss: 0.009
+epoch:  38 val_f1:  0.7088095828755714 val_auroc:  0.7633775159548356 val_auprc:  0.8639034563658547
+EarlyStopping counter: 26 out of 50
+epoch:  38
+[Epoch 39, Batch 10] loss: 0.010
+epoch:  39 val_f1:  0.6938767409717547 val_auroc:  0.7594501718213059 val_auprc:  0.8606180877684406
+EarlyStopping counter: 27 out of 50
+epoch:  39
+[Epoch 40, Batch 10] loss: 0.008
+epoch:  40 val_f1:  0.7079427367197151 val_auroc:  0.7608001963672067 val_auprc:  0.8673057812154346
+EarlyStopping counter: 28 out of 50
+epoch:  40
+[Epoch 41, Batch 10] loss: 0.007
+epoch:  41 val_f1:  0.7148475178521729 val_auroc:  0.7528227785959746 val_auprc:  0.8561716486235529
+EarlyStopping counter: 29 out of 50
+epoch:  41
+[Epoch 42, Batch 10] loss: 0.007
+epoch:  42 val_f1:  0.7266187050359713 val_auroc:  0.7587137947962691 val_auprc:  0.864771302265079
+EarlyStopping counter: 30 out of 50
+epoch:  42
+[Epoch 43, Batch 10] loss: 0.006
+epoch:  43 val_f1:  0.7246795893300292 val_auroc:  0.7572410407461954 val_auprc:  0.8626102435691319
+EarlyStopping counter: 31 out of 50
+epoch:  43
+[Epoch 44, Batch 10] loss: 0.005
+epoch:  44 val_f1:  0.7140703059967902 val_auroc:  0.7567501227295043 val_auprc:  0.857986177041101
+EarlyStopping counter: 32 out of 50
+epoch:  44
+[Epoch 45, Batch 10] loss: 0.005
+epoch:  45 val_f1:  0.7246795893300292 val_auroc:  0.7590819833087874 val_auprc:  0.8610831069841296
+EarlyStopping counter: 33 out of 50
+epoch:  45
+[Epoch 46, Batch 10] loss: 0.005
+epoch:  46 val_f1:  0.7140703059967902 val_auroc:  0.7579774177712322 val_auprc:  0.8592817343268127
+EarlyStopping counter: 34 out of 50
+epoch:  46
+[Epoch 47, Batch 10] loss: 0.004
+epoch:  47 val_f1:  0.7246795893300292 val_auroc:  0.7579774177712323 val_auprc:  0.8592976652449533
+EarlyStopping counter: 35 out of 50
+epoch:  47
+[Epoch 48, Batch 10] loss: 0.004
+epoch:  48 val_f1:  0.7140703059967902 val_auroc:  0.7545409916543937 val_auprc:  0.858200224399585
+EarlyStopping counter: 36 out of 50
+epoch:  48
+[Epoch 49, Batch 10] loss: 0.004
+epoch:  49 val_f1:  0.7246795893300292 val_auroc:  0.7576092292587138 val_auprc:  0.8600632961219271
+EarlyStopping counter: 37 out of 50
+epoch:  49
+[Epoch 50, Batch 10] loss: 0.004
+epoch:  50 val_f1:  0.7054786939679025 val_auroc:  0.7576092292587138 val_auprc:  0.8611614822176525
+EarlyStopping counter: 38 out of 50
+epoch:  50
+[Epoch 51, Batch 10] loss: 0.004
+epoch:  51 val_f1:  0.7054786939679025 val_auroc:  0.751227295041728 val_auprc:  0.8551243002963983
+EarlyStopping counter: 39 out of 50
+epoch:  51
+[Epoch 52, Batch 10] loss: 0.004
+epoch:  52 val_f1:  0.7079427367197151 val_auroc:  0.7538046146293569 val_auprc:  0.856786730957334
+EarlyStopping counter: 40 out of 50
+epoch:  52
+[Epoch 53, Batch 10] loss: 0.004
+epoch:  53 val_f1:  0.7163649790827238 val_auroc:  0.7547864506627393 val_auprc:  0.8570451382607616
+EarlyStopping counter: 41 out of 50
+epoch:  53
+[Epoch 54, Batch 10] loss: 0.003
+epoch:  54 val_f1:  0.7328919440906961 val_auroc:  0.7546637211585665 val_auprc:  0.8582711409617796
+EarlyStopping counter: 42 out of 50
+epoch:  54
+[Epoch 55, Batch 10] loss: 0.003
+epoch:  55 val_f1:  0.7163649790827238 val_auroc:  0.7555228276877761 val_auprc:  0.8575641690714019
+EarlyStopping counter: 43 out of 50
+epoch:  55
+[Epoch 56, Batch 10] loss: 0.003
+epoch:  56 val_f1:  0.7163649790827238 val_auroc:  0.7545409916543938 val_auprc:  0.8609019755070146
+EarlyStopping counter: 44 out of 50
+epoch:  56
+[Epoch 57, Batch 10] loss: 0.003
+epoch:  57 val_f1:  0.7140703059967902 val_auroc:  0.7551546391752576 val_auprc:  0.8609267887280523
+EarlyStopping counter: 45 out of 50
+epoch:  57
+[Epoch 58, Batch 10] loss: 0.003
+epoch:  58 val_f1:  0.7079427367197151 val_auroc:  0.7547864506627393 val_auprc:  0.8567404663971012
+EarlyStopping counter: 46 out of 50
+epoch:  58
+[Epoch 59, Batch 10] loss: 0.002
+epoch:  59 val_f1:  0.7163649790827238 val_auroc:  0.7556455571919489 val_auprc:  0.8603841958378109
+EarlyStopping counter: 47 out of 50
+epoch:  59
+[Epoch 60, Batch 10] loss: 0.003
+epoch:  60 val_f1:  0.7054786939679025 val_auroc:  0.7555228276877762 val_auprc:  0.8600616839707036
+EarlyStopping counter: 48 out of 50
+epoch:  60
+[Epoch 61, Batch 10] loss: 0.002
+epoch:  61 val_f1:  0.7246795893300292 val_auroc:  0.7540500736377026 val_auprc:  0.8591408973452452
+EarlyStopping counter: 49 out of 50
+epoch:  61
+[Epoch 62, Batch 10] loss: 0.003
+epoch:  62 val_f1:  0.7079427367197151 val_auroc:  0.7540500736377025 val_auprc:  0.8597062493501508
+EarlyStopping counter: 50 out of 50
+Early stopping triggered
+Early stopping triggered!
+Time taken:  201.79644179344177
+{'time_elapsed': [201.79644179344177], 'epoch': [61], 'fold': [2], 'f1_train': [1.0], 'auroc_train': [1.0], 'auprc_train': [1.0], 'f1_test': [0.7079427367197151], 'auroc_test': [0.7540500736377025], 'auprc_test': [0.8597062493501508]}
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+TAPPredictor                             [32, 1]                   --
+├─Sequential: 1-1                        [32, 1]                   --
+│    └─Conv1d: 2-1                       [32, 128, 1278]           768
+│    └─BatchNorm1d: 2-2                  [32, 128, 1278]           256
+│    └─Tanh: 2-3                         [32, 128, 1278]           --
+│    └─MaxPool1d: 2-4                    [32, 128, 1274]           --
+│    └─Dropout: 2-5                      [32, 128, 1274]           --
+│    └─Flatten: 2-6                      [32, 163072]              --
+│    └─Linear: 2-7                       [32, 1]                   163,073
+==========================================================================================
+Total params: 164,097
+Trainable params: 164,097
+Non-trainable params: 0
+Total mult-adds (M): 36.63
+==========================================================================================
+Input size (MB): 0.16
+Forward/backward pass size (MB): 83.76
+Params size (MB): 0.66
+Estimated Total Size (MB): 84.58
+==========================================================================================
+tensor(0.4369)
+epoch:  0
+[Epoch 1, Batch 10] loss: 10.548
+epoch:  1 val_f1:  0.6396354181022997 val_auroc:  0.6896802325581395 val_auprc:  0.8372755559825202
+epoch:  1
+[Epoch 2, Batch 10] loss: 2.209
+epoch:  2 val_f1:  0.6996753415090826 val_auroc:  0.732921511627907 val_auprc:  0.841351076670635
+Validation loss improved to 0.149675
+epoch:  2
+[Epoch 3, Batch 10] loss: 0.634
+epoch:  3 val_f1:  0.6669674429947567 val_auroc:  0.7676841085271318 val_auprc:  0.8898932056415773
+EarlyStopping counter: 1 out of 50
+epoch:  3
+[Epoch 4, Batch 10] loss: 0.451
+epoch:  4 val_f1:  0.7375671302882475 val_auroc:  0.8108042635658914 val_auprc:  0.9091176705321464
+EarlyStopping counter: 2 out of 50
+epoch:  4
+[Epoch 5, Batch 10] loss: 0.242
+epoch:  5 val_f1:  0.7562299212484351 val_auroc:  0.8141957364341086 val_auprc:  0.91262483949547
+EarlyStopping counter: 3 out of 50
+epoch:  5
+[Epoch 6, Batch 10] loss: 0.204
+epoch:  6 val_f1:  0.7665182935781787 val_auroc:  0.8323643410852714 val_auprc:  0.9166861353950221
+EarlyStopping counter: 4 out of 50
+epoch:  6
+[Epoch 7, Batch 10] loss: 0.173
+epoch:  7 val_f1:  0.7841726618705036 val_auroc:  0.8381782945736435 val_auprc:  0.9200252652332543
+EarlyStopping counter: 5 out of 50
+epoch:  7
+[Epoch 8, Batch 10] loss: 0.172
+epoch:  8 val_f1:  0.7820584602206068 val_auroc:  0.8359980620155039 val_auprc:  0.9213978638548734
+EarlyStopping counter: 6 out of 50
+epoch:  8
+[Epoch 9, Batch 10] loss: 0.156
+epoch:  9 val_f1:  0.7754499696945739 val_auroc:  0.8500484496124031 val_auprc:  0.9333544667254275
+Validation loss improved to 0.114663
+epoch:  9
+[Epoch 10, Batch 10] loss: 0.134
+epoch:  10 val_f1:  0.8051160047274586 val_auroc:  0.8524709302325582 val_auprc:  0.9327548972802711
+EarlyStopping counter: 1 out of 50
+epoch:  10
+[Epoch 11, Batch 10] loss: 0.145
+epoch:  11 val_f1:  0.8018807955038493 val_auroc:  0.8531976744186046 val_auprc:  0.9362963918761924
+EarlyStopping counter: 2 out of 50
+epoch:  11
+[Epoch 12, Batch 10] loss: 0.122
+epoch:  12 val_f1:  0.7901923359271766 val_auroc:  0.8628875968992248 val_auprc:  0.9419052777315209
+EarlyStopping counter: 3 out of 50
+epoch:  12
+[Epoch 13, Batch 10] loss: 0.110
+epoch:  13 val_f1:  0.7835226993620948 val_auroc:  0.8665213178294573 val_auprc:  0.9443089648096925
+EarlyStopping counter: 4 out of 50
+epoch:  13
+[Epoch 14, Batch 10] loss: 0.147
+epoch:  14 val_f1:  0.7724509753899008 val_auroc:  0.8645833333333334 val_auprc:  0.941695412176631
+EarlyStopping counter: 5 out of 50
+epoch:  14
+[Epoch 15, Batch 10] loss: 0.093
+epoch:  15 val_f1:  0.7827158008497472 val_auroc:  0.8691860465116279 val_auprc:  0.9426848559671557
+EarlyStopping counter: 6 out of 50
+epoch:  15
+[Epoch 16, Batch 10] loss: 0.087
+epoch:  16 val_f1:  0.7811109002295425 val_auroc:  0.8643410852713178 val_auprc:  0.941685962407158
+EarlyStopping counter: 7 out of 50
+epoch:  16
+[Epoch 17, Batch 10] loss: 0.094
+epoch:  17 val_f1:  0.7540304643278981 val_auroc:  0.8517441860465115 val_auprc:  0.9361235266698681
+EarlyStopping counter: 8 out of 50
+epoch:  17
+[Epoch 18, Batch 10] loss: 0.076
+epoch:  18 val_f1:  0.768937708914086 val_auroc:  0.8713662790697675 val_auprc:  0.9441311839848918
+EarlyStopping counter: 9 out of 50
+epoch:  18
+[Epoch 19, Batch 10] loss: 0.068
+epoch:  19 val_f1:  0.8175531003768415 val_auroc:  0.8691860465116279 val_auprc:  0.9457921767926206
+EarlyStopping counter: 10 out of 50
+epoch:  19
+[Epoch 20, Batch 10] loss: 0.071
+epoch:  20 val_f1:  0.7841726618705036 val_auroc:  0.8684593023255814 val_auprc:  0.9438555615575981
+EarlyStopping counter: 11 out of 50
+epoch:  20
+[Epoch 21, Batch 10] loss: 0.057
+epoch:  21 val_f1:  0.792019787311512 val_auroc:  0.8684593023255814 val_auprc:  0.9435687245062261
+EarlyStopping counter: 12 out of 50
+epoch:  21
+[Epoch 22, Batch 10] loss: 0.054
+epoch:  22 val_f1:  0.8008946034661633 val_auroc:  0.869186046511628 val_auprc:  0.9436667213277254
+EarlyStopping counter: 13 out of 50
+epoch:  22
+[Epoch 23, Batch 10] loss: 0.046
+epoch:  23 val_f1:  0.764639197732723 val_auroc:  0.8723352713178294 val_auprc:  0.9456404498385715
+EarlyStopping counter: 14 out of 50
+epoch:  23
+[Epoch 24, Batch 10] loss: 0.048
+epoch:  24 val_f1:  0.8151164175042944 val_auroc:  0.868701550387597 val_auprc:  0.9450370829619299
+EarlyStopping counter: 15 out of 50
+epoch:  24
+[Epoch 25, Batch 10] loss: 0.047
+epoch:  25 val_f1:  0.8074875573056803 val_auroc:  0.8742732558139534 val_auprc:  0.9438414354519622
+EarlyStopping counter: 16 out of 50
+epoch:  25
+[Epoch 26, Batch 10] loss: 0.056
+epoch:  26 val_f1:  0.764639197732723 val_auroc:  0.8662790697674418 val_auprc:  0.941205755192073
+EarlyStopping counter: 17 out of 50
+epoch:  26
+[Epoch 27, Batch 10] loss: 0.050
+epoch:  27 val_f1:  0.7729252582141845 val_auroc:  0.8645833333333334 val_auprc:  0.939408493373438
+EarlyStopping counter: 18 out of 50
+epoch:  27
+[Epoch 28, Batch 10] loss: 0.037
+epoch:  28 val_f1:  0.7957035068809065 val_auroc:  0.8694282945736436 val_auprc:  0.9436851960483493
+EarlyStopping counter: 19 out of 50
+epoch:  28
+[Epoch 29, Batch 10] loss: 0.031
+epoch:  29 val_f1:  0.8140907369797942 val_auroc:  0.8737887596899224 val_auprc:  0.9461911214501593
+EarlyStopping counter: 20 out of 50
+epoch:  29
+[Epoch 30, Batch 10] loss: 0.026
+epoch:  30 val_f1:  0.8074875573056803 val_auroc:  0.8667635658914729 val_auprc:  0.9445549810804886
+EarlyStopping counter: 21 out of 50
+epoch:  30
+[Epoch 31, Batch 10] loss: 0.028
+epoch:  31 val_f1:  0.7753157557330894 val_auroc:  0.8733042635658915 val_auprc:  0.9461609904316898
+EarlyStopping counter: 22 out of 50
+epoch:  31
+[Epoch 32, Batch 10] loss: 0.025
+epoch:  32 val_f1:  0.8235099801588546 val_auroc:  0.8723352713178294 val_auprc:  0.9467997284458439
+Validation loss improved to 0.113563
+epoch:  32
+[Epoch 33, Batch 10] loss: 0.024
+epoch:  33 val_f1:  0.7729252582141845 val_auroc:  0.8728197674418605 val_auprc:  0.9466448651667252
+EarlyStopping counter: 1 out of 50
+epoch:  33
+[Epoch 34, Batch 10] loss: 0.017
+epoch:  34 val_f1:  0.7811109002295425 val_auroc:  0.874031007751938 val_auprc:  0.9469702245641143
+EarlyStopping counter: 2 out of 50
+epoch:  34
+[Epoch 35, Batch 10] loss: 0.016
+epoch:  35 val_f1:  0.8140907369797942 val_auroc:  0.8687015503875968 val_auprc:  0.9453300436136733
+EarlyStopping counter: 3 out of 50
+epoch:  35
+[Epoch 36, Batch 10] loss: 0.014
+epoch:  36 val_f1:  0.792019787311512 val_auroc:  0.8701550387596899 val_auprc:  0.9449035664931712
+EarlyStopping counter: 4 out of 50
+epoch:  36
+[Epoch 37, Batch 10] loss: 0.019
+epoch:  37 val_f1:  0.8074875573056803 val_auroc:  0.8687015503875969 val_auprc:  0.9442899107465168
+EarlyStopping counter: 5 out of 50
+epoch:  37
+[Epoch 38, Batch 10] loss: 0.017
+epoch:  38 val_f1:  0.7793492478744277 val_auroc:  0.8718507751937985 val_auprc:  0.9455178925927761
+EarlyStopping counter: 6 out of 50
+epoch:  38
+[Epoch 39, Batch 10] loss: 0.024
+epoch:  39 val_f1:  0.8074875573056803 val_auroc:  0.8679748062015504 val_auprc:  0.9456071772271375
+EarlyStopping counter: 7 out of 50
+epoch:  39
+[Epoch 40, Batch 10] loss: 0.013
+epoch:  40 val_f1:  0.8063632502555458 val_auroc:  0.872093023255814 val_auprc:  0.9458819311755726
+EarlyStopping counter: 8 out of 50
+epoch:  40
+[Epoch 41, Batch 10] loss: 0.012
+epoch:  41 val_f1:  0.8140907369797942 val_auroc:  0.8711240310077519 val_auprc:  0.9464968739163555
+EarlyStopping counter: 9 out of 50
+epoch:  41
+[Epoch 42, Batch 10] loss: 0.010
+epoch:  42 val_f1:  0.7774211400110681 val_auroc:  0.870639534883721 val_auprc:  0.9451945882989687
+EarlyStopping counter: 10 out of 50
+epoch:  42
+[Epoch 43, Batch 10] loss: 0.008
+epoch:  43 val_f1:  0.7729252582141845 val_auroc:  0.8694282945736433 val_auprc:  0.9449195833024401
+EarlyStopping counter: 11 out of 50
+epoch:  43
+[Epoch 44, Batch 10] loss: 0.008
+epoch:  44 val_f1:  0.7729252582141845 val_auroc:  0.8679748062015503 val_auprc:  0.9445189504365757
+EarlyStopping counter: 12 out of 50
+epoch:  44
+[Epoch 45, Batch 10] loss: 0.009
+epoch:  45 val_f1:  0.7985611510791367 val_auroc:  0.867732558139535 val_auprc:  0.9442846084240202
+EarlyStopping counter: 13 out of 50
+epoch:  45
+[Epoch 46, Batch 10] loss: 0.009
+epoch:  46 val_f1:  0.7666659578740948 val_auroc:  0.875 val_auprc:  0.946908858820882
+EarlyStopping counter: 14 out of 50
+epoch:  46
+[Epoch 47, Batch 10] loss: 0.010
+epoch:  47 val_f1:  0.8063632502555458 val_auroc:  0.872093023255814 val_auprc:  0.9468051914404564
+EarlyStopping counter: 15 out of 50
+epoch:  47
+[Epoch 48, Batch 10] loss: 0.008
+epoch:  48 val_f1:  0.7729252582141845 val_auroc:  0.8723352713178295 val_auprc:  0.9457384554954091
+EarlyStopping counter: 16 out of 50
+epoch:  48
+[Epoch 49, Batch 10] loss: 0.008
+epoch:  49 val_f1:  0.7997900244397783 val_auroc:  0.8679748062015504 val_auprc:  0.9449248158022266
+EarlyStopping counter: 17 out of 50
+epoch:  49
+[Epoch 50, Batch 10] loss: 0.007
+epoch:  50 val_f1:  0.7985611510791367 val_auroc:  0.8691860465116279 val_auprc:  0.9453942231214754
+EarlyStopping counter: 18 out of 50
+epoch:  50
+[Epoch 51, Batch 10] loss: 0.007
+epoch:  51 val_f1:  0.7729252582141845 val_auroc:  0.8711240310077519 val_auprc:  0.9457530420797101
+EarlyStopping counter: 19 out of 50
+epoch:  51
+[Epoch 52, Batch 10] loss: 0.005
+epoch:  52 val_f1:  0.764639197732723 val_auroc:  0.869670542635659 val_auprc:  0.9448123441137539
+EarlyStopping counter: 20 out of 50
+epoch:  52
+[Epoch 53, Batch 10] loss: 0.006
+epoch:  53 val_f1:  0.7811109002295425 val_auroc:  0.8706395348837209 val_auprc:  0.9458139355587125
+EarlyStopping counter: 21 out of 50
+epoch:  53
+[Epoch 54, Batch 10] loss: 0.005
+epoch:  54 val_f1:  0.7729252582141845 val_auroc:  0.8713662790697674 val_auprc:  0.945946846829837
+EarlyStopping counter: 22 out of 50
+epoch:  54
+[Epoch 55, Batch 10] loss: 0.005
+epoch:  55 val_f1:  0.7892012988311853 val_auroc:  0.8711240310077519 val_auprc:  0.946136655655764
+EarlyStopping counter: 23 out of 50
+epoch:  55
+[Epoch 56, Batch 10] loss: 0.005
+epoch:  56 val_f1:  0.8051160047274586 val_auroc:  0.8713662790697675 val_auprc:  0.9461835725171305
+EarlyStopping counter: 24 out of 50
+epoch:  56
+[Epoch 57, Batch 10] loss: 0.005
+epoch:  57 val_f1:  0.7811109002295425 val_auroc:  0.8694282945736435 val_auprc:  0.9453702541587932
+EarlyStopping counter: 25 out of 50
+epoch:  57
+[Epoch 58, Batch 10] loss: 0.005
+epoch:  58 val_f1:  0.7985611510791367 val_auroc:  0.8694282945736433 val_auprc:  0.9452259295932232
+EarlyStopping counter: 26 out of 50
+epoch:  58
+[Epoch 59, Batch 10] loss: 0.004
+epoch:  59 val_f1:  0.8051160047274586 val_auroc:  0.8701550387596899 val_auprc:  0.9457182193861724
+EarlyStopping counter: 27 out of 50
+epoch:  59
+[Epoch 60, Batch 10] loss: 0.004
+epoch:  60 val_f1:  0.7666659578740948 val_auroc:  0.8725775193798451 val_auprc:  0.9457907845298394
+EarlyStopping counter: 28 out of 50
+epoch:  60
+[Epoch 61, Batch 10] loss: 0.004
+epoch:  61 val_f1:  0.7729252582141845 val_auroc:  0.8708817829457365 val_auprc:  0.9456686812961947
+EarlyStopping counter: 29 out of 50
+epoch:  61
+[Epoch 62, Batch 10] loss: 0.004
+epoch:  62 val_f1:  0.768937708914086 val_auroc:  0.8728197674418605 val_auprc:  0.9463699667082162
+EarlyStopping counter: 30 out of 50
+epoch:  62
+[Epoch 63, Batch 10] loss: 0.004
+epoch:  63 val_f1:  0.7729252582141845 val_auroc:  0.8713662790697675 val_auprc:  0.9460301386279127
+EarlyStopping counter: 31 out of 50
+epoch:  63
+[Epoch 64, Batch 10] loss: 0.004
+epoch:  64 val_f1:  0.7892012988311853 val_auroc:  0.8691860465116279 val_auprc:  0.9448109174917579
+EarlyStopping counter: 32 out of 50
+epoch:  64
+[Epoch 65, Batch 10] loss: 0.004
+epoch:  65 val_f1:  0.7811109002295425 val_auroc:  0.8708817829457364 val_auprc:  0.9459763134477702
+EarlyStopping counter: 33 out of 50
+epoch:  65
+[Epoch 66, Batch 10] loss: 0.003
+epoch:  66 val_f1:  0.7729252582141845 val_auroc:  0.8708817829457365 val_auprc:  0.9455249271453546
+EarlyStopping counter: 34 out of 50
+epoch:  66
+[Epoch 67, Batch 10] loss: 0.003
+epoch:  67 val_f1:  0.7729252582141845 val_auroc:  0.8716085271317829 val_auprc:  0.9459453732344238
+EarlyStopping counter: 35 out of 50
+epoch:  67
+[Epoch 68, Batch 10] loss: 0.004
+epoch:  68 val_f1:  0.7729252582141845 val_auroc:  0.8708817829457365 val_auprc:  0.9455315117948286
+EarlyStopping counter: 36 out of 50
+epoch:  68
+[Epoch 69, Batch 10] loss: 0.003
+epoch:  69 val_f1:  0.7729252582141845 val_auroc:  0.8737887596899225 val_auprc:  0.9467385880064677
+EarlyStopping counter: 37 out of 50
+epoch:  69
+[Epoch 70, Batch 10] loss: 0.003
+epoch:  70 val_f1:  0.7729252582141845 val_auroc:  0.871608527131783 val_auprc:  0.9458092220590445
+EarlyStopping counter: 38 out of 50
+epoch:  70
+[Epoch 71, Batch 10] loss: 0.003
+epoch:  71 val_f1:  0.7811109002295425 val_auroc:  0.8711240310077519 val_auprc:  0.9456950590956877
+EarlyStopping counter: 39 out of 50
+epoch:  71
+[Epoch 72, Batch 10] loss: 0.003
+epoch:  72 val_f1:  0.7729252582141845 val_auroc:  0.8701550387596899 val_auprc:  0.9451143068847482
+EarlyStopping counter: 40 out of 50
+epoch:  72
+[Epoch 73, Batch 10] loss: 0.003
+epoch:  73 val_f1:  0.7729252582141845 val_auroc:  0.8716085271317829 val_auprc:  0.9459158599925879
+EarlyStopping counter: 41 out of 50
+epoch:  73
+[Epoch 74, Batch 10] loss: 0.003
+epoch:  74 val_f1:  0.8051160047274586 val_auroc:  0.8684593023255813 val_auprc:  0.9448568294926998
+EarlyStopping counter: 42 out of 50
+epoch:  74
+[Epoch 75, Batch 10] loss: 0.003
+epoch:  75 val_f1:  0.7729252582141845 val_auroc:  0.8711240310077519 val_auprc:  0.9455222159744332
+EarlyStopping counter: 43 out of 50
+epoch:  75
+[Epoch 76, Batch 10] loss: 0.002
+epoch:  76 val_f1:  0.7811109002295425 val_auroc:  0.8708817829457364 val_auprc:  0.945456228856295
+EarlyStopping counter: 44 out of 50
+epoch:  76
+[Epoch 77, Batch 10] loss: 0.002
+epoch:  77 val_f1:  0.7892012988311853 val_auroc:  0.8691860465116279 val_auprc:  0.9451735223091531
+EarlyStopping counter: 45 out of 50
+epoch:  77
+[Epoch 78, Batch 10] loss: 0.003
+epoch:  78 val_f1:  0.7906801532257888 val_auroc:  0.8711240310077519 val_auprc:  0.946020286729001
+EarlyStopping counter: 46 out of 50
+epoch:  78
+[Epoch 79, Batch 10] loss: 0.002
+epoch:  79 val_f1:  0.7811109002295425 val_auroc:  0.8694282945736435 val_auprc:  0.9449975302988126
+EarlyStopping counter: 47 out of 50
+epoch:  79
+[Epoch 80, Batch 10] loss: 0.002
+epoch:  80 val_f1:  0.7729252582141845 val_auroc:  0.8723352713178294 val_auprc:  0.9461941544974016
+EarlyStopping counter: 48 out of 50
+epoch:  80
+[Epoch 81, Batch 10] loss: 0.002
+epoch:  81 val_f1:  0.7985611510791367 val_auroc:  0.8687015503875968 val_auprc:  0.9451624239317494
+EarlyStopping counter: 49 out of 50
+epoch:  81
+[Epoch 82, Batch 10] loss: 0.002
+epoch:  82 val_f1:  0.7827158008497472 val_auroc:  0.8694282945736433 val_auprc:  0.9453008674400755
+EarlyStopping counter: 50 out of 50
+Early stopping triggered
+Early stopping triggered!
+Time taken:  267.9198532104492
+{'time_elapsed': [267.9198532104492], 'epoch': [81], 'fold': [3], 'f1_train': [1.0], 'auroc_train': [1.0], 'auprc_train': [1.0], 'f1_test': [0.7827158008497472], 'auroc_test': [0.8694282945736433], 'auprc_test': [0.9453008674400755]}
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+TAPPredictor                             [32, 1]                   --
+├─Sequential: 1-1                        [32, 1]                   --
+│    └─Conv1d: 2-1                       [32, 128, 1278]           768
+│    └─BatchNorm1d: 2-2                  [32, 128, 1278]           256
+│    └─Tanh: 2-3                         [32, 128, 1278]           --
+│    └─MaxPool1d: 2-4                    [32, 128, 1274]           --
+│    └─Dropout: 2-5                      [32, 128, 1274]           --
+│    └─Flatten: 2-6                      [32, 163072]              --
+│    └─Linear: 2-7                       [32, 1]                   163,073
+==========================================================================================
+Total params: 164,097
+Trainable params: 164,097
+Non-trainable params: 0
+Total mult-adds (M): 36.63
+==========================================================================================
+Input size (MB): 0.16
+Forward/backward pass size (MB): 83.76
+Params size (MB): 0.66
+Estimated Total Size (MB): 84.58
+==========================================================================================
+tensor(0.4369)
+epoch:  0
+[Epoch 1, Batch 10] loss: 7.256
+epoch:  1 val_f1:  0.6288976723759333 val_auroc:  0.8335813492063492 val_auprc:  0.919048041306528
+epoch:  1
+[Epoch 2, Batch 10] loss: 2.173
+epoch:  2 val_f1:  0.7075175862361216 val_auroc:  0.8365575396825398 val_auprc:  0.9188361095613655
+Validation loss improved to 0.508971
+epoch:  2
+[Epoch 3, Batch 10] loss: 0.626
+epoch:  3 val_f1:  0.7746271791640412 val_auroc:  0.8330853174603174 val_auprc:  0.9076373966557965
+EarlyStopping counter: 1 out of 50
+epoch:  3
+[Epoch 4, Batch 10] loss: 0.337
+epoch:  4 val_f1:  0.7688528617047408 val_auroc:  0.8549107142857142 val_auprc:  0.9328215495934238
+Validation loss improved to 0.253115
+epoch:  4
+[Epoch 5, Batch 10] loss: 0.271
+epoch:  5 val_f1:  0.7901185770750988 val_auroc:  0.8715277777777778 val_auprc:  0.935450815757257
+Validation loss improved to 0.168429
+epoch:  5
+[Epoch 6, Batch 10] loss: 0.206
+epoch:  6 val_f1:  0.7852367336641158 val_auroc:  0.8578869047619048 val_auprc:  0.9281673989215897
+EarlyStopping counter: 1 out of 50
+epoch:  6
+[Epoch 7, Batch 10] loss: 0.170
+epoch:  7 val_f1:  0.7819511139952413 val_auroc:  0.8598710317460317 val_auprc:  0.9292253438553636
+EarlyStopping counter: 2 out of 50
+epoch:  7
+[Epoch 8, Batch 10] loss: 0.199
+epoch:  8 val_f1:  0.7632485643970468 val_auroc:  0.859375 val_auprc:  0.9367380194407949
+EarlyStopping counter: 3 out of 50
+epoch:  8
+[Epoch 9, Batch 10] loss: 0.282
+epoch:  9 val_f1:  0.7214453202248777 val_auroc:  0.8559027777777777 val_auprc:  0.9366198021493849
+EarlyStopping counter: 4 out of 50
+epoch:  9
+[Epoch 10, Batch 10] loss: 0.197
+epoch:  10 val_f1:  0.81483559295621 val_auroc:  0.8722718253968254 val_auprc:  0.9341379414266032
+EarlyStopping counter: 5 out of 50
+epoch:  10
+[Epoch 11, Batch 10] loss: 0.214
+epoch:  11 val_f1:  0.8194319840387783 val_auroc:  0.8618551587301588 val_auprc:  0.934299805471572
+EarlyStopping counter: 6 out of 50
+epoch:  11
+[Epoch 12, Batch 10] loss: 0.145
+epoch:  12 val_f1:  0.7755148741418765 val_auroc:  0.847718253968254 val_auprc:  0.901239957169258
+EarlyStopping counter: 7 out of 50
+epoch:  12
+[Epoch 13, Batch 10] loss: 0.114
+epoch:  13 val_f1:  0.8298676748582231 val_auroc:  0.8802083333333334 val_auprc:  0.9418211773769778
+EarlyStopping counter: 8 out of 50
+epoch:  13
+[Epoch 14, Batch 10] loss: 0.100
+epoch:  14 val_f1:  0.7755148741418765 val_auroc:  0.8563988095238095 val_auprc:  0.9148294313700069
+EarlyStopping counter: 9 out of 50
+epoch:  14
+[Epoch 15, Batch 10] loss: 0.092
+epoch:  15 val_f1:  0.7904805491990847 val_auroc:  0.8625992063492063 val_auprc:  0.9226620174954613
+EarlyStopping counter: 10 out of 50
+epoch:  15
+[Epoch 16, Batch 10] loss: 0.077
+epoch:  16 val_f1:  0.7711042634565258 val_auroc:  0.8616071428571429 val_auprc:  0.9234368353261725
+EarlyStopping counter: 11 out of 50
+epoch:  16
+[Epoch 17, Batch 10] loss: 0.072
+epoch:  17 val_f1:  0.7884143290944841 val_auroc:  0.8439980158730158 val_auprc:  0.8877453245783853
+EarlyStopping counter: 12 out of 50
+epoch:  17
+[Epoch 18, Batch 10] loss: 0.066
+epoch:  18 val_f1:  0.7797158172381521 val_auroc:  0.8573908730158731 val_auprc:  0.9165010793450082
+EarlyStopping counter: 13 out of 50
+epoch:  18
+[Epoch 19, Batch 10] loss: 0.068
+epoch:  19 val_f1:  0.800639197204071 val_auroc:  0.8633432539682541 val_auprc:  0.921689620947778
+EarlyStopping counter: 14 out of 50
+epoch:  19
+[Epoch 20, Batch 10] loss: 0.049
+epoch:  20 val_f1:  0.7819511139952413 val_auroc:  0.8601190476190476 val_auprc:  0.919406759735935
+EarlyStopping counter: 15 out of 50
+epoch:  20
+[Epoch 21, Batch 10] loss: 0.048
+epoch:  21 val_f1:  0.7971014492753623 val_auroc:  0.8747519841269841 val_auprc:  0.9337512587635171
+EarlyStopping counter: 16 out of 50
+epoch:  21
+[Epoch 22, Batch 10] loss: 0.046
+epoch:  22 val_f1:  0.7969889682024659 val_auroc:  0.8673115079365079 val_auprc:  0.9247132234405451
+EarlyStopping counter: 17 out of 50
+epoch:  22
+[Epoch 23, Batch 10] loss: 0.038
+epoch:  23 val_f1:  0.7904805491990847 val_auroc:  0.8613591269841269 val_auprc:  0.9185939712430962
+EarlyStopping counter: 18 out of 50
+epoch:  23
+[Epoch 24, Batch 10] loss: 0.032
+epoch:  24 val_f1:  0.7775412992804297 val_auroc:  0.8675595238095238 val_auprc:  0.9232348223515692
+EarlyStopping counter: 19 out of 50
+epoch:  24
+[Epoch 25, Batch 10] loss: 0.036
+epoch:  25 val_f1:  0.7875799991742021 val_auroc:  0.8675595238095238 val_auprc:  0.9255915922042696
+EarlyStopping counter: 20 out of 50
+epoch:  25
+[Epoch 26, Batch 10] loss: 0.033
+epoch:  26 val_f1:  0.8079996415395876 val_auroc:  0.8588789682539684 val_auprc:  0.9170094019747219
+EarlyStopping counter: 21 out of 50
+epoch:  26
+[Epoch 27, Batch 10] loss: 0.037
+epoch:  27 val_f1:  0.8036760694501368 val_auroc:  0.876736111111111 val_auprc:  0.9326587928049633
+EarlyStopping counter: 22 out of 50
+epoch:  27
+[Epoch 28, Batch 10] loss: 0.030
+epoch:  28 val_f1:  0.7858717303302986 val_auroc:  0.8665674603174605 val_auprc:  0.9212521177061066
+EarlyStopping counter: 23 out of 50
+epoch:  28
+[Epoch 29, Batch 10] loss: 0.030
+epoch:  29 val_f1:  0.7940993788819876 val_auroc:  0.8720238095238094 val_auprc:  0.9271488895580767
+EarlyStopping counter: 24 out of 50
+epoch:  29
+[Epoch 30, Batch 10] loss: 0.023
+epoch:  30 val_f1:  0.7874834274643012 val_auroc:  0.8614831349206349 val_auprc:  0.9150281426830809
+EarlyStopping counter: 25 out of 50
+epoch:  30
+[Epoch 31, Batch 10] loss: 0.034
+epoch:  31 val_f1:  0.7940993788819876 val_auroc:  0.8645833333333334 val_auprc:  0.918815132436549
+EarlyStopping counter: 26 out of 50
+epoch:  31
+[Epoch 32, Batch 10] loss: 0.019
+epoch:  32 val_f1:  0.8137922815659323 val_auroc:  0.8753720238095238 val_auprc:  0.9316318424863619
+EarlyStopping counter: 27 out of 50
+epoch:  32
+[Epoch 33, Batch 10] loss: 0.024
+epoch:  33 val_f1:  0.7861608411480533 val_auroc:  0.8625992063492064 val_auprc:  0.9146911259438569
+EarlyStopping counter: 28 out of 50
+epoch:  33
+[Epoch 34, Batch 10] loss: 0.022
+epoch:  34 val_f1:  0.8260869565217391 val_auroc:  0.876736111111111 val_auprc:  0.934973541021725
+EarlyStopping counter: 29 out of 50
+epoch:  34
+[Epoch 35, Batch 10] loss: 0.017
+epoch:  35 val_f1:  0.7940993788819876 val_auroc:  0.8763640873015873 val_auprc:  0.930407637101783
+EarlyStopping counter: 30 out of 50
+epoch:  35
+[Epoch 36, Batch 10] loss: 0.027
+epoch:  36 val_f1:  0.7991557619248628 val_auroc:  0.8692956349206349 val_auprc:  0.9213900281982308
+EarlyStopping counter: 31 out of 50
+epoch:  36
+[Epoch 37, Batch 10] loss: 0.023
+epoch:  37 val_f1:  0.8090037477295196 val_auroc:  0.8784722222222222 val_auprc:  0.9408001008440172
+EarlyStopping counter: 32 out of 50
+epoch:  37
+[Epoch 38, Batch 10] loss: 0.040
+epoch:  38 val_f1:  0.7797158172381521 val_auroc:  0.8530505952380952 val_auprc:  0.913231641926689
+EarlyStopping counter: 33 out of 50
+epoch:  38
+[Epoch 39, Batch 10] loss: 0.022
+epoch:  39 val_f1:  0.7983928476398275 val_auroc:  0.865327380952381 val_auprc:  0.9318111542640116
+EarlyStopping counter: 34 out of 50
+epoch:  39
+[Epoch 40, Batch 10] loss: 0.028
+epoch:  40 val_f1:  0.7711042634565258 val_auroc:  0.8608630952380952 val_auprc:  0.9211793147059248
+EarlyStopping counter: 35 out of 50
+epoch:  40
+[Epoch 41, Batch 10] loss: 0.017
+epoch:  41 val_f1:  0.807228002894545 val_auroc:  0.8797123015873016 val_auprc:  0.938309523043902
+EarlyStopping counter: 36 out of 50
+epoch:  41
+[Epoch 42, Batch 10] loss: 0.018
+epoch:  42 val_f1:  0.7966751918158568 val_auroc:  0.8495783730158729 val_auprc:  0.9120532769908827
+EarlyStopping counter: 37 out of 50
+epoch:  42
+[Epoch 43, Batch 10] loss: 0.031
+epoch:  43 val_f1:  0.8014350667803353 val_auroc:  0.8647073412698413 val_auprc:  0.9237614553623774
+EarlyStopping counter: 38 out of 50
+epoch:  43
+[Epoch 44, Batch 10] loss: 0.010
+epoch:  44 val_f1:  0.8036760694501368 val_auroc:  0.8680555555555556 val_auprc:  0.926702839852654
+EarlyStopping counter: 39 out of 50
+epoch:  44
+[Epoch 45, Batch 10] loss: 0.011
+epoch:  45 val_f1:  0.8102677351291666 val_auroc:  0.8733878968253969 val_auprc:  0.9262692515340902
+EarlyStopping counter: 40 out of 50
+epoch:  45
+[Epoch 46, Batch 10] loss: 0.010
+epoch:  46 val_f1:  0.7956729455237178 val_auroc:  0.8725198412698413 val_auprc:  0.9284254868208166
+EarlyStopping counter: 41 out of 50
+epoch:  46
+[Epoch 47, Batch 10] loss: 0.006
+epoch:  47 val_f1:  0.8022296544035674 val_auroc:  0.8674355158730159 val_auprc:  0.9259258701070491
+EarlyStopping counter: 42 out of 50
+epoch:  47
+[Epoch 48, Batch 10] loss: 0.007
+epoch:  48 val_f1:  0.7988956640912072 val_auroc:  0.868923611111111 val_auprc:  0.9251521272955853
+EarlyStopping counter: 43 out of 50
+epoch:  48
+[Epoch 49, Batch 10] loss: 0.005
+epoch:  49 val_f1:  0.7858717303302986 val_auroc:  0.868923611111111 val_auprc:  0.9252390122108135
+EarlyStopping counter: 44 out of 50
+epoch:  49
+[Epoch 50, Batch 10] loss: 0.005
+epoch:  50 val_f1:  0.7956729455237178 val_auroc:  0.8756200396825398 val_auprc:  0.932284881251966
+EarlyStopping counter: 45 out of 50
+epoch:  50
+[Epoch 51, Batch 10] loss: 0.005
+epoch:  51 val_f1:  0.7755148741418765 val_auroc:  0.8680555555555556 val_auprc:  0.9251921567712073
+EarlyStopping counter: 46 out of 50
+epoch:  51
+[Epoch 52, Batch 10] loss: 0.005
+epoch:  52 val_f1:  0.792371879328401 val_auroc:  0.8697916666666666 val_auprc:  0.9226823547966323
+EarlyStopping counter: 47 out of 50
+epoch:  52
+[Epoch 53, Batch 10] loss: 0.004
+epoch:  53 val_f1:  0.7775412992804297 val_auroc:  0.8686755952380952 val_auprc:  0.9269592900929395
+EarlyStopping counter: 48 out of 50
+epoch:  53
+[Epoch 54, Batch 10] loss: 0.004
+epoch:  54 val_f1:  0.7775412992804297 val_auroc:  0.8691716269841271 val_auprc:  0.9284044800219051
+EarlyStopping counter: 49 out of 50
+epoch:  54
+[Epoch 55, Batch 10] loss: 0.005
+epoch:  55 val_f1:  0.7956729455237178 val_auroc:  0.8731398809523809 val_auprc:  0.9286973875917766
+EarlyStopping counter: 50 out of 50
+Early stopping triggered
+Early stopping triggered!
+Time taken:  178.54595303535461
+{'time_elapsed': [178.54595303535461], 'epoch': [54], 'fold': [4], 'f1_train': [1.0], 'auroc_train': [1.0], 'auprc_train': [1.0], 'f1_test': [0.7956729455237178], 'auroc_test': [0.8731398809523809], 'auprc_test': [0.9286973875917766]}
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+TAPPredictor                             [32, 1]                   --
+├─Sequential: 1-1                        [32, 1]                   --
+│    └─Conv1d: 2-1                       [32, 128, 1278]           768
+│    └─BatchNorm1d: 2-2                  [32, 128, 1278]           256
+│    └─Tanh: 2-3                         [32, 128, 1278]           --
+│    └─MaxPool1d: 2-4                    [32, 128, 1274]           --
+│    └─Dropout: 2-5                      [32, 128, 1274]           --
+│    └─Flatten: 2-6                      [32, 163072]              --
+│    └─Linear: 2-7                       [32, 1]                   163,073
+==========================================================================================
+Total params: 164,097
+Trainable params: 164,097
+Non-trainable params: 0
+Total mult-adds (M): 36.63
+==========================================================================================
+Input size (MB): 0.16
+Forward/backward pass size (MB): 83.76
+Params size (MB): 0.66
+Estimated Total Size (MB): 84.58
+==========================================================================================
+config:  {'project': 'MHCCBM', 'name': 'CNN_81', 'config': {'hidden_channels': [128], 'epochs': 500, 'kernel_size': 5, 'pool_kernel_size': 5, 'classes': 2, 'seed': 42, 'batch_size': 32, 'lr': 0.001, 'dataset': 'X.pkl, y.pkl (embedded peptide seq from classification', 'dropout_p': 0.1, 'architecture': 'CNN'}}
+Seed:  42
+tensor(0.4369)
+epoch:  0
+[Epoch 1, Batch 10] loss: 0.663
+epoch:  1 val_f1:  0.563065427486337 val_auroc:  0.5900834560628375 val_auprc:  0.7838880584882618
+epoch:  1
+[Epoch 2, Batch 10] loss: 0.386
+epoch:  2 val_f1:  0.6062040524955336 val_auroc:  0.691458026509573 val_auprc:  0.8427439569035431
+Validation loss improved to 2.024483
+epoch:  2
+[Epoch 3, Batch 10] loss: 0.349
+epoch:  3 val_f1:  0.5492496824096865 val_auroc:  0.7292587137947962 val_auprc:  0.8656245253888719
+Validation loss improved to 1.952690
+epoch:  3
+[Epoch 4, Batch 10] loss: 0.342
+epoch:  4 val_f1:  0.5900086904324611 val_auroc:  0.7530682376043201 val_auprc:  0.8811929526014466
+Validation loss improved to 1.898000
+epoch:  4
+[Epoch 5, Batch 10] loss: 0.337
+epoch:  5 val_f1:  0.6524974219867484 val_auroc:  0.7709867452135494 val_auprc:  0.8922884783047242
+Validation loss improved to 1.846369
+epoch:  5
+[Epoch 6, Batch 10] loss: 0.315
+epoch:  6 val_f1:  0.735514445586388 val_auroc:  0.7722140402552774 val_auprc:  0.8921020462048712
+EarlyStopping counter: 1 out of 50
+epoch:  6
+[Epoch 7, Batch 10] loss: 0.306
+epoch:  7 val_f1:  0.7477455593342162 val_auroc:  0.7771232204221895 val_auprc:  0.8945513827524243
+EarlyStopping counter: 2 out of 50
+epoch:  7
+[Epoch 8, Batch 10] loss: 0.288
+epoch:  8 val_f1:  0.751751326211758 val_auroc:  0.7795778105056456 val_auprc:  0.8968138859489274
+EarlyStopping counter: 3 out of 50
+epoch:  8
+[Epoch 9, Batch 10] loss: 0.271
+epoch:  9 val_f1:  0.7170655771870609 val_auroc:  0.7938144329896908 val_auprc:  0.9064042955453395
+Validation loss improved to 1.768533
+epoch:  9
+[Epoch 10, Batch 10] loss: 0.264
+epoch:  10 val_f1:  0.6887363496684735 val_auroc:  0.8001963672066765 val_auprc:  0.9116229691612774
+Validation loss improved to 1.756863
+epoch:  10
+[Epoch 11, Batch 10] loss: 0.230
+epoch:  11 val_f1:  0.6339490569706397 val_auroc:  0.8021600392734413 val_auprc:  0.9118062107734572
+EarlyStopping counter: 1 out of 50
+epoch:  11
+[Epoch 12, Batch 10] loss: 0.247
+epoch:  12 val_f1:  0.710128282915836 val_auroc:  0.8026509572901326 val_auprc:  0.9116798380062682
+Validation loss improved to 1.751273
+epoch:  12
+[Epoch 13, Batch 10] loss: 0.237
+epoch:  13 val_f1:  0.7428255465713769 val_auroc:  0.7984781541482572 val_auprc:  0.907366471507606
+EarlyStopping counter: 1 out of 50
+epoch:  13
+[Epoch 14, Batch 10] loss: 0.215
+epoch:  14 val_f1:  0.7442757932382417 val_auroc:  0.8087874324987727 val_auprc:  0.9143696722296945
+Validation loss improved to 1.748665
+epoch:  14
+[Epoch 15, Batch 10] loss: 0.222
+epoch:  15 val_f1:  0.7169642564307364 val_auroc:  0.8087874324987727 val_auprc:  0.9160817459999908
+Validation loss improved to 1.745789
+epoch:  15
+[Epoch 16, Batch 10] loss: 0.205
+epoch:  16 val_f1:  0.7236892364125374 val_auroc:  0.8087874324987727 val_auprc:  0.9154854711386808
+Validation loss improved to 1.742324
+epoch:  16
+[Epoch 17, Batch 10] loss: 0.198
+epoch:  17 val_f1:  0.6810035515891084 val_auroc:  0.8166421207658321 val_auprc:  0.9209579422267348
+EarlyStopping counter: 1 out of 50
+epoch:  17
+[Epoch 18, Batch 10] loss: 0.193
+epoch:  18 val_f1:  0.6729375272402062 val_auroc:  0.8203240058910163 val_auprc:  0.9230689827338692
+EarlyStopping counter: 2 out of 50
+epoch:  18
+[Epoch 19, Batch 10] loss: 0.192
+epoch:  19 val_f1:  0.7442757932382417 val_auroc:  0.8166421207658321 val_auprc:  0.9210081319295575
+Validation loss improved to 1.725100
+epoch:  19
+[Epoch 20, Batch 10] loss: 0.199
+epoch:  20 val_f1:  0.7531731915989216 val_auroc:  0.8038782523318605 val_auprc:  0.9123900618792938
+EarlyStopping counter: 1 out of 50
+epoch:  20
+[Epoch 21, Batch 10] loss: 0.187
+epoch:  21 val_f1:  0.7223183251151889 val_auroc:  0.8156602847324497 val_auprc:  0.9212880921940256
+EarlyStopping counter: 2 out of 50
+epoch:  21
+[Epoch 22, Batch 10] loss: 0.182
+epoch:  22 val_f1:  0.7661184054361647 val_auroc:  0.8068237604320079 val_auprc:  0.9142021684647897
+EarlyStopping counter: 3 out of 50
+epoch:  22
+[Epoch 23, Batch 10] loss: 0.162
+epoch:  23 val_f1:  0.7531731915989216 val_auroc:  0.8070692194403535 val_auprc:  0.9139652148451048
+EarlyStopping counter: 4 out of 50
+epoch:  23
+[Epoch 24, Batch 10] loss: 0.162
+epoch:  24 val_f1:  0.7442757932382417 val_auroc:  0.8141875306823761 val_auprc:  0.9205346479521567
+EarlyStopping counter: 5 out of 50
+epoch:  24
+[Epoch 25, Batch 10] loss: 0.167
+epoch:  25 val_f1:  0.7445203699313053 val_auroc:  0.8159057437407954 val_auprc:  0.9205640891408101
+EarlyStopping counter: 6 out of 50
+epoch:  25
+[Epoch 26, Batch 10] loss: 0.158
+epoch:  26 val_f1:  0.7477455593342162 val_auroc:  0.8063328424153167 val_auprc:  0.914184664811634
+EarlyStopping counter: 7 out of 50
+epoch:  26
+[Epoch 27, Batch 10] loss: 0.178
+epoch:  27 val_f1:  0.7519437633413868 val_auroc:  0.8006872852233677 val_auprc:  0.9093331375969536
+EarlyStopping counter: 8 out of 50
+epoch:  27
+[Epoch 28, Batch 10] loss: 0.150
+epoch:  28 val_f1:  0.7596459003010357 val_auroc:  0.8060873834069711 val_auprc:  0.9144692957115925
+EarlyStopping counter: 9 out of 50
+epoch:  28
+[Epoch 29, Batch 10] loss: 0.130
+epoch:  29 val_f1:  0.7626195746699344 val_auroc:  0.8134511536573393 val_auprc:  0.9190940490756871
+EarlyStopping counter: 10 out of 50
+epoch:  29
+[Epoch 30, Batch 10] loss: 0.129
+epoch:  30 val_f1:  0.7577565132360132 val_auroc:  0.8166421207658321 val_auprc:  0.9193973091892103
+EarlyStopping counter: 11 out of 50
+epoch:  30
+[Epoch 31, Batch 10] loss: 0.134
+epoch:  31 val_f1:  0.7375047745919104 val_auroc:  0.814187530682376 val_auprc:  0.9189127410116863
+EarlyStopping counter: 12 out of 50
+epoch:  31
+[Epoch 32, Batch 10] loss: 0.119
+epoch:  32 val_f1:  0.7737843767539161 val_auroc:  0.8065783014236623 val_auprc:  0.9144999701523702
+EarlyStopping counter: 13 out of 50
+epoch:  32
+[Epoch 33, Batch 10] loss: 0.116
+epoch:  33 val_f1:  0.7506155503404762 val_auroc:  0.8132056946489936 val_auprc:  0.9175782503621925
+EarlyStopping counter: 14 out of 50
+epoch:  33
+[Epoch 34, Batch 10] loss: 0.112
+epoch:  34 val_f1:  0.7505653177403916 val_auroc:  0.8132056946489936 val_auprc:  0.9183861490255633
+EarlyStopping counter: 15 out of 50
+epoch:  34
+[Epoch 35, Batch 10] loss: 0.109
+epoch:  35 val_f1:  0.7683026725960121 val_auroc:  0.8171330387825233 val_auprc:  0.92072191405627
+EarlyStopping counter: 16 out of 50
+epoch:  35
+[Epoch 36, Batch 10] loss: 0.103
+epoch:  36 val_f1:  0.7607703458551531 val_auroc:  0.8114874815905744 val_auprc:  0.917477518614223
+EarlyStopping counter: 17 out of 50
+epoch:  36
+[Epoch 37, Batch 10] loss: 0.094
+epoch:  37 val_f1:  0.7683026725960121 val_auroc:  0.8132056946489936 val_auprc:  0.9188324127690207
+EarlyStopping counter: 18 out of 50
+epoch:  37
+[Epoch 38, Batch 10] loss: 0.099
+epoch:  38 val_f1:  0.7626195746699344 val_auroc:  0.8173784977908689 val_auprc:  0.9203225634956259
+EarlyStopping counter: 19 out of 50
+epoch:  38
+[Epoch 39, Batch 10] loss: 0.089
+epoch:  39 val_f1:  0.7626195746699344 val_auroc:  0.8151693667157585 val_auprc:  0.9198551522113965
+EarlyStopping counter: 20 out of 50
+epoch:  39
+[Epoch 40, Batch 10] loss: 0.073
+epoch:  40 val_f1:  0.7426698176342648 val_auroc:  0.8028964162984782 val_auprc:  0.9111013052331705
+EarlyStopping counter: 21 out of 50
+epoch:  40
+[Epoch 41, Batch 10] loss: 0.078
+epoch:  41 val_f1:  0.7441671543148256 val_auroc:  0.8095238095238095 val_auprc:  0.9154319087869986
+EarlyStopping counter: 22 out of 50
+epoch:  41
+[Epoch 42, Batch 10] loss: 0.072
+epoch:  42 val_f1:  0.770628190185282 val_auroc:  0.819833087874325 val_auprc:  0.9225275147029086
+EarlyStopping counter: 23 out of 50
+epoch:  42
+[Epoch 43, Batch 10] loss: 0.080
+epoch:  43 val_f1:  0.7552115339652351 val_auroc:  0.8139420716740304 val_auprc:  0.9183353186680459
+EarlyStopping counter: 24 out of 50
+epoch:  43
+[Epoch 44, Batch 10] loss: 0.078
+epoch:  44 val_f1:  0.7455074238481555 val_auroc:  0.810505645557192 val_auprc:  0.9151643377922012
+EarlyStopping counter: 25 out of 50
+epoch:  44
+[Epoch 45, Batch 10] loss: 0.066
+epoch:  45 val_f1:  0.7426698176342648 val_auroc:  0.812960235640648 val_auprc:  0.9177504189155735
+EarlyStopping counter: 26 out of 50
+epoch:  45
+[Epoch 46, Batch 10] loss: 0.067
+epoch:  46 val_f1:  0.7426698176342648 val_auroc:  0.8070692194403535 val_auprc:  0.9144542311595392
+EarlyStopping counter: 27 out of 50
+epoch:  46
+[Epoch 47, Batch 10] loss: 0.069
+epoch:  47 val_f1:  0.7553956834532374 val_auroc:  0.8092783505154639 val_auprc:  0.9159801898386404
+EarlyStopping counter: 28 out of 50
+epoch:  47
+[Epoch 48, Batch 10] loss: 0.061
+epoch:  48 val_f1:  0.7553956834532374 val_auroc:  0.8038782523318606 val_auprc:  0.911490941965659
+EarlyStopping counter: 29 out of 50
+epoch:  48
+[Epoch 49, Batch 10] loss: 0.060
+epoch:  49 val_f1:  0.7490302789770621 val_auroc:  0.8082965144820815 val_auprc:  0.9139777097753908
+EarlyStopping counter: 30 out of 50
+epoch:  49
+[Epoch 50, Batch 10] loss: 0.058
+epoch:  50 val_f1:  0.7553956834532374 val_auroc:  0.8100147275405007 val_auprc:  0.915812277195374
+EarlyStopping counter: 31 out of 50
+epoch:  50
+[Epoch 51, Batch 10] loss: 0.044
+epoch:  51 val_f1:  0.7553956834532374 val_auroc:  0.8068237604320079 val_auprc:  0.9136739988401252
+EarlyStopping counter: 32 out of 50
+epoch:  51
+[Epoch 52, Batch 10] loss: 0.050
+epoch:  52 val_f1:  0.7553956834532374 val_auroc:  0.8051055473735885 val_auprc:  0.9127274668347798
+EarlyStopping counter: 33 out of 50
+epoch:  52
+[Epoch 53, Batch 10] loss: 0.050
+epoch:  53 val_f1:  0.7490302789770621 val_auroc:  0.8055964653902798 val_auprc:  0.9127367450554924
+EarlyStopping counter: 34 out of 50
+epoch:  53
+[Epoch 54, Batch 10] loss: 0.049
+epoch:  54 val_f1:  0.7490302789770621 val_auroc:  0.8068237604320079 val_auprc:  0.9139720777107685
+EarlyStopping counter: 35 out of 50
+epoch:  54
+[Epoch 55, Batch 10] loss: 0.040
+epoch:  55 val_f1:  0.7426698176342648 val_auroc:  0.8119783996072656 val_auprc:  0.917078022331115
+EarlyStopping counter: 36 out of 50
+epoch:  55
+[Epoch 56, Batch 10] loss: 0.045
+epoch:  56 val_f1:  0.7441671543148256 val_auroc:  0.8090328915071183 val_auprc:  0.9160736404002453
+EarlyStopping counter: 37 out of 50
+epoch:  56
+[Epoch 57, Batch 10] loss: 0.042
+epoch:  57 val_f1:  0.7490302789770621 val_auroc:  0.8092783505154639 val_auprc:  0.9158632157026725
+EarlyStopping counter: 38 out of 50
+epoch:  57
+[Epoch 58, Batch 10] loss: 0.039
+epoch:  58 val_f1:  0.7426698176342648 val_auroc:  0.8102601865488464 val_auprc:  0.9159608225133429
+EarlyStopping counter: 39 out of 50
+epoch:  58
+[Epoch 59, Batch 10] loss: 0.038
+epoch:  59 val_f1:  0.7737843767539161 val_auroc:  0.8109965635738832 val_auprc:  0.9166254460643652
+EarlyStopping counter: 40 out of 50
+epoch:  59
+[Epoch 60, Batch 10] loss: 0.036
+epoch:  60 val_f1:  0.7490302789770621 val_auroc:  0.8058419243986255 val_auprc:  0.9137033645320812
+EarlyStopping counter: 41 out of 50
+epoch:  60
+[Epoch 61, Batch 10] loss: 0.036
+epoch:  61 val_f1:  0.7617684906754855 val_auroc:  0.8063328424153167 val_auprc:  0.9137089113371806
+EarlyStopping counter: 42 out of 50
+epoch:  61
+[Epoch 62, Batch 10] loss: 0.032
+epoch:  62 val_f1:  0.7490302789770621 val_auroc:  0.8085419734904271 val_auprc:  0.9150362480907533
+EarlyStopping counter: 43 out of 50
+epoch:  62
+[Epoch 63, Batch 10] loss: 0.028
+epoch:  63 val_f1:  0.7426698176342648 val_auroc:  0.8090328915071183 val_auprc:  0.9155871067360074
+EarlyStopping counter: 44 out of 50
+epoch:  63
+[Epoch 64, Batch 10] loss: 0.033
+epoch:  64 val_f1:  0.7490302789770621 val_auroc:  0.8053510063819342 val_auprc:  0.9136866826342418
+EarlyStopping counter: 45 out of 50
+epoch:  64
+[Epoch 65, Batch 10] loss: 0.027
+epoch:  65 val_f1:  0.7490302789770621 val_auroc:  0.8063328424153167 val_auprc:  0.9146543891191792
+EarlyStopping counter: 46 out of 50
+epoch:  65
+[Epoch 66, Batch 10] loss: 0.028
+epoch:  66 val_f1:  0.7490302789770621 val_auroc:  0.8073146784486991 val_auprc:  0.9149593827574761
+EarlyStopping counter: 47 out of 50
+epoch:  66
+[Epoch 67, Batch 10] loss: 0.029
+epoch:  67 val_f1:  0.7473302173830908 val_auroc:  0.8038782523318605 val_auprc:  0.9126837082842194
+EarlyStopping counter: 48 out of 50
+epoch:  67
+[Epoch 68, Batch 10] loss: 0.027
+epoch:  68 val_f1:  0.7553956834532374 val_auroc:  0.8041237113402062 val_auprc:  0.913319183783917
+EarlyStopping counter: 49 out of 50
+epoch:  68
+[Epoch 69, Batch 10] loss: 0.026
+epoch:  69 val_f1:  0.7410071942446043 val_auroc:  0.803632793323515 val_auprc:  0.9127829966326709
+EarlyStopping counter: 50 out of 50
+Early stopping triggered
+Early stopping triggered!
+Time taken:  27.78135848045349
+{'time_elapsed': [27.78135848045349], 'epoch': [68], 'fold': [0], 'f1_train': [1.0], 'auroc_train': [1.0], 'auprc_train': [1.0], 'f1_test': [0.7410071942446043], 'auroc_test': [0.803632793323515], 'auprc_test': [0.9127829966326709]}
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+TAPPredictor                             [32, 1]                   --
+├─Sequential: 1-1                        [32, 1]                   --
+│    └─Conv1d: 2-1                       [32, 128, 256]            768
+│    └─BatchNorm1d: 2-2                  [32, 128, 256]            256
+│    └─Tanh: 2-3                         [32, 128, 256]            --
+│    └─MaxPool1d: 2-4                    [32, 128, 51]             --
+│    └─Dropout: 2-5                      [32, 128, 51]             --
+│    └─Flatten: 2-6                      [32, 6528]                --
+│    └─Linear: 2-7                       [32, 1]                   6,529
+==========================================================================================
+Total params: 7,553
+Trainable params: 7,553
+Non-trainable params: 0
+Total mult-adds (M): 6.51
+==========================================================================================
+Input size (MB): 0.16
+Forward/backward pass size (MB): 16.78
+Params size (MB): 0.03
+Estimated Total Size (MB): 16.97
+==========================================================================================
+tensor(0.4369)
+epoch:  0
+[Epoch 1, Batch 10] loss: 0.665
+epoch:  1 val_f1:  0.5373156020638035 val_auroc:  0.6566028473244968 val_auprc:  0.8088359396953947
+epoch:  1
+[Epoch 2, Batch 10] loss: 0.386
+epoch:  2 val_f1:  0.5635592163014425 val_auroc:  0.716985763377516 val_auprc:  0.8709743097175275
+Validation loss improved to 1.938288
+epoch:  2
+[Epoch 3, Batch 10] loss: 0.375
+epoch:  3 val_f1:  0.7184536707983012 val_auroc:  0.7434953362788415 val_auprc:  0.877952848412396
+Validation loss improved to 1.820545
+epoch:  3
+[Epoch 4, Batch 10] loss: 0.340
+epoch:  4 val_f1:  0.7148475178521729 val_auroc:  0.7749140893470791 val_auprc:  0.8982963366837018
+Validation loss improved to 1.773509
+epoch:  4
+[Epoch 5, Batch 10] loss: 0.324
+epoch:  5 val_f1:  0.7386752666832053 val_auroc:  0.7979872361315661 val_auprc:  0.910573394050667
+Validation loss improved to 1.745099
+epoch:  5
+[Epoch 6, Batch 10] loss: 0.304
+epoch:  6 val_f1:  0.7326256806616418 val_auroc:  0.7945508100147275 val_auprc:  0.9098484875899793
+Validation loss improved to 1.650689
+epoch:  6
+[Epoch 7, Batch 10] loss: 0.306
+epoch:  7 val_f1:  0.751751326211758 val_auroc:  0.8092783505154639 val_auprc:  0.9146581798417294
+EarlyStopping counter: 1 out of 50
+epoch:  7
+[Epoch 8, Batch 10] loss: 0.286
+epoch:  8 val_f1:  0.7560320485424044 val_auroc:  0.8151693667157586 val_auprc:  0.919738682905354
+Validation loss improved to 1.585231
+epoch:  8
+[Epoch 9, Batch 10] loss: 0.282
+epoch:  9 val_f1:  0.7096759374109908 val_auroc:  0.8136966126656847 val_auprc:  0.9199193982714826
+EarlyStopping counter: 1 out of 50
+epoch:  9
+[Epoch 10, Batch 10] loss: 0.258
+epoch:  10 val_f1:  0.7577565132360132 val_auroc:  0.8195876288659794 val_auprc:  0.9213393951502897
+Validation loss improved to 1.554338
+epoch:  10
+[Epoch 11, Batch 10] loss: 0.242
+epoch:  11 val_f1:  0.6802976282278086 val_auroc:  0.8144329896907216 val_auprc:  0.9212399842983812
+EarlyStopping counter: 1 out of 50
+epoch:  11
+[Epoch 12, Batch 10] loss: 0.239
+epoch:  12 val_f1:  0.7697841726618705 val_auroc:  0.8210603829160531 val_auprc:  0.9206516599774566
+EarlyStopping counter: 2 out of 50
+epoch:  12
+[Epoch 13, Batch 10] loss: 0.234
+epoch:  13 val_f1:  0.7661184054361647 val_auroc:  0.8146784486990672 val_auprc:  0.9175086331232397
+EarlyStopping counter: 3 out of 50
+epoch:  13
+[Epoch 14, Batch 10] loss: 0.221
+epoch:  14 val_f1:  0.7560320485424044 val_auroc:  0.8213058419243986 val_auprc:  0.9217721236082781
+Validation loss improved to 1.545182
+epoch:  14
+[Epoch 15, Batch 10] loss: 0.212
+epoch:  15 val_f1:  0.7699730743399811 val_auroc:  0.8249877270495828 val_auprc:  0.9232248371046371
+Validation loss improved to 1.543065
+epoch:  15
+[Epoch 16, Batch 10] loss: 0.216
+epoch:  16 val_f1:  0.7376969013024874 val_auroc:  0.8215513009327442 val_auprc:  0.9215236989393514
+EarlyStopping counter: 1 out of 50
+epoch:  16
+[Epoch 17, Batch 10] loss: 0.194
+epoch:  17 val_f1:  0.7622262794246104 val_auroc:  0.8188512518409425 val_auprc:  0.9187185040130744
+EarlyStopping counter: 2 out of 50
+epoch:  17
+[Epoch 18, Batch 10] loss: 0.209
+epoch:  18 val_f1:  0.7777125328082551 val_auroc:  0.8232695139911635 val_auprc:  0.9215423347981433
+EarlyStopping counter: 3 out of 50
+epoch:  18
+[Epoch 19, Batch 10] loss: 0.206
+epoch:  19 val_f1:  0.766354189375772 val_auroc:  0.8124693176239568 val_auprc:  0.9146262948771638
+EarlyStopping counter: 4 out of 50
+epoch:  19
+[Epoch 20, Batch 10] loss: 0.189
+epoch:  20 val_f1:  0.7757738305193033 val_auroc:  0.8257241040746196 val_auprc:  0.9232032208591592
+EarlyStopping counter: 5 out of 50
+epoch:  20
+[Epoch 21, Batch 10] loss: 0.165
+epoch:  21 val_f1:  0.7596459003010357 val_auroc:  0.8215513009327443 val_auprc:  0.9208115715665418
+EarlyStopping counter: 6 out of 50
+epoch:  21
+[Epoch 22, Batch 10] loss: 0.169
+epoch:  22 val_f1:  0.7697841726618705 val_auroc:  0.822287677957781 val_auprc:  0.9205463929625182
+EarlyStopping counter: 7 out of 50
+epoch:  22
+[Epoch 23, Batch 10] loss: 0.172
+epoch:  23 val_f1:  0.7770871369605723 val_auroc:  0.822287677957781 val_auprc:  0.9189140561145718
+EarlyStopping counter: 8 out of 50
+epoch:  23
+[Epoch 24, Batch 10] loss: 0.166
+epoch:  24 val_f1:  0.7643829551743221 val_auroc:  0.8178694158075602 val_auprc:  0.9164520885967458
+EarlyStopping counter: 9 out of 50
+epoch:  24
+[Epoch 25, Batch 10] loss: 0.166
+epoch:  25 val_f1:  0.7598715939807772 val_auroc:  0.8195876288659795 val_auprc:  0.9174643000059353
+EarlyStopping counter: 10 out of 50
+epoch:  25
+[Epoch 26, Batch 10] loss: 0.156
+epoch:  26 val_f1:  0.7770871369605723 val_auroc:  0.8213058419243987 val_auprc:  0.9178983114443927
+EarlyStopping counter: 11 out of 50
+epoch:  26
+[Epoch 27, Batch 10] loss: 0.152
+epoch:  27 val_f1:  0.7598715939807772 val_auroc:  0.8213058419243987 val_auprc:  0.9173168273970244
+EarlyStopping counter: 12 out of 50
+epoch:  27
+[Epoch 28, Batch 10] loss: 0.127
+epoch:  28 val_f1:  0.7809570525397864 val_auroc:  0.8210603829160531 val_auprc:  0.9180264522699367
+EarlyStopping counter: 13 out of 50
+epoch:  28
+[Epoch 29, Batch 10] loss: 0.142
+epoch:  29 val_f1:  0.7727225509205256 val_auroc:  0.8203240058910162 val_auprc:  0.917180632880014
+EarlyStopping counter: 14 out of 50
+epoch:  29
+[Epoch 30, Batch 10] loss: 0.122
+epoch:  30 val_f1:  0.7777125328082551 val_auroc:  0.821060382916053 val_auprc:  0.9179423135375518
+EarlyStopping counter: 15 out of 50
+epoch:  30
+[Epoch 31, Batch 10] loss: 0.118
+epoch:  31 val_f1:  0.7560320485424044 val_auroc:  0.8249877270495827 val_auprc:  0.9212048356707541
+EarlyStopping counter: 16 out of 50
+epoch:  31
+[Epoch 32, Batch 10] loss: 0.120
+epoch:  32 val_f1:  0.7617684906754855 val_auroc:  0.8217967599410898 val_auprc:  0.9179203051936178
+EarlyStopping counter: 17 out of 50
+epoch:  32
+[Epoch 33, Batch 10] loss: 0.101
+epoch:  33 val_f1:  0.7633550302615051 val_auroc:  0.8213058419243987 val_auprc:  0.9178702892317435
+EarlyStopping counter: 18 out of 50
+epoch:  33
+[Epoch 34, Batch 10] loss: 0.118
+epoch:  34 val_f1:  0.76000113614692 val_auroc:  0.822287677957781 val_auprc:  0.9159661862941602
+EarlyStopping counter: 19 out of 50
+epoch:  34
+[Epoch 35, Batch 10] loss: 0.103
+epoch:  35 val_f1:  0.7622262794246104 val_auroc:  0.8208149239077074 val_auprc:  0.9163374845144341
+EarlyStopping counter: 20 out of 50
+epoch:  35
+[Epoch 36, Batch 10] loss: 0.095
+epoch:  36 val_f1:  0.7685409504908388 val_auroc:  0.8163966617574865 val_auprc:  0.9139664533196323
+EarlyStopping counter: 21 out of 50
+epoch:  36
+[Epoch 37, Batch 10] loss: 0.091
+epoch:  37 val_f1:  0.787641731275174 val_auroc:  0.8186057928325969 val_auprc:  0.9140304851713892
+EarlyStopping counter: 22 out of 50
+epoch:  37
+[Epoch 38, Batch 10] loss: 0.092
+epoch:  38 val_f1:  0.787641731275174 val_auroc:  0.8161512027491409 val_auprc:  0.9114945870007001
+EarlyStopping counter: 23 out of 50
+epoch:  38
+[Epoch 39, Batch 10] loss: 0.087
+epoch:  39 val_f1:  0.7707245329923307 val_auroc:  0.8156602847324497 val_auprc:  0.9106284190587624
+EarlyStopping counter: 24 out of 50
+epoch:  39
+[Epoch 40, Batch 10] loss: 0.081
+epoch:  40 val_f1:  0.7643829551743221 val_auroc:  0.8171330387825233 val_auprc:  0.9115732386728206
+EarlyStopping counter: 25 out of 50
+epoch:  40
+[Epoch 41, Batch 10] loss: 0.071
+epoch:  41 val_f1:  0.7748796193569787 val_auroc:  0.8146784486990672 val_auprc:  0.9093854388220168
+EarlyStopping counter: 26 out of 50
+epoch:  41
+[Epoch 42, Batch 10] loss: 0.069
+epoch:  42 val_f1:  0.7685409504908388 val_auroc:  0.814923907707413 val_auprc:  0.9095176415787627
+EarlyStopping counter: 27 out of 50
+epoch:  42
+[Epoch 43, Batch 10] loss: 0.081
+epoch:  43 val_f1:  0.787641731275174 val_auroc:  0.8124693176239569 val_auprc:  0.9077412948093003
+EarlyStopping counter: 28 out of 50
+epoch:  43
+[Epoch 44, Batch 10] loss: 0.055
+epoch:  44 val_f1:  0.7727225509205256 val_auroc:  0.8141875306823759 val_auprc:  0.9085284592252997
+EarlyStopping counter: 29 out of 50
+epoch:  44
+[Epoch 45, Batch 10] loss: 0.065
+epoch:  45 val_f1:  0.7748796193569787 val_auroc:  0.8132056946489936 val_auprc:  0.9082324022755209
+EarlyStopping counter: 30 out of 50
+epoch:  45
+[Epoch 46, Batch 10] loss: 0.062
+epoch:  46 val_f1:  0.7748796193569787 val_auroc:  0.8136966126656849 val_auprc:  0.9075223223726989
+EarlyStopping counter: 31 out of 50
+epoch:  46
+[Epoch 47, Batch 10] loss: 0.054
+epoch:  47 val_f1:  0.7791090204759269 val_auroc:  0.8136966126656848 val_auprc:  0.9074628020647952
+EarlyStopping counter: 32 out of 50
+epoch:  47
+[Epoch 48, Batch 10] loss: 0.054
+epoch:  48 val_f1:  0.7643829551743221 val_auroc:  0.8141875306823761 val_auprc:  0.906940165853285
+EarlyStopping counter: 33 out of 50
+epoch:  48
+[Epoch 49, Batch 10] loss: 0.054
+epoch:  49 val_f1:  0.7834737923946559 val_auroc:  0.8112420225822289 val_auprc:  0.9059212628828207
+EarlyStopping counter: 34 out of 50
+epoch:  49
+[Epoch 50, Batch 10] loss: 0.053
+epoch:  50 val_f1:  0.7643829551743221 val_auroc:  0.8129602356406481 val_auprc:  0.906727159307106
+EarlyStopping counter: 35 out of 50
+epoch:  50
+[Epoch 51, Batch 10] loss: 0.050
+epoch:  51 val_f1:  0.7707245329923307 val_auroc:  0.8146784486990672 val_auprc:  0.9069820849102472
+EarlyStopping counter: 36 out of 50
+epoch:  51
+[Epoch 52, Batch 10] loss: 0.045
+epoch:  52 val_f1:  0.7770871369605723 val_auroc:  0.8134511536573392 val_auprc:  0.9070280692138601
+EarlyStopping counter: 37 out of 50
+epoch:  52
+[Epoch 53, Batch 10] loss: 0.045
+epoch:  53 val_f1:  0.7727225509205256 val_auroc:  0.8136966126656848 val_auprc:  0.9060822854204454
+EarlyStopping counter: 38 out of 50
+epoch:  53
+[Epoch 54, Batch 10] loss: 0.041
+epoch:  54 val_f1:  0.766354189375772 val_auroc:  0.8151693667157585 val_auprc:  0.9071698838277333
+EarlyStopping counter: 39 out of 50
+epoch:  54
+[Epoch 55, Batch 10] loss: 0.038
+epoch:  55 val_f1:  0.7898876447331801 val_auroc:  0.8122238586156112 val_auprc:  0.9047693202654916
+EarlyStopping counter: 40 out of 50
+epoch:  55
+[Epoch 56, Batch 10] loss: 0.038
+epoch:  56 val_f1:  0.7791090204759269 val_auroc:  0.8119783996072656 val_auprc:  0.9056984008146556
+EarlyStopping counter: 41 out of 50
+epoch:  56
+[Epoch 57, Batch 10] loss: 0.036
+epoch:  57 val_f1:  0.766354189375772 val_auroc:  0.8161512027491409 val_auprc:  0.9078390406819499
+EarlyStopping counter: 42 out of 50
+epoch:  57
+[Epoch 58, Batch 10] loss: 0.042
+epoch:  58 val_f1:  0.7770871369605723 val_auroc:  0.8119783996072656 val_auprc:  0.904397790160254
+EarlyStopping counter: 43 out of 50
+epoch:  58
+[Epoch 59, Batch 10] loss: 0.036
+epoch:  59 val_f1:  0.7707245329923307 val_auroc:  0.8107511045655376 val_auprc:  0.904225781122127
+EarlyStopping counter: 44 out of 50
+epoch:  59
+[Epoch 60, Batch 10] loss: 0.032
+epoch:  60 val_f1:  0.7727225509205256 val_auroc:  0.8114874815905744 val_auprc:  0.9044390120043607
+EarlyStopping counter: 45 out of 50
+epoch:  60
+[Epoch 61, Batch 10] loss: 0.030
+epoch:  61 val_f1:  0.7898876447331801 val_auroc:  0.8100147275405007 val_auprc:  0.903023016386913
+EarlyStopping counter: 46 out of 50
+epoch:  61
+[Epoch 62, Batch 10] loss: 0.028
+epoch:  62 val_f1:  0.766354189375772 val_auroc:  0.810505645557192 val_auprc:  0.9033581777269415
+EarlyStopping counter: 47 out of 50
+epoch:  62
+[Epoch 63, Batch 10] loss: 0.027
+epoch:  63 val_f1:  0.7963319688385609 val_auroc:  0.8075601374570447 val_auprc:  0.9009727229408778
+EarlyStopping counter: 48 out of 50
+epoch:  63
+[Epoch 64, Batch 10] loss: 0.026
+epoch:  64 val_f1:  0.7834737923946559 val_auroc:  0.8107511045655376 val_auprc:  0.9022002000579292
+EarlyStopping counter: 49 out of 50
+epoch:  64
+[Epoch 65, Batch 10] loss: 0.025
+epoch:  65 val_f1:  0.7963319688385609 val_auroc:  0.8087874324987727 val_auprc:  0.9011077328497236
+EarlyStopping counter: 50 out of 50
+Early stopping triggered
+Early stopping triggered!
+Time taken:  25.242300271987915
+{'time_elapsed': [25.242300271987915], 'epoch': [64], 'fold': [1], 'f1_train': [1.0], 'auroc_train': [1.0], 'auprc_train': [1.0], 'f1_test': [0.7963319688385609], 'auroc_test': [0.8087874324987727], 'auprc_test': [0.9011077328497236]}
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+TAPPredictor                             [32, 1]                   --
+├─Sequential: 1-1                        [32, 1]                   --
+│    └─Conv1d: 2-1                       [32, 128, 256]            768
+│    └─BatchNorm1d: 2-2                  [32, 128, 256]            256
+│    └─Tanh: 2-3                         [32, 128, 256]            --
+│    └─MaxPool1d: 2-4                    [32, 128, 51]             --
+│    └─Dropout: 2-5                      [32, 128, 51]             --
+│    └─Flatten: 2-6                      [32, 6528]                --
+│    └─Linear: 2-7                       [32, 1]                   6,529
+==========================================================================================
+Total params: 7,553
+Trainable params: 7,553
+Non-trainable params: 0
+Total mult-adds (M): 6.51
+==========================================================================================
+Input size (MB): 0.16
+Forward/backward pass size (MB): 16.78
+Params size (MB): 0.03
+Estimated Total Size (MB): 16.97
+==========================================================================================
+tensor(0.4369)
+epoch:  0
+[Epoch 1, Batch 10] loss: 0.698
+epoch:  1 val_f1:  0.15524886213478198 val_auroc:  0.6323024054982818 val_auprc:  0.8179743433790319
+epoch:  1
+[Epoch 2, Batch 10] loss: 0.402
+epoch:  2 val_f1:  0.6582002766728774 val_auroc:  0.6890034364261168 val_auprc:  0.8548057349768092
+Validation loss improved to 1.909862
+epoch:  2
+[Epoch 3, Batch 10] loss: 0.354
+epoch:  3 val_f1:  0.6818661781450172 val_auroc:  0.7098674521354934 val_auprc:  0.8659727923405285
+Validation loss improved to 1.846538
+epoch:  3
+[Epoch 4, Batch 10] loss: 0.317
+epoch:  4 val_f1:  0.6538912937446653 val_auroc:  0.7398134511536574 val_auprc:  0.8743187584536654
+Validation loss improved to 1.829949
+epoch:  4
+[Epoch 5, Batch 10] loss: 0.315
+epoch:  5 val_f1:  0.7223183251151889 val_auroc:  0.7523318605792833 val_auprc:  0.8750618396601201
+Validation loss improved to 1.784108
+epoch:  5
+[Epoch 6, Batch 10] loss: 0.300
+epoch:  6 val_f1:  0.7531731915989216 val_auroc:  0.759941089837997 val_auprc:  0.8783962616933638
+Validation loss improved to 1.769389
+epoch:  6
+[Epoch 7, Batch 10] loss: 0.287
+epoch:  7 val_f1:  0.7390688025474315 val_auroc:  0.7660775650466372 val_auprc:  0.8807308144991164
+Validation loss improved to 1.757229
+epoch:  7
+[Epoch 8, Batch 10] loss: 0.258
+epoch:  8 val_f1:  0.6459565936764723 val_auroc:  0.7525773195876289 val_auprc:  0.8703153393198559
+EarlyStopping counter: 1 out of 50
+epoch:  8
+[Epoch 9, Batch 10] loss: 0.260
+epoch:  9 val_f1:  0.7326256806616418 val_auroc:  0.7677957781050564 val_auprc:  0.8798530819202144
+Validation loss improved to 1.743371
+epoch:  9
+[Epoch 10, Batch 10] loss: 0.262
+epoch:  10 val_f1:  0.7505653177403916 val_auroc:  0.7756504663721158 val_auprc:  0.8838924148274074
+EarlyStopping counter: 1 out of 50
+epoch:  10
+[Epoch 11, Batch 10] loss: 0.237
+epoch:  11 val_f1:  0.6072781774580336 val_auroc:  0.7569955817378498 val_auprc:  0.8749829601695425
+EarlyStopping counter: 2 out of 50
+epoch:  11
+[Epoch 12, Batch 10] loss: 0.252
+epoch:  12 val_f1:  0.6963248678165901 val_auroc:  0.7619047619047619 val_auprc:  0.8756650824528625
+EarlyStopping counter: 3 out of 50
+epoch:  12
+[Epoch 13, Batch 10] loss: 0.233
+epoch:  13 val_f1:  0.6892815309975336 val_auroc:  0.7626411389297988 val_auprc:  0.876420975498295
+EarlyStopping counter: 4 out of 50
+epoch:  13
+[Epoch 14, Batch 10] loss: 0.226
+epoch:  14 val_f1:  0.7023865734042448 val_auroc:  0.7621502209131076 val_auprc:  0.8773452414678967
+EarlyStopping counter: 5 out of 50
+epoch:  14
+[Epoch 15, Batch 10] loss: 0.206
+epoch:  15 val_f1:  0.6963248678165901 val_auroc:  0.7653411880216004 val_auprc:  0.8814742361591302
+EarlyStopping counter: 6 out of 50
+epoch:  15
+[Epoch 16, Batch 10] loss: 0.224
+epoch:  16 val_f1:  0.7156947373800909 val_auroc:  0.766813942071674 val_auprc:  0.881777342661954
+EarlyStopping counter: 7 out of 50
+epoch:  16
+[Epoch 17, Batch 10] loss: 0.189
+epoch:  17 val_f1:  0.707673860911271 val_auroc:  0.7660775650466372 val_auprc:  0.8814466891991852
+EarlyStopping counter: 8 out of 50
+epoch:  17
+[Epoch 18, Batch 10] loss: 0.195
+epoch:  18 val_f1:  0.6825671929988476 val_auroc:  0.7550319096710849 val_auprc:  0.8766939725345921
+EarlyStopping counter: 9 out of 50
+epoch:  18
+[Epoch 19, Batch 10] loss: 0.198
+epoch:  19 val_f1:  0.703263898025454 val_auroc:  0.7663230240549829 val_auprc:  0.8818535999135741
+EarlyStopping counter: 10 out of 50
+epoch:  19
+[Epoch 20, Batch 10] loss: 0.172
+epoch:  20 val_f1:  0.7207289113763933 val_auroc:  0.7729504172803141 val_auprc:  0.8873056782290135
+EarlyStopping counter: 11 out of 50
+epoch:  20
+[Epoch 21, Batch 10] loss: 0.175
+epoch:  21 val_f1:  0.6998394924759714 val_auroc:  0.7707412862052038 val_auprc:  0.8845108659386336
+EarlyStopping counter: 12 out of 50
+epoch:  21
+[Epoch 22, Batch 10] loss: 0.168
+epoch:  22 val_f1:  0.7225455998837295 val_auroc:  0.7722140402552773 val_auprc:  0.8873058599268246
+EarlyStopping counter: 13 out of 50
+epoch:  22
+[Epoch 23, Batch 10] loss: 0.170
+epoch:  23 val_f1:  0.7363119073255568 val_auroc:  0.7638684339715267 val_auprc:  0.8836330583670002
+EarlyStopping counter: 14 out of 50
+epoch:  23
+[Epoch 24, Batch 10] loss: 0.161
+epoch:  24 val_f1:  0.708480907581627 val_auroc:  0.7722140402552774 val_auprc:  0.8878947009238403
+EarlyStopping counter: 15 out of 50
+epoch:  24
+[Epoch 25, Batch 10] loss: 0.172
+epoch:  25 val_f1:  0.7185533480648861 val_auroc:  0.7609229258713796 val_auprc:  0.8838996446966616
+EarlyStopping counter: 16 out of 50
+epoch:  25
+[Epoch 26, Batch 10] loss: 0.143
+epoch:  26 val_f1:  0.7040153975059064 val_auroc:  0.7611683848797252 val_auprc:  0.8831758921988906
+EarlyStopping counter: 17 out of 50
+epoch:  26
+[Epoch 27, Batch 10] loss: 0.139
+epoch:  27 val_f1:  0.6879576385879046 val_auroc:  0.7538046146293569 val_auprc:  0.8795247725162417
+EarlyStopping counter: 18 out of 50
+epoch:  27
+[Epoch 28, Batch 10] loss: 0.129
+epoch:  28 val_f1:  0.7163649790827238 val_auroc:  0.7582228767795778 val_auprc:  0.8822843465199202
+EarlyStopping counter: 19 out of 50
+epoch:  28
+[Epoch 29, Batch 10] loss: 0.131
+epoch:  29 val_f1:  0.7115566705387387 val_auroc:  0.7550319096710849 val_auprc:  0.8804236148024077
+EarlyStopping counter: 20 out of 50
+epoch:  29
+[Epoch 30, Batch 10] loss: 0.131
+epoch:  30 val_f1:  0.7078050864958872 val_auroc:  0.7577319587628866 val_auprc:  0.8827687248601642
+EarlyStopping counter: 21 out of 50
+epoch:  30
+[Epoch 31, Batch 10] loss: 0.127
+epoch:  31 val_f1:  0.7121336235283787 val_auroc:  0.7488954344624448 val_auprc:  0.8763296000014034
+EarlyStopping counter: 22 out of 50
+epoch:  31
+[Epoch 32, Batch 10] loss: 0.113
+epoch:  32 val_f1:  0.7346891520614657 val_auroc:  0.757486499754541 val_auprc:  0.8804988384644596
+EarlyStopping counter: 23 out of 50
+epoch:  32
+[Epoch 33, Batch 10] loss: 0.103
+epoch:  33 val_f1:  0.7054786939679025 val_auroc:  0.7498772704958271 val_auprc:  0.8765735269455333
+EarlyStopping counter: 24 out of 50
+epoch:  33
+[Epoch 34, Batch 10] loss: 0.104
+epoch:  34 val_f1:  0.7235944791518311 val_auroc:  0.7471772214040255 val_auprc:  0.8760247702456844
+EarlyStopping counter: 25 out of 50
+epoch:  34
+[Epoch 35, Batch 10] loss: 0.100
+epoch:  35 val_f1:  0.7058128438779214 val_auroc:  0.749386352479136 val_auprc:  0.877219670452265
+EarlyStopping counter: 26 out of 50
+epoch:  35
+[Epoch 36, Batch 10] loss: 0.093
+epoch:  36 val_f1:  0.7122302158273381 val_auroc:  0.7459499263622974 val_auprc:  0.8774675481701821
+EarlyStopping counter: 27 out of 50
+epoch:  36
+[Epoch 37, Batch 10] loss: 0.083
+epoch:  37 val_f1:  0.7184536707983012 val_auroc:  0.7454590083456062 val_auprc:  0.8758680533505636
+EarlyStopping counter: 28 out of 50
+epoch:  37
+[Epoch 38, Batch 10] loss: 0.079
+epoch:  38 val_f1:  0.7246795893300292 val_auroc:  0.7471772214040255 val_auprc:  0.8756010277289819
+EarlyStopping counter: 29 out of 50
+epoch:  38
+[Epoch 39, Batch 10] loss: 0.096
+epoch:  39 val_f1:  0.7202047592695074 val_auroc:  0.7488954344624448 val_auprc:  0.8774525303140015
+EarlyStopping counter: 30 out of 50
+epoch:  39
+[Epoch 40, Batch 10] loss: 0.078
+epoch:  40 val_f1:  0.7140703059967902 val_auroc:  0.742513500245459 val_auprc:  0.8729279200320033
+EarlyStopping counter: 31 out of 50
+epoch:  40
+[Epoch 41, Batch 10] loss: 0.073
+epoch:  41 val_f1:  0.7040153975059064 val_auroc:  0.7447226313205695 val_auprc:  0.8753227638573454
+EarlyStopping counter: 32 out of 50
+epoch:  41
+[Epoch 42, Batch 10] loss: 0.072
+epoch:  42 val_f1:  0.702782849280763 val_auroc:  0.7407952871870398 val_auprc:  0.8715786790845088
+EarlyStopping counter: 33 out of 50
+epoch:  42
+[Epoch 43, Batch 10] loss: 0.069
+epoch:  43 val_f1:  0.7176437068167247 val_auroc:  0.7488954344624448 val_auprc:  0.877374804616865
+EarlyStopping counter: 34 out of 50
+epoch:  43
+[Epoch 44, Batch 10] loss: 0.057
+epoch:  44 val_f1:  0.7287333672277241 val_auroc:  0.7415316642120766 val_auprc:  0.8699836458392769
+EarlyStopping counter: 35 out of 50
+epoch:  44
+[Epoch 45, Batch 10] loss: 0.063
+epoch:  45 val_f1:  0.7246795893300292 val_auroc:  0.7427589592538045 val_auprc:  0.8724549717703209
+EarlyStopping counter: 36 out of 50
+epoch:  45
+[Epoch 46, Batch 10] loss: 0.060
+epoch:  46 val_f1:  0.7040153975059064 val_auroc:  0.740058910162003 val_auprc:  0.8711736760934492
+EarlyStopping counter: 37 out of 50
+epoch:  46
+[Epoch 47, Batch 10] loss: 0.059
+epoch:  47 val_f1:  0.7018195933946583 val_auroc:  0.7341678939617083 val_auprc:  0.8679637874935786
+EarlyStopping counter: 38 out of 50
+epoch:  47
+[Epoch 48, Batch 10] loss: 0.052
+epoch:  48 val_f1:  0.7040153975059064 val_auroc:  0.7353951890034365 val_auprc:  0.8660093468538098
+EarlyStopping counter: 39 out of 50
+epoch:  48
+[Epoch 49, Batch 10] loss: 0.052
+epoch:  49 val_f1:  0.7140775751491829 val_auroc:  0.7376043200785468 val_auprc:  0.8683171937321006
+EarlyStopping counter: 40 out of 50
+epoch:  49
+[Epoch 50, Batch 10] loss: 0.050
+epoch:  50 val_f1:  0.7101890414000308 val_auroc:  0.7304860088365243 val_auprc:  0.8631659273991819
+EarlyStopping counter: 41 out of 50
+epoch:  50
+[Epoch 51, Batch 10] loss: 0.051
+epoch:  51 val_f1:  0.7176437068167247 val_auroc:  0.7329405989199804 val_auprc:  0.8654228998957352
+EarlyStopping counter: 42 out of 50
+epoch:  51
+[Epoch 52, Batch 10] loss: 0.046
+epoch:  52 val_f1:  0.7176437068167247 val_auroc:  0.7312223858615612 val_auprc:  0.8636618799921794
+EarlyStopping counter: 43 out of 50
+epoch:  52
+[Epoch 53, Batch 10] loss: 0.042
+epoch:  53 val_f1:  0.722058496910722 val_auroc:  0.7285223367697594 val_auprc:  0.8608534019496787
+EarlyStopping counter: 44 out of 50
+epoch:  53
+[Epoch 54, Batch 10] loss: 0.041
+epoch:  54 val_f1:  0.7328919440906961 val_auroc:  0.7361315660284732 val_auprc:  0.86641995603729
+EarlyStopping counter: 45 out of 50
+epoch:  54
+[Epoch 55, Batch 10] loss: 0.038
+epoch:  55 val_f1:  0.7088095828755714 val_auroc:  0.7329405989199803 val_auprc:  0.8633527944293318
+EarlyStopping counter: 46 out of 50
+epoch:  55
+[Epoch 56, Batch 10] loss: 0.039
+epoch:  56 val_f1:  0.7266187050359713 val_auroc:  0.7329405989199803 val_auprc:  0.862931963598935
+EarlyStopping counter: 47 out of 50
+epoch:  56
+[Epoch 57, Batch 10] loss: 0.034
+epoch:  57 val_f1:  0.7108600244444511 val_auroc:  0.726313205694649 val_auprc:  0.8591910780332778
+EarlyStopping counter: 48 out of 50
+epoch:  57
+[Epoch 58, Batch 10] loss: 0.032
+epoch:  58 val_f1:  0.7225455998837295 val_auroc:  0.7255768286696122 val_auprc:  0.8599870507647827
+EarlyStopping counter: 49 out of 50
+epoch:  58
+[Epoch 59, Batch 10] loss: 0.035
+epoch:  59 val_f1:  0.7266187050359713 val_auroc:  0.7248404516445753 val_auprc:  0.8578059028841234
+EarlyStopping counter: 50 out of 50
+Early stopping triggered
+Early stopping triggered!
+Time taken:  22.14582586288452
+{'time_elapsed': [22.14582586288452], 'epoch': [58], 'fold': [2], 'f1_train': [0.9981996872393208], 'auroc_train': [1.0], 'auprc_train': [1.0], 'f1_test': [0.7266187050359713], 'auroc_test': [0.7248404516445753], 'auprc_test': [0.8578059028841234]}
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+TAPPredictor                             [32, 1]                   --
+├─Sequential: 1-1                        [32, 1]                   --
+│    └─Conv1d: 2-1                       [32, 128, 256]            768
+│    └─BatchNorm1d: 2-2                  [32, 128, 256]            256
+│    └─Tanh: 2-3                         [32, 128, 256]            --
+│    └─MaxPool1d: 2-4                    [32, 128, 51]             --
+│    └─Dropout: 2-5                      [32, 128, 51]             --
+│    └─Flatten: 2-6                      [32, 6528]                --
+│    └─Linear: 2-7                       [32, 1]                   6,529
+==========================================================================================
+Total params: 7,553
+Trainable params: 7,553
+Non-trainable params: 0
+Total mult-adds (M): 6.51
+==========================================================================================
+Input size (MB): 0.16
+Forward/backward pass size (MB): 16.78
+Params size (MB): 0.03
+Estimated Total Size (MB): 16.97
+==========================================================================================
+tensor(0.4369)
+epoch:  0
+[Epoch 1, Batch 10] loss: 0.535
+epoch:  1 val_f1:  0.7117547377111254 val_auroc:  0.7265019379844962 val_auprc:  0.8664385645687978
+epoch:  1
+[Epoch 2, Batch 10] loss: 0.363
+epoch:  2 val_f1:  0.7246755690478133 val_auroc:  0.7940891472868217 val_auprc:  0.9097531258489933
+Validation loss improved to 1.750240
+epoch:  2
+[Epoch 3, Batch 10] loss: 0.358
+epoch:  3 val_f1:  0.7440073473136385 val_auroc:  0.8180717054263567 val_auprc:  0.9194557030800861
+Validation loss improved to 1.677036
+epoch:  3
+[Epoch 4, Batch 10] loss: 0.333
+epoch:  4 val_f1:  0.7303789068797073 val_auroc:  0.8214631782945737 val_auprc:  0.9183690361278429
+Validation loss improved to 1.624787
+epoch:  4
+[Epoch 5, Batch 10] loss: 0.298
+epoch:  5 val_f1:  0.7644817479349855 val_auroc:  0.8444767441860465 val_auprc:  0.9314476839352098
+Validation loss improved to 1.526864
+epoch:  5
+[Epoch 6, Batch 10] loss: 0.295
+epoch:  6 val_f1:  0.7774211400110681 val_auroc:  0.8478682170542636 val_auprc:  0.9306616924886021
+EarlyStopping counter: 1 out of 50
+epoch:  6
+[Epoch 7, Batch 10] loss: 0.300
+epoch:  7 val_f1:  0.7875752415552048 val_auroc:  0.8524709302325583 val_auprc:  0.9327048481850038
+Validation loss improved to 1.520283
+epoch:  7
+[Epoch 8, Batch 10] loss: 0.263
+epoch:  8 val_f1:  0.7773759601944114 val_auroc:  0.8505329457364342 val_auprc:  0.9331078424928008
+Validation loss improved to 1.416199
+epoch:  8
+[Epoch 9, Batch 10] loss: 0.259
+epoch:  9 val_f1:  0.7828470720035011 val_auroc:  0.8548934108527132 val_auprc:  0.9356186545495763
+Validation loss improved to 1.404258
+epoch:  9
+[Epoch 10, Batch 10] loss: 0.257
+epoch:  10 val_f1:  0.776244301724119 val_auroc:  0.8578003875968992 val_auprc:  0.937104769234487
+EarlyStopping counter: 1 out of 50
+epoch:  10
+[Epoch 11, Batch 10] loss: 0.244
+epoch:  11 val_f1:  0.7773759601944114 val_auroc:  0.8611918604651162 val_auprc:  0.942864866791751
+Validation loss improved to 1.346491
+epoch:  11
+[Epoch 12, Batch 10] loss: 0.238
+epoch:  12 val_f1:  0.8008946034661633 val_auroc:  0.8650678294573644 val_auprc:  0.9428983964159403
+EarlyStopping counter: 1 out of 50
+epoch:  12
+[Epoch 13, Batch 10] loss: 0.224
+epoch:  13 val_f1:  0.7491808234085 val_auroc:  0.8645833333333334 val_auprc:  0.9409103628461547
+EarlyStopping counter: 2 out of 50
+epoch:  13
+[Epoch 14, Batch 10] loss: 0.222
+epoch:  14 val_f1:  0.7695564219015847 val_auroc:  0.8672480620155038 val_auprc:  0.9442935240198572
+Validation loss improved to 1.308566
+epoch:  14
+[Epoch 15, Batch 10] loss: 0.189
+epoch:  15 val_f1:  0.8018807955038493 val_auroc:  0.8640988372093024 val_auprc:  0.9433390032443932
+EarlyStopping counter: 1 out of 50
+epoch:  15
+[Epoch 16, Batch 10] loss: 0.198
+epoch:  16 val_f1:  0.8063632502555458 val_auroc:  0.868217054263566 val_auprc:  0.9454871299120606
+EarlyStopping counter: 2 out of 50
+epoch:  16
+[Epoch 17, Batch 10] loss: 0.176
+epoch:  17 val_f1:  0.7768458491633659 val_auroc:  0.8706395348837209 val_auprc:  0.9473978462859889
+Validation loss improved to 1.281628
+epoch:  17
+[Epoch 18, Batch 10] loss: 0.191
+epoch:  18 val_f1:  0.7841726618705036 val_auroc:  0.872577519379845 val_auprc:  0.9469801743801136
+EarlyStopping counter: 1 out of 50
+epoch:  18
+[Epoch 19, Batch 10] loss: 0.187
+epoch:  19 val_f1:  0.783844953500274 val_auroc:  0.8752422480620156 val_auprc:  0.9473443148757328
+EarlyStopping counter: 2 out of 50
+epoch:  19
+[Epoch 20, Batch 10] loss: 0.165
+epoch:  20 val_f1:  0.7768458491633659 val_auroc:  0.8689437984496123 val_auprc:  0.9472943769061974
+EarlyStopping counter: 3 out of 50
+epoch:  20
+[Epoch 21, Batch 10] loss: 0.177
+epoch:  21 val_f1:  0.776244301724119 val_auroc:  0.8733042635658914 val_auprc:  0.9468077031921003
+EarlyStopping counter: 4 out of 50
+epoch:  21
+[Epoch 22, Batch 10] loss: 0.165
+epoch:  22 val_f1:  0.7768458491633659 val_auroc:  0.8682170542635658 val_auprc:  0.9473862231271039
+Validation loss improved to 1.275161
+epoch:  22
+[Epoch 23, Batch 10] loss: 0.164
+epoch:  23 val_f1:  0.7845506341112962 val_auroc:  0.869186046511628 val_auprc:  0.947086620084915
+EarlyStopping counter: 1 out of 50
+epoch:  23
+[Epoch 24, Batch 10] loss: 0.152
+epoch:  24 val_f1:  0.776244301724119 val_auroc:  0.8737887596899224 val_auprc:  0.9478386875141592
+EarlyStopping counter: 2 out of 50
+epoch:  24
+[Epoch 25, Batch 10] loss: 0.151
+epoch:  25 val_f1:  0.7906801532257888 val_auroc:  0.8706395348837209 val_auprc:  0.9477520813165393
+EarlyStopping counter: 3 out of 50
+epoch:  25
+[Epoch 26, Batch 10] loss: 0.126
+epoch:  26 val_f1:  0.7827158008497472 val_auroc:  0.8759689922480621 val_auprc:  0.9482575727781088
+EarlyStopping counter: 4 out of 50
+epoch:  26
+[Epoch 27, Batch 10] loss: 0.142
+epoch:  27 val_f1:  0.7841726618705036 val_auroc:  0.8776647286821705 val_auprc:  0.9505942389564933
+EarlyStopping counter: 5 out of 50
+epoch:  27
+[Epoch 28, Batch 10] loss: 0.138
+epoch:  28 val_f1:  0.792019787311512 val_auroc:  0.8747577519379844 val_auprc:  0.9494142158685751
+EarlyStopping counter: 6 out of 50
+epoch:  28
+[Epoch 29, Batch 10] loss: 0.119
+epoch:  29 val_f1:  0.7735780520043992 val_auroc:  0.8716085271317829 val_auprc:  0.9484376359448995
+EarlyStopping counter: 7 out of 50
+epoch:  29
+[Epoch 30, Batch 10] loss: 0.110
+epoch:  30 val_f1:  0.7985611510791367 val_auroc:  0.8769379844961241 val_auprc:  0.9500516464351095
+EarlyStopping counter: 8 out of 50
+epoch:  30
+[Epoch 31, Batch 10] loss: 0.112
+epoch:  31 val_f1:  0.792019787311512 val_auroc:  0.8762112403100776 val_auprc:  0.9497451776158925
+EarlyStopping counter: 9 out of 50
+epoch:  31
+[Epoch 32, Batch 10] loss: 0.090
+epoch:  32 val_f1:  0.7932273763653603 val_auroc:  0.8788759689922482 val_auprc:  0.9510339176363539
+EarlyStopping counter: 10 out of 50
+epoch:  32
+[Epoch 33, Batch 10] loss: 0.089
+epoch:  33 val_f1:  0.7854893118997625 val_auroc:  0.8730620155038759 val_auprc:  0.9485844001518251
+EarlyStopping counter: 11 out of 50
+epoch:  33
+[Epoch 34, Batch 10] loss: 0.089
+epoch:  34 val_f1:  0.7906801532257888 val_auroc:  0.8762112403100775 val_auprc:  0.9496901718624674
+EarlyStopping counter: 12 out of 50
+epoch:  34
+[Epoch 35, Batch 10] loss: 0.090
+epoch:  35 val_f1:  0.7827158008497472 val_auroc:  0.873546511627907 val_auprc:  0.9483854137070262
+EarlyStopping counter: 13 out of 50
+epoch:  35
+[Epoch 36, Batch 10] loss: 0.077
+epoch:  36 val_f1:  0.7697841726618705 val_auroc:  0.8723352713178295 val_auprc:  0.9485108523548
+EarlyStopping counter: 14 out of 50
+epoch:  36
+[Epoch 37, Batch 10] loss: 0.074
+epoch:  37 val_f1:  0.7827158008497472 val_auroc:  0.8757267441860466 val_auprc:  0.9496860516187899
+EarlyStopping counter: 15 out of 50
+epoch:  37
+[Epoch 38, Batch 10] loss: 0.078
+epoch:  38 val_f1:  0.7940592980161325 val_auroc:  0.8752422480620154 val_auprc:  0.9494558924525263
+EarlyStopping counter: 16 out of 50
+epoch:  38
+[Epoch 39, Batch 10] loss: 0.068
+epoch:  39 val_f1:  0.794309372388086 val_auroc:  0.8752422480620156 val_auprc:  0.9501083988138677
+EarlyStopping counter: 17 out of 50
+epoch:  39
+[Epoch 40, Batch 10] loss: 0.064
+epoch:  40 val_f1:  0.7841726618705036 val_auroc:  0.876453488372093 val_auprc:  0.9499839431975684
+EarlyStopping counter: 18 out of 50
+epoch:  40
+[Epoch 41, Batch 10] loss: 0.066
+epoch:  41 val_f1:  0.7892012988311853 val_auroc:  0.8740310077519381 val_auprc:  0.9495440923988158
+EarlyStopping counter: 19 out of 50
+epoch:  41
+[Epoch 42, Batch 10] loss: 0.057
+epoch:  42 val_f1:  0.7854893118997625 val_auroc:  0.8723352713178295 val_auprc:  0.9487759449025577
+EarlyStopping counter: 20 out of 50
+epoch:  42
+[Epoch 43, Batch 10] loss: 0.062
+epoch:  43 val_f1:  0.7841726618705036 val_auroc:  0.8730620155038759 val_auprc:  0.9484942472472891
+EarlyStopping counter: 21 out of 50
+epoch:  43
+[Epoch 44, Batch 10] loss: 0.054
+epoch:  44 val_f1:  0.7972014141264308 val_auroc:  0.873546511627907 val_auprc:  0.9494220629524867
+EarlyStopping counter: 22 out of 50
+epoch:  44
+[Epoch 45, Batch 10] loss: 0.047
+epoch:  45 val_f1:  0.7906801532257888 val_auroc:  0.871608527131783 val_auprc:  0.9481746624425043
+EarlyStopping counter: 23 out of 50
+epoch:  45
+[Epoch 46, Batch 10] loss: 0.049
+epoch:  46 val_f1:  0.7827158008497472 val_auroc:  0.875 val_auprc:  0.9498500747291239
+EarlyStopping counter: 24 out of 50
+epoch:  46
+[Epoch 47, Batch 10] loss: 0.048
+epoch:  47 val_f1:  0.7841726618705036 val_auroc:  0.873546511627907 val_auprc:  0.9490450908274084
+EarlyStopping counter: 25 out of 50
+epoch:  47
+[Epoch 48, Batch 10] loss: 0.045
+epoch:  48 val_f1:  0.7957035068809065 val_auroc:  0.8757267441860465 val_auprc:  0.9500253393163159
+EarlyStopping counter: 26 out of 50
+epoch:  48
+[Epoch 49, Batch 10] loss: 0.042
+epoch:  49 val_f1:  0.7711885993597467 val_auroc:  0.8728197674418605 val_auprc:  0.9491766176418769
+EarlyStopping counter: 27 out of 50
+epoch:  49
+[Epoch 50, Batch 10] loss: 0.043
+epoch:  50 val_f1:  0.7932273763653603 val_auroc:  0.8747577519379846 val_auprc:  0.9493730282782028
+EarlyStopping counter: 28 out of 50
+epoch:  50
+[Epoch 51, Batch 10] loss: 0.041
+epoch:  51 val_f1:  0.8093907785715628 val_auroc:  0.8747577519379844 val_auprc:  0.9499202810231211
+EarlyStopping counter: 29 out of 50
+epoch:  51
+[Epoch 52, Batch 10] loss: 0.039
+epoch:  52 val_f1:  0.7789671954250403 val_auroc:  0.8749999999999999 val_auprc:  0.9498520082906015
+EarlyStopping counter: 30 out of 50
+epoch:  52
+[Epoch 53, Batch 10] loss: 0.033
+epoch:  53 val_f1:  0.7972014141264308 val_auroc:  0.873062015503876 val_auprc:  0.9485900788057641
+EarlyStopping counter: 31 out of 50
+epoch:  53
+[Epoch 54, Batch 10] loss: 0.033
+epoch:  54 val_f1:  0.7854893118997625 val_auroc:  0.8723352713178295 val_auprc:  0.9486614979345757
+EarlyStopping counter: 32 out of 50
+epoch:  54
+[Epoch 55, Batch 10] loss: 0.028
+epoch:  55 val_f1:  0.8051160047274586 val_auroc:  0.8728197674418604 val_auprc:  0.9490927010530222
+EarlyStopping counter: 33 out of 50
+epoch:  55
+[Epoch 56, Batch 10] loss: 0.029
+epoch:  56 val_f1:  0.7940592980161325 val_auroc:  0.8757267441860465 val_auprc:  0.9496867717841286
+EarlyStopping counter: 34 out of 50
+epoch:  56
+[Epoch 57, Batch 10] loss: 0.034
+epoch:  57 val_f1:  0.8037391402911035 val_auroc:  0.8747577519379844 val_auprc:  0.9496876315806935
+EarlyStopping counter: 35 out of 50
+epoch:  57
+[Epoch 58, Batch 10] loss: 0.027
+epoch:  58 val_f1:  0.8051160047274586 val_auroc:  0.8742732558139534 val_auprc:  0.9496994301438582
+EarlyStopping counter: 36 out of 50
+epoch:  58
+[Epoch 59, Batch 10] loss: 0.026
+epoch:  59 val_f1:  0.792019787311512 val_auroc:  0.874515503875969 val_auprc:  0.949783016208783
+EarlyStopping counter: 37 out of 50
+epoch:  59
+[Epoch 60, Batch 10] loss: 0.028
+epoch:  60 val_f1:  0.8051160047274586 val_auroc:  0.8728197674418604 val_auprc:  0.9488731157385217
+EarlyStopping counter: 38 out of 50
+epoch:  60
+[Epoch 61, Batch 10] loss: 0.027
+epoch:  61 val_f1:  0.8051160047274586 val_auroc:  0.8747577519379846 val_auprc:  0.9496813746976895
+EarlyStopping counter: 39 out of 50
+epoch:  61
+[Epoch 62, Batch 10] loss: 0.023
+epoch:  62 val_f1:  0.8051160047274586 val_auroc:  0.8730620155038759 val_auprc:  0.9490271591862554
+EarlyStopping counter: 40 out of 50
+epoch:  62
+[Epoch 63, Batch 10] loss: 0.021
+epoch:  63 val_f1:  0.7985611510791367 val_auroc:  0.8723352713178293 val_auprc:  0.9487180607491128
+EarlyStopping counter: 41 out of 50
+epoch:  63
+[Epoch 64, Batch 10] loss: 0.022
+epoch:  64 val_f1:  0.8051160047274586 val_auroc:  0.8733042635658915 val_auprc:  0.9488997430750233
+EarlyStopping counter: 42 out of 50
+epoch:  64
+[Epoch 65, Batch 10] loss: 0.020
+epoch:  65 val_f1:  0.7892012988311853 val_auroc:  0.874515503875969 val_auprc:  0.9493786758628111
+EarlyStopping counter: 43 out of 50
+epoch:  65
+[Epoch 66, Batch 10] loss: 0.021
+epoch:  66 val_f1:  0.8051160047274586 val_auroc:  0.8747577519379846 val_auprc:  0.9495661810432316
+EarlyStopping counter: 44 out of 50
+epoch:  66
+[Epoch 67, Batch 10] loss: 0.019
+epoch:  67 val_f1:  0.8116870274031143 val_auroc:  0.8750000000000001 val_auprc:  0.9497008820240836
+EarlyStopping counter: 45 out of 50
+epoch:  67
+[Epoch 68, Batch 10] loss: 0.020
+epoch:  68 val_f1:  0.7940592980161325 val_auroc:  0.875484496124031 val_auprc:  0.9499796249544041
+EarlyStopping counter: 46 out of 50
+epoch:  68
+[Epoch 69, Batch 10] loss: 0.017
+epoch:  69 val_f1:  0.7972014141264308 val_auroc:  0.8757267441860465 val_auprc:  0.9503776890301918
+EarlyStopping counter: 47 out of 50
+epoch:  69
+[Epoch 70, Batch 10] loss: 0.016
+epoch:  70 val_f1:  0.8037391402911035 val_auroc:  0.875484496124031 val_auprc:  0.9500150191138782
+EarlyStopping counter: 48 out of 50
+epoch:  70
+[Epoch 71, Batch 10] loss: 0.016
+epoch:  71 val_f1:  0.8051160047274586 val_auroc:  0.8757267441860465 val_auprc:  0.950162231696614
+EarlyStopping counter: 49 out of 50
+epoch:  71
+[Epoch 72, Batch 10] loss: 0.015
+epoch:  72 val_f1:  0.8051160047274586 val_auroc:  0.8759689922480621 val_auprc:  0.9501830649299816
+EarlyStopping counter: 50 out of 50
+Early stopping triggered
+Early stopping triggered!
+Time taken:  27.97335147857666
+{'time_elapsed': [27.97335147857666], 'epoch': [71], 'fold': [3], 'f1_train': [1.0], 'auroc_train': [1.0], 'auprc_train': [1.0], 'f1_test': [0.8051160047274586], 'auroc_test': [0.8759689922480621], 'auprc_test': [0.9501830649299816]}
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+TAPPredictor                             [32, 1]                   --
+├─Sequential: 1-1                        [32, 1]                   --
+│    └─Conv1d: 2-1                       [32, 128, 256]            768
+│    └─BatchNorm1d: 2-2                  [32, 128, 256]            256
+│    └─Tanh: 2-3                         [32, 128, 256]            --
+│    └─MaxPool1d: 2-4                    [32, 128, 51]             --
+│    └─Dropout: 2-5                      [32, 128, 51]             --
+│    └─Flatten: 2-6                      [32, 6528]                --
+│    └─Linear: 2-7                       [32, 1]                   6,529
+==========================================================================================
+Total params: 7,553
+Trainable params: 7,553
+Non-trainable params: 0
+Total mult-adds (M): 6.51
+==========================================================================================
+Input size (MB): 0.16
+Forward/backward pass size (MB): 16.78
+Params size (MB): 0.03
+Estimated Total Size (MB): 16.97
+==========================================================================================
+tensor(0.4369)
+epoch:  0
+[Epoch 1, Batch 10] loss: 0.551
+epoch:  1 val_f1:  0.5768115942028985 val_auroc:  0.6924603174603176 val_auprc:  0.848585505660963
+epoch:  1
+[Epoch 2, Batch 10] loss: 0.377
+epoch:  2 val_f1:  0.6208894080747627 val_auroc:  0.818204365079365 val_auprc:  0.9127016132374302
+Validation loss improved to 1.819464
+epoch:  2
+[Epoch 3, Batch 10] loss: 0.382
+epoch:  3 val_f1:  0.7688528617047408 val_auroc:  0.8288690476190477 val_auprc:  0.9172600551336656
+Validation loss improved to 1.692623
+epoch:  3
+[Epoch 4, Batch 10] loss: 0.328
+epoch:  4 val_f1:  0.7797523275784146 val_auroc:  0.8519345238095238 val_auprc:  0.9303226396321365
+Validation loss improved to 1.639467
+epoch:  4
+[Epoch 5, Batch 10] loss: 0.321
+epoch:  5 val_f1:  0.7274504373890237 val_auroc:  0.8638392857142857 val_auprc:  0.9365552987737289
+Validation loss improved to 1.564516
+epoch:  5
+[Epoch 6, Batch 10] loss: 0.309
+epoch:  6 val_f1:  0.7839990466164816 val_auroc:  0.8623511904761906 val_auprc:  0.9350643192917031
+EarlyStopping counter: 1 out of 50
+epoch:  6
+[Epoch 7, Batch 10] loss: 0.299
+epoch:  7 val_f1:  0.7895875497243353 val_auroc:  0.8737599206349207 val_auprc:  0.9389148466884574
+Validation loss improved to 1.449709
+epoch:  7
+[Epoch 8, Batch 10] loss: 0.258
+epoch:  8 val_f1:  0.7971014492753623 val_auroc:  0.8725198412698413 val_auprc:  0.939476468811792
+EarlyStopping counter: 1 out of 50
+epoch:  8
+[Epoch 9, Batch 10] loss: 0.263
+epoch:  9 val_f1:  0.7929485957015485 val_auroc:  0.875 val_auprc:  0.9400496541023683
+Validation loss improved to 1.419542
+epoch:  9
+[Epoch 10, Batch 10] loss: 0.259
+epoch:  10 val_f1:  0.7884143290944841 val_auroc:  0.871279761904762 val_auprc:  0.9379467187521989
+EarlyStopping counter: 1 out of 50
+epoch:  10
+[Epoch 11, Batch 10] loss: 0.251
+epoch:  11 val_f1:  0.8081713820844254 val_auroc:  0.8799603174603174 val_auprc:  0.9438494224004638
+Validation loss improved to 1.369847
+epoch:  11
+[Epoch 12, Batch 10] loss: 0.246
+epoch:  12 val_f1:  0.7929485957015485 val_auroc:  0.8804563492063493 val_auprc:  0.9436646744270347
+Validation loss improved to 1.357399
+epoch:  12
+[Epoch 13, Batch 10] loss: 0.238
+epoch:  13 val_f1:  0.8081713820844254 val_auroc:  0.8816964285714285 val_auprc:  0.9448999558649076
+Validation loss improved to 1.342820
+epoch:  13
+[Epoch 14, Batch 10] loss: 0.217
+epoch:  14 val_f1:  0.7901185770750988 val_auroc:  0.8831845238095238 val_auprc:  0.9460047493868622
+Validation loss improved to 1.297646
+epoch:  14
+[Epoch 15, Batch 10] loss: 0.214
+epoch:  15 val_f1:  0.7976976212494236 val_auroc:  0.8834325396825397 val_auprc:  0.9457288352658848
+Validation loss improved to 1.285220
+epoch:  15
+[Epoch 16, Batch 10] loss: 0.201
+epoch:  16 val_f1:  0.7973334973248877 val_auroc:  0.8841765873015873 val_auprc:  0.9449722626197409
+Validation loss improved to 1.275944
+epoch:  16
+[Epoch 17, Batch 10] loss: 0.184
+epoch:  17 val_f1:  0.7973334973248877 val_auroc:  0.886904761904762 val_auprc:  0.9459451108685311
+Validation loss improved to 1.259771
+epoch:  17
+[Epoch 18, Batch 10] loss: 0.190
+epoch:  18 val_f1:  0.8113104975093783 val_auroc:  0.8876488095238095 val_auprc:  0.9467111432337131
+Validation loss improved to 1.252797
+epoch:  18
+[Epoch 19, Batch 10] loss: 0.170
+epoch:  19 val_f1:  0.804509509950907 val_auroc:  0.8874007936507936 val_auprc:  0.9462610911401677
+EarlyStopping counter: 1 out of 50
+epoch:  19
+[Epoch 20, Batch 10] loss: 0.170
+epoch:  20 val_f1:  0.7815416513900654 val_auroc:  0.8836805555555555 val_auprc:  0.9461970950098175
+EarlyStopping counter: 2 out of 50
+epoch:  20
+[Epoch 21, Batch 10] loss: 0.171
+epoch:  21 val_f1:  0.807228002894545 val_auroc:  0.8816964285714287 val_auprc:  0.94420222006093
+EarlyStopping counter: 3 out of 50
+epoch:  21
+[Epoch 22, Batch 10] loss: 0.159
+epoch:  22 val_f1:  0.79396185483142 val_auroc:  0.8844246031746031 val_auprc:  0.9449903175398201
+EarlyStopping counter: 4 out of 50
+epoch:  22
+[Epoch 23, Batch 10] loss: 0.155
+epoch:  23 val_f1:  0.8049865427618805 val_auroc:  0.8797123015873016 val_auprc:  0.9436020057322174
+EarlyStopping counter: 5 out of 50
+epoch:  23
+[Epoch 24, Batch 10] loss: 0.161
+epoch:  24 val_f1:  0.8115942028985508 val_auroc:  0.883184523809524 val_auprc:  0.9450488069229364
+EarlyStopping counter: 6 out of 50
+epoch:  24
+[Epoch 25, Batch 10] loss: 0.153
+epoch:  25 val_f1:  0.8005921770297647 val_auroc:  0.8864087301587302 val_auprc:  0.9470411232589012
+EarlyStopping counter: 7 out of 50
+epoch:  25
+[Epoch 26, Batch 10] loss: 0.139
+epoch:  26 val_f1:  0.8005921770297647 val_auroc:  0.8871527777777778 val_auprc:  0.9474018027849753
+EarlyStopping counter: 8 out of 50
+epoch:  26
+[Epoch 27, Batch 10] loss: 0.130
+epoch:  27 val_f1:  0.8154066640778435 val_auroc:  0.8849206349206348 val_auprc:  0.9462532541254339
+EarlyStopping counter: 9 out of 50
+epoch:  27
+[Epoch 28, Batch 10] loss: 0.129
+epoch:  28 val_f1:  0.8215074100875418 val_auroc:  0.8896329365079366 val_auprc:  0.9484850759014974
+EarlyStopping counter: 10 out of 50
+epoch:  28
+[Epoch 29, Batch 10] loss: 0.124
+epoch:  29 val_f1:  0.8090037477295196 val_auroc:  0.8883928571428572 val_auprc:  0.9481816322676766
+EarlyStopping counter: 11 out of 50
+epoch:  29
+[Epoch 30, Batch 10] loss: 0.118
+epoch:  30 val_f1:  0.7949078298424175 val_auroc:  0.8861607142857143 val_auprc:  0.9463241617221674
+EarlyStopping counter: 12 out of 50
+epoch:  30
+[Epoch 31, Batch 10] loss: 0.121
+epoch:  31 val_f1:  0.8235137533274179 val_auroc:  0.888640873015873 val_auprc:  0.9477880125845903
+EarlyStopping counter: 13 out of 50
+epoch:  31
+[Epoch 32, Batch 10] loss: 0.118
+epoch:  32 val_f1:  0.8168793096329329 val_auroc:  0.8928571428571429 val_auprc:  0.9498676950701126
+EarlyStopping counter: 14 out of 50
+epoch:  32
+[Epoch 33, Batch 10] loss: 0.099
+epoch:  33 val_f1:  0.8182185828242006 val_auroc:  0.888640873015873 val_auprc:  0.947413860944628
+EarlyStopping counter: 15 out of 50
+epoch:  33
+[Epoch 34, Batch 10] loss: 0.096
+epoch:  34 val_f1:  0.8115942028985508 val_auroc:  0.8883928571428572 val_auprc:  0.9474819468715912
+EarlyStopping counter: 16 out of 50
+epoch:  34
+[Epoch 35, Batch 10] loss: 0.095
+epoch:  35 val_f1:  0.8248625247346153 val_auroc:  0.8859126984126984 val_auprc:  0.9471887256395216
+EarlyStopping counter: 17 out of 50
+epoch:  35
+[Epoch 36, Batch 10] loss: 0.095
+epoch:  36 val_f1:  0.8061683443992288 val_auroc:  0.8916170634920636 val_auprc:  0.9489899821203076
+EarlyStopping counter: 18 out of 50
+epoch:  36
+[Epoch 37, Batch 10] loss: 0.084
+epoch:  37 val_f1:  0.8097298254042504 val_auroc:  0.8933531746031746 val_auprc:  0.9508102430315597
+Validation loss improved to 1.247640
+epoch:  37
+[Epoch 38, Batch 10] loss: 0.093
+epoch:  38 val_f1:  0.8315289648622983 val_auroc:  0.8871527777777778 val_auprc:  0.9478621089613748
+EarlyStopping counter: 1 out of 50
+epoch:  38
+[Epoch 39, Batch 10] loss: 0.076
+epoch:  39 val_f1:  0.8182185828242006 val_auroc:  0.892361111111111 val_auprc:  0.9502552799143259
+EarlyStopping counter: 2 out of 50
+epoch:  39
+[Epoch 40, Batch 10] loss: 0.073
+epoch:  40 val_f1:  0.8115942028985508 val_auroc:  0.8901289682539683 val_auprc:  0.9497144823674366
+EarlyStopping counter: 3 out of 50
+epoch:  40
+[Epoch 41, Batch 10] loss: 0.072
+epoch:  41 val_f1:  0.8081713820844254 val_auroc:  0.8931051587301587 val_auprc:  0.9499100020556809
+EarlyStopping counter: 4 out of 50
+epoch:  41
+[Epoch 42, Batch 10] loss: 0.064
+epoch:  42 val_f1:  0.8248625247346153 val_auroc:  0.8903769841269841 val_auprc:  0.9497803233575002
+EarlyStopping counter: 5 out of 50
+epoch:  42
+[Epoch 43, Batch 10] loss: 0.065
+epoch:  43 val_f1:  0.8315289648622983 val_auroc:  0.8948412698412699 val_auprc:  0.9514494941956722
+EarlyStopping counter: 6 out of 50
+epoch:  43
+[Epoch 44, Batch 10] loss: 0.065
+epoch:  44 val_f1:  0.8315289648622983 val_auroc:  0.8871527777777779 val_auprc:  0.9481993839739977
+EarlyStopping counter: 7 out of 50
+epoch:  44
+[Epoch 45, Batch 10] loss: 0.056
+epoch:  45 val_f1:  0.8327610961982647 val_auroc:  0.8893849206349206 val_auprc:  0.9484409733948815
+EarlyStopping counter: 8 out of 50
+epoch:  45
+[Epoch 46, Batch 10] loss: 0.056
+epoch:  46 val_f1:  0.8168793096329329 val_auroc:  0.8936011904761905 val_auprc:  0.9510523311989172
+EarlyStopping counter: 9 out of 50
+epoch:  46
+[Epoch 47, Batch 10] loss: 0.052
+epoch:  47 val_f1:  0.8194319840387783 val_auroc:  0.8896329365079366 val_auprc:  0.9490550214832556
+EarlyStopping counter: 10 out of 50
+epoch:  47
+[Epoch 48, Batch 10] loss: 0.048
+epoch:  48 val_f1:  0.8235137533274179 val_auroc:  0.8965773809523809 val_auprc:  0.9526475517609866
+EarlyStopping counter: 11 out of 50
+epoch:  48
+[Epoch 49, Batch 10] loss: 0.045
+epoch:  49 val_f1:  0.8315289648622983 val_auroc:  0.8923611111111112 val_auprc:  0.950513315893731
+EarlyStopping counter: 12 out of 50
+epoch:  49
+[Epoch 50, Batch 10] loss: 0.047
+epoch:  50 val_f1:  0.8154066640778435 val_auroc:  0.8901289682539684 val_auprc:  0.9493315757839798
+EarlyStopping counter: 13 out of 50
+epoch:  50
+[Epoch 51, Batch 10] loss: 0.046
+epoch:  51 val_f1:  0.8235137533274179 val_auroc:  0.8903769841269841 val_auprc:  0.9497043406912278
+EarlyStopping counter: 14 out of 50
+epoch:  51
+[Epoch 52, Batch 10] loss: 0.045
+epoch:  52 val_f1:  0.8235137533274179 val_auroc:  0.8931051587301587 val_auprc:  0.9514551904002105
+EarlyStopping counter: 15 out of 50
+epoch:  52
+[Epoch 53, Batch 10] loss: 0.039
+epoch:  53 val_f1:  0.7926396128627546 val_auroc:  0.888888888888889 val_auprc:  0.949338821261261
+EarlyStopping counter: 16 out of 50
+epoch:  53
+[Epoch 54, Batch 10] loss: 0.044
+epoch:  54 val_f1:  0.8154066640778435 val_auroc:  0.8921130952380952 val_auprc:  0.9506503898573204
+EarlyStopping counter: 17 out of 50
+epoch:  54
+[Epoch 55, Batch 10] loss: 0.037
+epoch:  55 val_f1:  0.8405797101449275 val_auroc:  0.8948412698412699 val_auprc:  0.9519762857773838
+EarlyStopping counter: 18 out of 50
+epoch:  55
+[Epoch 56, Batch 10] loss: 0.041
+epoch:  56 val_f1:  0.8205262448141007 val_auroc:  0.8933531746031745 val_auprc:  0.9519508532266913
+EarlyStopping counter: 19 out of 50
+epoch:  56
+[Epoch 57, Batch 10] loss: 0.033
+epoch:  57 val_f1:  0.8248625247346153 val_auroc:  0.8933531746031746 val_auprc:  0.9517439518806681
+EarlyStopping counter: 20 out of 50
+epoch:  57
+[Epoch 58, Batch 10] loss: 0.033
+epoch:  58 val_f1:  0.8315289648622983 val_auroc:  0.8953373015873016 val_auprc:  0.9526508342857805
+EarlyStopping counter: 21 out of 50
+epoch:  58
+[Epoch 59, Batch 10] loss: 0.032
+epoch:  59 val_f1:  0.8235137533274179 val_auroc:  0.8928571428571429 val_auprc:  0.9515988219517413
+EarlyStopping counter: 22 out of 50
+epoch:  59
+[Epoch 60, Batch 10] loss: 0.031
+epoch:  60 val_f1:  0.8394573143400641 val_auroc:  0.8965773809523809 val_auprc:  0.9529708856020493
+EarlyStopping counter: 23 out of 50
+epoch:  60
+[Epoch 61, Batch 10] loss: 0.030
+epoch:  61 val_f1:  0.8235137533274179 val_auroc:  0.8948412698412699 val_auprc:  0.9528469920514528
+EarlyStopping counter: 24 out of 50
+epoch:  61
+[Epoch 62, Batch 10] loss: 0.028
+epoch:  62 val_f1:  0.8154066640778435 val_auroc:  0.8943452380952381 val_auprc:  0.9527904677191782
+EarlyStopping counter: 25 out of 50
+epoch:  62
+[Epoch 63, Batch 10] loss: 0.027
+epoch:  63 val_f1:  0.8394573143400641 val_auroc:  0.8958333333333334 val_auprc:  0.9531200330651108
+EarlyStopping counter: 26 out of 50
+epoch:  63
+[Epoch 64, Batch 10] loss: 0.024
+epoch:  64 val_f1:  0.8327610961982647 val_auroc:  0.898313492063492 val_auprc:  0.954302947450606
+EarlyStopping counter: 27 out of 50
+epoch:  64
+[Epoch 65, Batch 10] loss: 0.023
+epoch:  65 val_f1:  0.8394573143400641 val_auroc:  0.8968253968253969 val_auprc:  0.9539540185905668
+EarlyStopping counter: 28 out of 50
+epoch:  65
+[Epoch 66, Batch 10] loss: 0.023
+epoch:  66 val_f1:  0.8315289648622983 val_auroc:  0.8960813492063492 val_auprc:  0.9538388201972221
+EarlyStopping counter: 29 out of 50
+epoch:  66
+[Epoch 67, Batch 10] loss: 0.023
+epoch:  67 val_f1:  0.8394573143400641 val_auroc:  0.8980654761904762 val_auprc:  0.9545091815667914
+EarlyStopping counter: 30 out of 50
+epoch:  67
+[Epoch 68, Batch 10] loss: 0.022
+epoch:  68 val_f1:  0.8235137533274179 val_auroc:  0.8965773809523809 val_auprc:  0.9541220820506198
+EarlyStopping counter: 31 out of 50
+epoch:  68
+[Epoch 69, Batch 10] loss: 0.022
+epoch:  69 val_f1:  0.8394573143400641 val_auroc:  0.8965773809523809 val_auprc:  0.9538675752236059
+EarlyStopping counter: 32 out of 50
+epoch:  69
+[Epoch 70, Batch 10] loss: 0.020
+epoch:  70 val_f1:  0.8154066640778435 val_auroc:  0.8945932539682541 val_auprc:  0.9531076501903859
+EarlyStopping counter: 33 out of 50
+epoch:  70
+[Epoch 71, Batch 10] loss: 0.020
+epoch:  71 val_f1:  0.8235137533274179 val_auroc:  0.894345238095238 val_auprc:  0.9530851178364713
+EarlyStopping counter: 34 out of 50
+epoch:  71
+[Epoch 72, Batch 10] loss: 0.021
+epoch:  72 val_f1:  0.8327610961982647 val_auroc:  0.8968253968253967 val_auprc:  0.954226430329695
+EarlyStopping counter: 35 out of 50
+epoch:  72
+[Epoch 73, Batch 10] loss: 0.019
+epoch:  73 val_f1:  0.8394573143400641 val_auroc:  0.8968253968253967 val_auprc:  0.9542930773964708
+EarlyStopping counter: 36 out of 50
+epoch:  73
+[Epoch 74, Batch 10] loss: 0.018
+epoch:  74 val_f1:  0.8394573143400641 val_auroc:  0.8975694444444444 val_auprc:  0.9545393293320537
+EarlyStopping counter: 37 out of 50
+epoch:  74
+[Epoch 75, Batch 10] loss: 0.017
+epoch:  75 val_f1:  0.8315289648622983 val_auroc:  0.8980654761904763 val_auprc:  0.9550139780108424
+EarlyStopping counter: 38 out of 50
+epoch:  75
+[Epoch 76, Batch 10] loss: 0.017
+epoch:  76 val_f1:  0.8315289648622983 val_auroc:  0.8953373015873015 val_auprc:  0.9538482424118917
+EarlyStopping counter: 39 out of 50
+epoch:  76
+[Epoch 77, Batch 10] loss: 0.015
+epoch:  77 val_f1:  0.8154066640778435 val_auroc:  0.8965773809523809 val_auprc:  0.9546357086848225
+EarlyStopping counter: 40 out of 50
+epoch:  77
+[Epoch 78, Batch 10] loss: 0.015
+epoch:  78 val_f1:  0.8394573143400641 val_auroc:  0.8953373015873016 val_auprc:  0.9536395276182305
+EarlyStopping counter: 41 out of 50
+epoch:  78
+[Epoch 79, Batch 10] loss: 0.015
+epoch:  79 val_f1:  0.8154066640778435 val_auroc:  0.8953373015873015 val_auprc:  0.9539967159104117
+EarlyStopping counter: 42 out of 50
+epoch:  79
+[Epoch 80, Batch 10] loss: 0.015
+epoch:  80 val_f1:  0.8315289648622983 val_auroc:  0.8959573412698413 val_auprc:  0.9541813127760378
+EarlyStopping counter: 43 out of 50
+epoch:  80
+[Epoch 81, Batch 10] loss: 0.015
+epoch:  81 val_f1:  0.8327610961982647 val_auroc:  0.8980654761904763 val_auprc:  0.9551561378068862
+EarlyStopping counter: 44 out of 50
+epoch:  81
+[Epoch 82, Batch 10] loss: 0.013
+epoch:  82 val_f1:  0.8394573143400641 val_auroc:  0.8993055555555556 val_auprc:  0.9559330510793165
+EarlyStopping counter: 45 out of 50
+epoch:  82
+[Epoch 83, Batch 10] loss: 0.012
+epoch:  83 val_f1:  0.8235137533274179 val_auroc:  0.8963293650793651 val_auprc:  0.9545503489977295
+EarlyStopping counter: 46 out of 50
+epoch:  83
+[Epoch 84, Batch 10] loss: 0.012
+epoch:  84 val_f1:  0.8235137533274179 val_auroc:  0.8990575396825397 val_auprc:  0.956215883240733
+EarlyStopping counter: 47 out of 50
+epoch:  84
+[Epoch 85, Batch 10] loss: 0.012
+epoch:  85 val_f1:  0.8235137533274179 val_auroc:  0.8975694444444444 val_auprc:  0.9548631125348186
+EarlyStopping counter: 48 out of 50
+epoch:  85
+[Epoch 86, Batch 10] loss: 0.012
+epoch:  86 val_f1:  0.8394573143400641 val_auroc:  0.8980654761904763 val_auprc:  0.9552763699104737
+EarlyStopping counter: 49 out of 50
+epoch:  86
+[Epoch 87, Batch 10] loss: 0.012
+epoch:  87 val_f1:  0.8315289648622983 val_auroc:  0.8990575396825397 val_auprc:  0.9559840549723495
+EarlyStopping counter: 50 out of 50
+Early stopping triggered
+Early stopping triggered!
+Time taken:  32.99233627319336
+{'time_elapsed': [32.99233627319336], 'epoch': [86], 'fold': [4], 'f1_train': [1.0], 'auroc_train': [1.0], 'auprc_train': [1.0], 'f1_test': [0.8315289648622983], 'auroc_test': [0.8990575396825397], 'auprc_test': [0.9559840549723495]}
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+TAPPredictor                             [32, 1]                   --
+├─Sequential: 1-1                        [32, 1]                   --
+│    └─Conv1d: 2-1                       [32, 128, 256]            768
+│    └─BatchNorm1d: 2-2                  [32, 128, 256]            256
+│    └─Tanh: 2-3                         [32, 128, 256]            --
+│    └─MaxPool1d: 2-4                    [32, 128, 51]             --
+│    └─Dropout: 2-5                      [32, 128, 51]             --
+│    └─Flatten: 2-6                      [32, 6528]                --
+│    └─Linear: 2-7                       [32, 1]                   6,529
+==========================================================================================
+Total params: 7,553
+Trainable params: 7,553
+Non-trainable params: 0
+Total mult-adds (M): 6.51
+==========================================================================================
+Input size (MB): 0.16
+Forward/backward pass size (MB): 16.78
+Params size (MB): 0.03
+Estimated Total Size (MB): 16.97
+==========================================================================================

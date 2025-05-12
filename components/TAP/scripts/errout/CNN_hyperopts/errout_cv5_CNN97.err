@@ -1,0 +1,24 @@
+WARNING: If you use conda to create environments, your home directory may fill up. Please see our documentation at 
+ https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+WARNING: If you use conda to create environments, your home directory may fill up. Please see our documentation at 
+ https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+Traceback (most recent call last):
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/scripts/TrainTAPPredictor_CNN.py", line 102, in <module>
+    model = TAPPredictor(input_size, 
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP//../../src/TAPPredictor_CNN.py", line 109, in __init__
+    flattened_size = nn.Sequential(*layers)(sample_input).shape[1]
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 310, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/conv.py", line 306, in _conv_forward
+    return F.conv1d(input, weight, bias, self.stride,
+RuntimeError: Calculated padded input size per channel: (4). Kernel size: (5). Kernel size can't be greater than actual input size

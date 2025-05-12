@@ -1,0 +1,1415 @@
+Seed:  42
+config:  {'project': 'MHCCBM', 'name': 'PG_CNN_103', 'config': {'hidden_channels': [512], 'epochs': 1000, 'kernel_size': 19, 'pool_kernel_size': 19, 'classes': 2, 'seed': 42, 'batch_size': 1024, 'lr': 0.001, 'dataset': 'data/PG/esm1b/flank0_peptides_esm1b.csv S5', 'dropout_p': 0, 'weight_decay': 0.001, 'architecture': 'CNN'}}
+tensor(1.9373)
+epoch:  0
+[Epoch 1, Batch 10] loss: 10.285
+[Epoch 1, Batch 20] loss: 5.292
+[Epoch 1, Batch 30] loss: 3.042
+[Epoch 1, Batch 40] loss: 1.602
+[Epoch 1, Batch 50] loss: 1.127
+[Epoch 1, Batch 60] loss: 0.956
+[Epoch 1, Batch 70] loss: 0.922
+[Epoch 1, Batch 80] loss: 0.905
+[Epoch 1, Batch 90] loss: 0.887
+[Epoch 1, Batch 100] loss: 0.882
+[Epoch 1, Batch 110] loss: 0.892
+[Epoch 1, Batch 120] loss: 0.887
+[Epoch 1, Batch 130] loss: 0.886
+[Epoch 1, Batch 140] loss: 0.890
+[Epoch 1, Batch 150] loss: 0.874
+[Epoch 1, Batch 160] loss: 0.872
+[Epoch 1, Batch 170] loss: 0.870
+[Epoch 1, Batch 180] loss: 0.880
+epoch:  1 val_f1:  0.5239172707707563 val_auroc:  0.6524987011996907 val_auprc:  0.45852255679362314
+epoch:  1
+[Epoch 2, Batch 10] loss: 0.881
+[Epoch 2, Batch 20] loss: 0.852
+[Epoch 2, Batch 30] loss: 0.882
+[Epoch 2, Batch 40] loss: 0.870
+[Epoch 2, Batch 50] loss: 0.910
+[Epoch 2, Batch 60] loss: 0.908
+[Epoch 2, Batch 70] loss: 0.912
+[Epoch 2, Batch 80] loss: 0.888
+[Epoch 2, Batch 90] loss: 0.916
+[Epoch 2, Batch 100] loss: 0.905
+[Epoch 2, Batch 110] loss: 0.857
+[Epoch 2, Batch 120] loss: 0.863
+[Epoch 2, Batch 130] loss: 0.866
+[Epoch 2, Batch 140] loss: 0.880
+[Epoch 2, Batch 150] loss: 0.878
+[Epoch 2, Batch 160] loss: 0.906
+[Epoch 2, Batch 170] loss: 0.931
+[Epoch 2, Batch 180] loss: 0.877
+epoch:  2 val_f1:  0.3430112936546531 val_auroc:  0.6532972521629643 val_auprc:  0.45914807707956307
+EarlyStopping counter: 1 out of 50
+epoch:  2
+[Epoch 3, Batch 10] loss: 0.878
+[Epoch 3, Batch 20] loss: 0.864
+[Epoch 3, Batch 30] loss: 0.856
+[Epoch 3, Batch 40] loss: 0.863
+[Epoch 3, Batch 50] loss: 0.864
+[Epoch 3, Batch 60] loss: 0.918
+[Epoch 3, Batch 70] loss: 0.926
+[Epoch 3, Batch 80] loss: 0.922
+[Epoch 3, Batch 90] loss: 0.885
+[Epoch 3, Batch 100] loss: 0.862
+[Epoch 3, Batch 110] loss: 0.883
+[Epoch 3, Batch 120] loss: 0.860
+[Epoch 3, Batch 130] loss: 0.853
+[Epoch 3, Batch 140] loss: 0.870
+[Epoch 3, Batch 150] loss: 0.884
+[Epoch 3, Batch 160] loss: 0.909
+[Epoch 3, Batch 170] loss: 0.903
+[Epoch 3, Batch 180] loss: 0.906
+epoch:  3 val_f1:  0.3763649424184719 val_auroc:  0.6564111789569985 val_auprc:  0.4637590042936716
+EarlyStopping counter: 2 out of 50
+epoch:  3
+[Epoch 4, Batch 10] loss: 0.899
+[Epoch 4, Batch 20] loss: 0.898
+[Epoch 4, Batch 30] loss: 0.873
+[Epoch 4, Batch 40] loss: 0.877
+[Epoch 4, Batch 50] loss: 0.874
+[Epoch 4, Batch 60] loss: 0.864
+[Epoch 4, Batch 70] loss: 0.862
+[Epoch 4, Batch 80] loss: 0.877
+[Epoch 4, Batch 90] loss: 0.855
+[Epoch 4, Batch 100] loss: 0.852
+[Epoch 4, Batch 110] loss: 0.855
+[Epoch 4, Batch 120] loss: 0.861
+[Epoch 4, Batch 130] loss: 0.866
+[Epoch 4, Batch 140] loss: 0.866
+[Epoch 4, Batch 150] loss: 0.864
+[Epoch 4, Batch 160] loss: 0.854
+[Epoch 4, Batch 170] loss: 0.857
+[Epoch 4, Batch 180] loss: 0.871
+epoch:  4 val_f1:  0.612828392378229 val_auroc:  0.6577049893973881 val_auprc:  0.4624179618224185
+Validation loss improved to 40.385822
+epoch:  4
+[Epoch 5, Batch 10] loss: 0.846
+[Epoch 5, Batch 20] loss: 0.841
+[Epoch 5, Batch 30] loss: 0.845
+[Epoch 5, Batch 40] loss: 0.844
+[Epoch 5, Batch 50] loss: 0.851
+[Epoch 5, Batch 60] loss: 0.852
+[Epoch 5, Batch 70] loss: 0.857
+[Epoch 5, Batch 80] loss: 0.886
+[Epoch 5, Batch 90] loss: 0.943
+[Epoch 5, Batch 100] loss: 0.855
+[Epoch 5, Batch 110] loss: 0.863
+[Epoch 5, Batch 120] loss: 0.863
+[Epoch 5, Batch 130] loss: 0.857
+[Epoch 5, Batch 140] loss: 0.876
+[Epoch 5, Batch 150] loss: 0.861
+[Epoch 5, Batch 160] loss: 0.854
+[Epoch 5, Batch 170] loss: 0.843
+[Epoch 5, Batch 180] loss: 0.853
+epoch:  5 val_f1:  0.6294974861802514 val_auroc:  0.6606189667680031 val_auprc:  0.4692557135628621
+Validation loss improved to 40.345959
+epoch:  5
+[Epoch 6, Batch 10] loss: 0.837
+[Epoch 6, Batch 20] loss: 0.870
+[Epoch 6, Batch 30] loss: 0.883
+[Epoch 6, Batch 40] loss: 0.860
+[Epoch 6, Batch 50] loss: 0.854
+[Epoch 6, Batch 60] loss: 0.851
+[Epoch 6, Batch 70] loss: 0.859
+[Epoch 6, Batch 80] loss: 0.855
+[Epoch 6, Batch 90] loss: 0.859
+[Epoch 6, Batch 100] loss: 0.864
+[Epoch 6, Batch 110] loss: 0.852
+[Epoch 6, Batch 120] loss: 0.848
+[Epoch 6, Batch 130] loss: 0.863
+[Epoch 6, Batch 140] loss: 0.855
+[Epoch 6, Batch 150] loss: 0.860
+[Epoch 6, Batch 160] loss: 0.863
+[Epoch 6, Batch 170] loss: 0.852
+[Epoch 6, Batch 180] loss: 0.846
+epoch:  6 val_f1:  0.6232458140527604 val_auroc:  0.662960871724901 val_auprc:  0.4684167513015861
+Validation loss improved to 40.195168
+epoch:  6
+[Epoch 7, Batch 10] loss: 0.844
+[Epoch 7, Batch 20] loss: 0.839
+[Epoch 7, Batch 30] loss: 0.845
+[Epoch 7, Batch 40] loss: 0.846
+[Epoch 7, Batch 50] loss: 0.854
+[Epoch 7, Batch 60] loss: 0.849
+[Epoch 7, Batch 70] loss: 0.862
+[Epoch 7, Batch 80] loss: 0.860
+[Epoch 7, Batch 90] loss: 0.844
+[Epoch 7, Batch 100] loss: 0.846
+[Epoch 7, Batch 110] loss: 0.854
+[Epoch 7, Batch 120] loss: 0.841
+[Epoch 7, Batch 130] loss: 0.848
+[Epoch 7, Batch 140] loss: 0.848
+[Epoch 7, Batch 150] loss: 0.849
+[Epoch 7, Batch 160] loss: 0.839
+[Epoch 7, Batch 170] loss: 0.855
+[Epoch 7, Batch 180] loss: 0.847
+epoch:  7 val_f1:  0.6405102199587892 val_auroc:  0.6611205954753805 val_auprc:  0.46900046926656735
+EarlyStopping counter: 1 out of 50
+epoch:  7
+[Epoch 8, Batch 10] loss: 0.843
+[Epoch 8, Batch 20] loss: 0.836
+[Epoch 8, Batch 30] loss: 0.844
+[Epoch 8, Batch 40] loss: 0.833
+[Epoch 8, Batch 50] loss: 0.853
+[Epoch 8, Batch 60] loss: 0.848
+[Epoch 8, Batch 70] loss: 0.848
+[Epoch 8, Batch 80] loss: 0.845
+[Epoch 8, Batch 90] loss: 0.843
+[Epoch 8, Batch 100] loss: 0.852
+[Epoch 8, Batch 110] loss: 0.842
+[Epoch 8, Batch 120] loss: 0.845
+[Epoch 8, Batch 130] loss: 0.860
+[Epoch 8, Batch 140] loss: 0.865
+[Epoch 8, Batch 150] loss: 0.852
+[Epoch 8, Batch 160] loss: 0.835
+[Epoch 8, Batch 170] loss: 0.839
+[Epoch 8, Batch 180] loss: 0.852
+epoch:  8 val_f1:  0.6364800219922951 val_auroc:  0.6619107798853755 val_auprc:  0.4693634731944195
+EarlyStopping counter: 2 out of 50
+epoch:  8
+[Epoch 9, Batch 10] loss: 0.833
+[Epoch 9, Batch 20] loss: 0.837
+[Epoch 9, Batch 30] loss: 0.835
+[Epoch 9, Batch 40] loss: 0.839
+[Epoch 9, Batch 50] loss: 0.835
+[Epoch 9, Batch 60] loss: 0.843
+[Epoch 9, Batch 70] loss: 0.854
+[Epoch 9, Batch 80] loss: 0.851
+[Epoch 9, Batch 90] loss: 0.845
+[Epoch 9, Batch 100] loss: 0.850
+[Epoch 9, Batch 110] loss: 0.837
+[Epoch 9, Batch 120] loss: 0.843
+[Epoch 9, Batch 130] loss: 0.842
+[Epoch 9, Batch 140] loss: 0.839
+[Epoch 9, Batch 150] loss: 0.828
+[Epoch 9, Batch 160] loss: 0.836
+[Epoch 9, Batch 170] loss: 0.845
+[Epoch 9, Batch 180] loss: 0.847
+epoch:  9 val_f1:  0.6390826092961637 val_auroc:  0.662372610482517 val_auprc:  0.46986063298895764
+EarlyStopping counter: 3 out of 50
+epoch:  9
+[Epoch 10, Batch 10] loss: 0.833
+[Epoch 10, Batch 20] loss: 0.838
+[Epoch 10, Batch 30] loss: 0.842
+[Epoch 10, Batch 40] loss: 0.841
+[Epoch 10, Batch 50] loss: 0.837
+[Epoch 10, Batch 60] loss: 0.838
+[Epoch 10, Batch 70] loss: 0.827
+[Epoch 10, Batch 80] loss: 0.831
+[Epoch 10, Batch 90] loss: 0.826
+[Epoch 10, Batch 100] loss: 0.846
+[Epoch 10, Batch 110] loss: 0.857
+[Epoch 10, Batch 120] loss: 0.850
+[Epoch 10, Batch 130] loss: 0.844
+[Epoch 10, Batch 140] loss: 0.840
+[Epoch 10, Batch 150] loss: 0.862
+[Epoch 10, Batch 160] loss: 0.866
+[Epoch 10, Batch 170] loss: 0.834
+[Epoch 10, Batch 180] loss: 0.842
+epoch:  10 val_f1:  0.6361340296751331 val_auroc:  0.6630844267358731 val_auprc:  0.47164219358116377
+EarlyStopping counter: 4 out of 50
+epoch:  10
+[Epoch 11, Batch 10] loss: 0.841
+[Epoch 11, Batch 20] loss: 0.837
+[Epoch 11, Batch 30] loss: 0.828
+[Epoch 11, Batch 40] loss: 0.826
+[Epoch 11, Batch 50] loss: 0.823
+[Epoch 11, Batch 60] loss: 0.834
+[Epoch 11, Batch 70] loss: 0.842
+[Epoch 11, Batch 80] loss: 0.840
+[Epoch 11, Batch 90] loss: 0.844
+[Epoch 11, Batch 100] loss: 0.834
+[Epoch 11, Batch 110] loss: 0.838
+[Epoch 11, Batch 120] loss: 0.838
+[Epoch 11, Batch 130] loss: 0.831
+[Epoch 11, Batch 140] loss: 0.844
+[Epoch 11, Batch 150] loss: 0.838
+[Epoch 11, Batch 160] loss: 0.842
+[Epoch 11, Batch 170] loss: 0.839
+[Epoch 11, Batch 180] loss: 0.849
+epoch:  11 val_f1:  0.6390616848529264 val_auroc:  0.6650846843345428 val_auprc:  0.473226367671302
+EarlyStopping counter: 5 out of 50
+epoch:  11
+[Epoch 12, Batch 10] loss: 0.862
+[Epoch 12, Batch 20] loss: 0.840
+[Epoch 12, Batch 30] loss: 0.830
+[Epoch 12, Batch 40] loss: 0.832
+[Epoch 12, Batch 50] loss: 0.828
+[Epoch 12, Batch 60] loss: 0.838
+[Epoch 12, Batch 70] loss: 0.834
+[Epoch 12, Batch 80] loss: 0.833
+[Epoch 12, Batch 90] loss: 0.833
+[Epoch 12, Batch 100] loss: 0.837
+[Epoch 12, Batch 110] loss: 0.837
+[Epoch 12, Batch 120] loss: 0.842
+[Epoch 12, Batch 130] loss: 0.830
+[Epoch 12, Batch 140] loss: 0.833
+[Epoch 12, Batch 150] loss: 0.842
+[Epoch 12, Batch 160] loss: 0.848
+[Epoch 12, Batch 170] loss: 0.837
+[Epoch 12, Batch 180] loss: 0.848
+epoch:  12 val_f1:  0.643658017818243 val_auroc:  0.6686589700140215 val_auprc:  0.47611683082516965
+EarlyStopping counter: 6 out of 50
+epoch:  12
+[Epoch 13, Batch 10] loss: 0.828
+[Epoch 13, Batch 20] loss: 0.826
+[Epoch 13, Batch 30] loss: 0.829
+[Epoch 13, Batch 40] loss: 0.831
+[Epoch 13, Batch 50] loss: 0.831
+[Epoch 13, Batch 60] loss: 0.830
+[Epoch 13, Batch 70] loss: 0.835
+[Epoch 13, Batch 80] loss: 0.834
+[Epoch 13, Batch 90] loss: 0.827
+[Epoch 13, Batch 100] loss: 0.837
+[Epoch 13, Batch 110] loss: 0.832
+[Epoch 13, Batch 120] loss: 0.840
+[Epoch 13, Batch 130] loss: 0.840
+[Epoch 13, Batch 140] loss: 0.857
+[Epoch 13, Batch 150] loss: 0.851
+[Epoch 13, Batch 160] loss: 0.844
+[Epoch 13, Batch 170] loss: 0.840
+[Epoch 13, Batch 180] loss: 0.826
+epoch:  13 val_f1:  0.6075344362264368 val_auroc:  0.6678828061631905 val_auprc:  0.47746655796760584
+Validation loss improved to 40.081909
+epoch:  13
+[Epoch 14, Batch 10] loss: 0.823
+[Epoch 14, Batch 20] loss: 0.826
+[Epoch 14, Batch 30] loss: 0.823
+[Epoch 14, Batch 40] loss: 0.829
+[Epoch 14, Batch 50] loss: 0.833
+[Epoch 14, Batch 60] loss: 0.829
+[Epoch 14, Batch 70] loss: 0.833
+[Epoch 14, Batch 80] loss: 0.841
+[Epoch 14, Batch 90] loss: 0.832
+[Epoch 14, Batch 100] loss: 0.831
+[Epoch 14, Batch 110] loss: 0.833
+[Epoch 14, Batch 120] loss: 0.836
+[Epoch 14, Batch 130] loss: 0.836
+[Epoch 14, Batch 140] loss: 0.833
+[Epoch 14, Batch 150] loss: 0.836
+[Epoch 14, Batch 160] loss: 0.832
+[Epoch 14, Batch 170] loss: 0.831
+[Epoch 14, Batch 180] loss: 0.836
+epoch:  14 val_f1:  0.6067947502877993 val_auroc:  0.6681651046349684 val_auprc:  0.4785888931246516
+Validation loss improved to 40.031303
+epoch:  14
+[Epoch 15, Batch 10] loss: 0.827
+[Epoch 15, Batch 20] loss: 0.835
+[Epoch 15, Batch 30] loss: 0.834
+[Epoch 15, Batch 40] loss: 0.822
+[Epoch 15, Batch 50] loss: 0.829
+[Epoch 15, Batch 60] loss: 0.827
+[Epoch 15, Batch 70] loss: 0.830
+[Epoch 15, Batch 80] loss: 0.822
+[Epoch 15, Batch 90] loss: 0.842
+[Epoch 15, Batch 100] loss: 0.830
+[Epoch 15, Batch 110] loss: 0.847
+[Epoch 15, Batch 120] loss: 0.828
+[Epoch 15, Batch 130] loss: 0.830
+[Epoch 15, Batch 140] loss: 0.827
+[Epoch 15, Batch 150] loss: 0.833
+[Epoch 15, Batch 160] loss: 0.834
+[Epoch 15, Batch 170] loss: 0.830
+[Epoch 15, Batch 180] loss: 0.827
+epoch:  15 val_f1:  0.6341147122356363 val_auroc:  0.6670004766852573 val_auprc:  0.4726225456920795
+EarlyStopping counter: 1 out of 50
+epoch:  15
+[Epoch 16, Batch 10] loss: 0.828
+[Epoch 16, Batch 20] loss: 0.829
+[Epoch 16, Batch 30] loss: 0.827
+[Epoch 16, Batch 40] loss: 0.823
+[Epoch 16, Batch 50] loss: 0.826
+[Epoch 16, Batch 60] loss: 0.831
+[Epoch 16, Batch 70] loss: 0.827
+[Epoch 16, Batch 80] loss: 0.827
+[Epoch 16, Batch 90] loss: 0.834
+[Epoch 16, Batch 100] loss: 0.826
+[Epoch 16, Batch 110] loss: 0.832
+[Epoch 16, Batch 120] loss: 0.834
+[Epoch 16, Batch 130] loss: 0.832
+[Epoch 16, Batch 140] loss: 0.816
+[Epoch 16, Batch 150] loss: 0.833
+[Epoch 16, Batch 160] loss: 0.834
+[Epoch 16, Batch 170] loss: 0.841
+[Epoch 16, Batch 180] loss: 0.833
+epoch:  16 val_f1:  0.6202286733310414 val_auroc:  0.6694654965150496 val_auprc:  0.47794984579545446
+Validation loss improved to 39.913300
+epoch:  16
+[Epoch 17, Batch 10] loss: 0.823
+[Epoch 17, Batch 20] loss: 0.818
+[Epoch 17, Batch 30] loss: 0.830
+[Epoch 17, Batch 40] loss: 0.823
+[Epoch 17, Batch 50] loss: 0.831
+[Epoch 17, Batch 60] loss: 0.820
+[Epoch 17, Batch 70] loss: 0.835
+[Epoch 17, Batch 80] loss: 0.821
+[Epoch 17, Batch 90] loss: 0.820
+[Epoch 17, Batch 100] loss: 0.826
+[Epoch 17, Batch 110] loss: 0.831
+[Epoch 17, Batch 120] loss: 0.831
+[Epoch 17, Batch 130] loss: 0.833
+[Epoch 17, Batch 140] loss: 0.837
+[Epoch 17, Batch 150] loss: 0.829
+[Epoch 17, Batch 160] loss: 0.826
+[Epoch 17, Batch 170] loss: 0.836
+[Epoch 17, Batch 180] loss: 0.840
+epoch:  17 val_f1:  0.6064969907569681 val_auroc:  0.6668815224926277 val_auprc:  0.47621745422072104
+EarlyStopping counter: 1 out of 50
+epoch:  17
+[Epoch 18, Batch 10] loss: 0.819
+[Epoch 18, Batch 20] loss: 0.816
+[Epoch 18, Batch 30] loss: 0.831
+[Epoch 18, Batch 40] loss: 0.825
+[Epoch 18, Batch 50] loss: 0.825
+[Epoch 18, Batch 60] loss: 0.831
+[Epoch 18, Batch 70] loss: 0.827
+[Epoch 18, Batch 80] loss: 0.826
+[Epoch 18, Batch 90] loss: 0.827
+[Epoch 18, Batch 100] loss: 0.825
+[Epoch 18, Batch 110] loss: 0.833
+[Epoch 18, Batch 120] loss: 0.826
+[Epoch 18, Batch 130] loss: 0.836
+[Epoch 18, Batch 140] loss: 0.826
+[Epoch 18, Batch 150] loss: 0.837
+[Epoch 18, Batch 160] loss: 0.825
+[Epoch 18, Batch 170] loss: 0.835
+[Epoch 18, Batch 180] loss: 0.825
+epoch:  18 val_f1:  0.6260360703429086 val_auroc:  0.6694819732018787 val_auprc:  0.4774066486379763
+EarlyStopping counter: 2 out of 50
+epoch:  18
+[Epoch 19, Batch 10] loss: 0.817
+[Epoch 19, Batch 20] loss: 0.821
+[Epoch 19, Batch 30] loss: 0.815
+[Epoch 19, Batch 40] loss: 0.823
+[Epoch 19, Batch 50] loss: 0.820
+[Epoch 19, Batch 60] loss: 0.823
+[Epoch 19, Batch 70] loss: 0.826
+[Epoch 19, Batch 80] loss: 0.830
+[Epoch 19, Batch 90] loss: 0.831
+[Epoch 19, Batch 100] loss: 0.819
+[Epoch 19, Batch 110] loss: 0.820
+[Epoch 19, Batch 120] loss: 0.823
+[Epoch 19, Batch 130] loss: 0.826
+[Epoch 19, Batch 140] loss: 0.831
+[Epoch 19, Batch 150] loss: 0.841
+[Epoch 19, Batch 160] loss: 0.837
+[Epoch 19, Batch 170] loss: 0.834
+[Epoch 19, Batch 180] loss: 0.829
+epoch:  19 val_f1:  0.599864681187984 val_auroc:  0.6706221066816105 val_auprc:  0.4793173409722496
+EarlyStopping counter: 3 out of 50
+epoch:  19
+[Epoch 20, Batch 10] loss: 0.814
+[Epoch 20, Batch 20] loss: 0.814
+[Epoch 20, Batch 30] loss: 0.817
+[Epoch 20, Batch 40] loss: 0.824
+[Epoch 20, Batch 50] loss: 0.821
+[Epoch 20, Batch 60] loss: 0.834
+[Epoch 20, Batch 70] loss: 0.827
+[Epoch 20, Batch 80] loss: 0.826
+[Epoch 20, Batch 90] loss: 0.820
+[Epoch 20, Batch 100] loss: 0.821
+[Epoch 20, Batch 110] loss: 0.815
+[Epoch 20, Batch 120] loss: 0.823
+[Epoch 20, Batch 130] loss: 0.823
+[Epoch 20, Batch 140] loss: 0.832
+[Epoch 20, Batch 150] loss: 0.830
+[Epoch 20, Batch 160] loss: 0.828
+[Epoch 20, Batch 170] loss: 0.828
+[Epoch 20, Batch 180] loss: 0.825
+epoch:  20 val_f1:  0.6283932049671482 val_auroc:  0.6689223258467942 val_auprc:  0.47733316631155764
+EarlyStopping counter: 4 out of 50
+epoch:  20
+[Epoch 21, Batch 10] loss: 0.823
+[Epoch 21, Batch 20] loss: 0.822
+[Epoch 21, Batch 30] loss: 0.815
+[Epoch 21, Batch 40] loss: 0.825
+[Epoch 21, Batch 50] loss: 0.817
+[Epoch 21, Batch 60] loss: 0.834
+[Epoch 21, Batch 70] loss: 0.826
+[Epoch 21, Batch 80] loss: 0.825
+[Epoch 21, Batch 90] loss: 0.833
+[Epoch 21, Batch 100] loss: 0.825
+[Epoch 21, Batch 110] loss: 0.825
+[Epoch 21, Batch 120] loss: 0.818
+[Epoch 21, Batch 130] loss: 0.826
+[Epoch 21, Batch 140] loss: 0.824
+[Epoch 21, Batch 150] loss: 0.819
+[Epoch 21, Batch 160] loss: 0.823
+[Epoch 21, Batch 170] loss: 0.823
+[Epoch 21, Batch 180] loss: 0.831
+epoch:  21 val_f1:  0.6203607256665931 val_auroc:  0.6676881501861155 val_auprc:  0.4765661771405686
+EarlyStopping counter: 5 out of 50
+epoch:  21
+[Epoch 22, Batch 10] loss: 0.822
+[Epoch 22, Batch 20] loss: 0.810
+[Epoch 22, Batch 30] loss: 0.813
+[Epoch 22, Batch 40] loss: 0.827
+[Epoch 22, Batch 50] loss: 0.836
+[Epoch 22, Batch 60] loss: 0.817
+[Epoch 22, Batch 70] loss: 0.824
+[Epoch 22, Batch 80] loss: 0.816
+[Epoch 22, Batch 90] loss: 0.819
+[Epoch 22, Batch 100] loss: 0.821
+[Epoch 22, Batch 110] loss: 0.814
+[Epoch 22, Batch 120] loss: 0.827
+[Epoch 22, Batch 130] loss: 0.824
+[Epoch 22, Batch 140] loss: 0.826
+[Epoch 22, Batch 150] loss: 0.833
+[Epoch 22, Batch 160] loss: 0.824
+[Epoch 22, Batch 170] loss: 0.831
+[Epoch 22, Batch 180] loss: 0.826
+epoch:  22 val_f1:  0.6214372576924366 val_auroc:  0.6673718982054941 val_auprc:  0.47526383793653404
+EarlyStopping counter: 6 out of 50
+epoch:  22
+[Epoch 23, Batch 10] loss: 0.815
+[Epoch 23, Batch 20] loss: 0.817
+[Epoch 23, Batch 30] loss: 0.819
+[Epoch 23, Batch 40] loss: 0.817
+[Epoch 23, Batch 50] loss: 0.816
+[Epoch 23, Batch 60] loss: 0.826
+[Epoch 23, Batch 70] loss: 0.821
+[Epoch 23, Batch 80] loss: 0.820
+[Epoch 23, Batch 90] loss: 0.822
+[Epoch 23, Batch 100] loss: 0.818
+[Epoch 23, Batch 110] loss: 0.820
+[Epoch 23, Batch 120] loss: 0.829
+[Epoch 23, Batch 130] loss: 0.820
+[Epoch 23, Batch 140] loss: 0.822
+[Epoch 23, Batch 150] loss: 0.830
+[Epoch 23, Batch 160] loss: 0.823
+[Epoch 23, Batch 170] loss: 0.827
+[Epoch 23, Batch 180] loss: 0.825
+epoch:  23 val_f1:  0.631616546869882 val_auroc:  0.6671840280179324 val_auprc:  0.47431476221472446
+EarlyStopping counter: 7 out of 50
+epoch:  23
+[Epoch 24, Batch 10] loss: 0.816
+[Epoch 24, Batch 20] loss: 0.811
+[Epoch 24, Batch 30] loss: 0.813
+[Epoch 24, Batch 40] loss: 0.826
+[Epoch 24, Batch 50] loss: 0.809
+[Epoch 24, Batch 60] loss: 0.824
+[Epoch 24, Batch 70] loss: 0.828
+[Epoch 24, Batch 80] loss: 0.820
+[Epoch 24, Batch 90] loss: 0.821
+[Epoch 24, Batch 100] loss: 0.828
+[Epoch 24, Batch 110] loss: 0.823
+[Epoch 24, Batch 120] loss: 0.819
+[Epoch 24, Batch 130] loss: 0.823
+[Epoch 24, Batch 140] loss: 0.817
+[Epoch 24, Batch 150] loss: 0.826
+[Epoch 24, Batch 160] loss: 0.821
+[Epoch 24, Batch 170] loss: 0.819
+[Epoch 24, Batch 180] loss: 0.816
+epoch:  24 val_f1:  0.6444031527741128 val_auroc:  0.6721903343713256 val_auprc:  0.4810549466337161
+EarlyStopping counter: 8 out of 50
+epoch:  24
+[Epoch 25, Batch 10] loss: 0.814
+[Epoch 25, Batch 20] loss: 0.811
+[Epoch 25, Batch 30] loss: 0.806
+[Epoch 25, Batch 40] loss: 0.813
+[Epoch 25, Batch 50] loss: 0.812
+[Epoch 25, Batch 60] loss: 0.815
+[Epoch 25, Batch 70] loss: 0.824
+[Epoch 25, Batch 80] loss: 0.822
+[Epoch 25, Batch 90] loss: 0.824
+[Epoch 25, Batch 100] loss: 0.816
+[Epoch 25, Batch 110] loss: 0.817
+[Epoch 25, Batch 120] loss: 0.819
+[Epoch 25, Batch 130] loss: 0.818
+[Epoch 25, Batch 140] loss: 0.825
+[Epoch 25, Batch 150] loss: 0.828
+[Epoch 25, Batch 160] loss: 0.817
+[Epoch 25, Batch 170] loss: 0.821
+[Epoch 25, Batch 180] loss: 0.827
+epoch:  25 val_f1:  0.6238219536021486 val_auroc:  0.667177076194189 val_auprc:  0.4742693846025969
+EarlyStopping counter: 9 out of 50
+epoch:  25
+[Epoch 26, Batch 10] loss: 0.815
+[Epoch 26, Batch 20] loss: 0.816
+[Epoch 26, Batch 30] loss: 0.810
+[Epoch 26, Batch 40] loss: 0.813
+[Epoch 26, Batch 50] loss: 0.813
+[Epoch 26, Batch 60] loss: 0.820
+[Epoch 26, Batch 70] loss: 0.823
+[Epoch 26, Batch 80] loss: 0.813
+[Epoch 26, Batch 90] loss: 0.821
+[Epoch 26, Batch 100] loss: 0.817
+[Epoch 26, Batch 110] loss: 0.818
+[Epoch 26, Batch 120] loss: 0.813
+[Epoch 26, Batch 130] loss: 0.821
+[Epoch 26, Batch 140] loss: 0.813
+[Epoch 26, Batch 150] loss: 0.828
+[Epoch 26, Batch 160] loss: 0.813
+[Epoch 26, Batch 170] loss: 0.817
+[Epoch 26, Batch 180] loss: 0.823
+epoch:  26 val_f1:  0.6384108719682471 val_auroc:  0.6681992173008846 val_auprc:  0.4775053786411682
+EarlyStopping counter: 10 out of 50
+epoch:  26
+[Epoch 27, Batch 10] loss: 0.800
+[Epoch 27, Batch 20] loss: 0.800
+[Epoch 27, Batch 30] loss: 0.821
+[Epoch 27, Batch 40] loss: 0.803
+[Epoch 27, Batch 50] loss: 0.803
+[Epoch 27, Batch 60] loss: 0.817
+[Epoch 27, Batch 70] loss: 0.824
+[Epoch 27, Batch 80] loss: 0.820
+[Epoch 27, Batch 90] loss: 0.810
+[Epoch 27, Batch 100] loss: 0.817
+[Epoch 27, Batch 110] loss: 0.823
+[Epoch 27, Batch 120] loss: 0.820
+[Epoch 27, Batch 130] loss: 0.814
+[Epoch 27, Batch 140] loss: 0.819
+[Epoch 27, Batch 150] loss: 0.832
+[Epoch 27, Batch 160] loss: 0.831
+[Epoch 27, Batch 170] loss: 0.814
+[Epoch 27, Batch 180] loss: 0.824
+epoch:  27 val_f1:  0.6278471526926074 val_auroc:  0.668784553786445 val_auprc:  0.47713918946966044
+EarlyStopping counter: 11 out of 50
+epoch:  27
+[Epoch 28, Batch 10] loss: 0.806
+[Epoch 28, Batch 20] loss: 0.813
+[Epoch 28, Batch 30] loss: 0.811
+[Epoch 28, Batch 40] loss: 0.814
+[Epoch 28, Batch 50] loss: 0.807
+[Epoch 28, Batch 60] loss: 0.821
+[Epoch 28, Batch 70] loss: 0.823
+[Epoch 28, Batch 80] loss: 0.819
+[Epoch 28, Batch 90] loss: 0.811
+[Epoch 28, Batch 100] loss: 0.818
+[Epoch 28, Batch 110] loss: 0.811
+[Epoch 28, Batch 120] loss: 0.815
+[Epoch 28, Batch 130] loss: 0.817
+[Epoch 28, Batch 140] loss: 0.810
+[Epoch 28, Batch 150] loss: 0.821
+[Epoch 28, Batch 160] loss: 0.830
+[Epoch 28, Batch 170] loss: 0.818
+[Epoch 28, Batch 180] loss: 0.825
+epoch:  28 val_f1:  0.6288923524165906 val_auroc:  0.666707330971259 val_auprc:  0.4774348213940762
+EarlyStopping counter: 12 out of 50
+epoch:  28
+[Epoch 29, Batch 10] loss: 0.809
+[Epoch 29, Batch 20] loss: 0.804
+[Epoch 29, Batch 30] loss: 0.810
+[Epoch 29, Batch 40] loss: 0.808
+[Epoch 29, Batch 50] loss: 0.817
+[Epoch 29, Batch 60] loss: 0.819
+[Epoch 29, Batch 70] loss: 0.809
+[Epoch 29, Batch 80] loss: 0.810
+[Epoch 29, Batch 90] loss: 0.815
+[Epoch 29, Batch 100] loss: 0.820
+[Epoch 29, Batch 110] loss: 0.808
+[Epoch 29, Batch 120] loss: 0.817
+[Epoch 29, Batch 130] loss: 0.828
+[Epoch 29, Batch 140] loss: 0.813
+[Epoch 29, Batch 150] loss: 0.818
+[Epoch 29, Batch 160] loss: 0.814
+[Epoch 29, Batch 170] loss: 0.816
+[Epoch 29, Batch 180] loss: 0.815
+epoch:  29 val_f1:  0.6204652749570825 val_auroc:  0.6681098054118121 val_auprc:  0.4785584867713829
+EarlyStopping counter: 13 out of 50
+epoch:  29
+[Epoch 30, Batch 10] loss: 0.803
+[Epoch 30, Batch 20] loss: 0.802
+[Epoch 30, Batch 30] loss: 0.809
+[Epoch 30, Batch 40] loss: 0.810
+[Epoch 30, Batch 50] loss: 0.815
+[Epoch 30, Batch 60] loss: 0.814
+[Epoch 30, Batch 70] loss: 0.806
+[Epoch 30, Batch 80] loss: 0.817
+[Epoch 30, Batch 90] loss: 0.812
+[Epoch 30, Batch 100] loss: 0.815
+[Epoch 30, Batch 110] loss: 0.824
+[Epoch 30, Batch 120] loss: 0.816
+[Epoch 30, Batch 130] loss: 0.805
+[Epoch 30, Batch 140] loss: 0.828
+[Epoch 30, Batch 150] loss: 0.818
+[Epoch 30, Batch 160] loss: 0.808
+[Epoch 30, Batch 170] loss: 0.809
+[Epoch 30, Batch 180] loss: 0.820
+epoch:  30 val_f1:  0.6245608970866301 val_auroc:  0.6651310511126062 val_auprc:  0.47521980295347216
+EarlyStopping counter: 14 out of 50
+epoch:  30
+[Epoch 31, Batch 10] loss: 0.803
+[Epoch 31, Batch 20] loss: 0.806
+[Epoch 31, Batch 30] loss: 0.809
+[Epoch 31, Batch 40] loss: 0.806
+[Epoch 31, Batch 50] loss: 0.811
+[Epoch 31, Batch 60] loss: 0.818
+[Epoch 31, Batch 70] loss: 0.807
+[Epoch 31, Batch 80] loss: 0.813
+[Epoch 31, Batch 90] loss: 0.806
+[Epoch 31, Batch 100] loss: 0.812
+[Epoch 31, Batch 110] loss: 0.810
+[Epoch 31, Batch 120] loss: 0.810
+[Epoch 31, Batch 130] loss: 0.810
+[Epoch 31, Batch 140] loss: 0.814
+[Epoch 31, Batch 150] loss: 0.818
+[Epoch 31, Batch 160] loss: 0.816
+[Epoch 31, Batch 170] loss: 0.815
+[Epoch 31, Batch 180] loss: 0.813
+epoch:  31 val_f1:  0.6260337916559595 val_auroc:  0.6671907509305777 val_auprc:  0.4768469214474839
+EarlyStopping counter: 15 out of 50
+epoch:  31
+[Epoch 32, Batch 10] loss: 0.804
+[Epoch 32, Batch 20] loss: 0.803
+[Epoch 32, Batch 30] loss: 0.798
+[Epoch 32, Batch 40] loss: 0.799
+[Epoch 32, Batch 50] loss: 0.801
+[Epoch 32, Batch 60] loss: 0.806
+[Epoch 32, Batch 70] loss: 0.807
+[Epoch 32, Batch 80] loss: 0.810
+[Epoch 32, Batch 90] loss: 0.800
+[Epoch 32, Batch 100] loss: 0.822
+[Epoch 32, Batch 110] loss: 0.818
+[Epoch 32, Batch 120] loss: 0.805
+[Epoch 32, Batch 130] loss: 0.817
+[Epoch 32, Batch 140] loss: 0.819
+[Epoch 32, Batch 150] loss: 0.813
+[Epoch 32, Batch 160] loss: 0.813
+[Epoch 32, Batch 170] loss: 0.812
+[Epoch 32, Batch 180] loss: 0.804
+epoch:  32 val_f1:  0.6153874322317373 val_auroc:  0.6660873247700279 val_auprc:  0.47551219239047954
+EarlyStopping counter: 16 out of 50
+epoch:  32
+[Epoch 33, Batch 10] loss: 0.803
+[Epoch 33, Batch 20] loss: 0.791
+[Epoch 33, Batch 30] loss: 0.804
+[Epoch 33, Batch 40] loss: 0.806
+[Epoch 33, Batch 50] loss: 0.812
+[Epoch 33, Batch 60] loss: 0.807
+[Epoch 33, Batch 70] loss: 0.807
+[Epoch 33, Batch 80] loss: 0.807
+[Epoch 33, Batch 90] loss: 0.804
+[Epoch 33, Batch 100] loss: 0.807
+[Epoch 33, Batch 110] loss: 0.807
+[Epoch 33, Batch 120] loss: 0.806
+[Epoch 33, Batch 130] loss: 0.805
+[Epoch 33, Batch 140] loss: 0.810
+[Epoch 33, Batch 150] loss: 0.808
+[Epoch 33, Batch 160] loss: 0.811
+[Epoch 33, Batch 170] loss: 0.812
+[Epoch 33, Batch 180] loss: 0.812
+epoch:  33 val_f1:  0.6066299911653572 val_auroc:  0.6669951930634239 val_auprc:  0.4745560758197696
+EarlyStopping counter: 17 out of 50
+epoch:  33
+[Epoch 34, Batch 10] loss: 0.798
+[Epoch 34, Batch 20] loss: 0.798
+[Epoch 34, Batch 30] loss: 0.799
+[Epoch 34, Batch 40] loss: 0.800
+[Epoch 34, Batch 50] loss: 0.801
+[Epoch 34, Batch 60] loss: 0.800
+[Epoch 34, Batch 70] loss: 0.793
+[Epoch 34, Batch 80] loss: 0.804
+[Epoch 34, Batch 90] loss: 0.811
+[Epoch 34, Batch 100] loss: 0.827
+[Epoch 34, Batch 110] loss: 0.811
+[Epoch 34, Batch 120] loss: 0.819
+[Epoch 34, Batch 130] loss: 0.810
+[Epoch 34, Batch 140] loss: 0.811
+[Epoch 34, Batch 150] loss: 0.815
+[Epoch 34, Batch 160] loss: 0.812
+[Epoch 34, Batch 170] loss: 0.816
+[Epoch 34, Batch 180] loss: 0.813
+epoch:  34 val_f1:  0.5959842258401904 val_auroc:  0.6669552053401324 val_auprc:  0.4774306019503277
+EarlyStopping counter: 18 out of 50
+epoch:  34
+[Epoch 35, Batch 10] loss: 0.804
+[Epoch 35, Batch 20] loss: 0.798
+[Epoch 35, Batch 30] loss: 0.805
+[Epoch 35, Batch 40] loss: 0.807
+[Epoch 35, Batch 50] loss: 0.791
+[Epoch 35, Batch 60] loss: 0.810
+[Epoch 35, Batch 70] loss: 0.807
+[Epoch 35, Batch 80] loss: 0.798
+[Epoch 35, Batch 90] loss: 0.809
+[Epoch 35, Batch 100] loss: 0.813
+[Epoch 35, Batch 110] loss: 0.804
+[Epoch 35, Batch 120] loss: 0.804
+[Epoch 35, Batch 130] loss: 0.809
+[Epoch 35, Batch 140] loss: 0.802
+[Epoch 35, Batch 150] loss: 0.806
+[Epoch 35, Batch 160] loss: 0.798
+[Epoch 35, Batch 170] loss: 0.804
+[Epoch 35, Batch 180] loss: 0.819
+epoch:  35 val_f1:  0.6379987117191368 val_auroc:  0.6619391943351086 val_auprc:  0.47067264777401385
+EarlyStopping counter: 19 out of 50
+epoch:  35
+[Epoch 36, Batch 10] loss: 0.798
+[Epoch 36, Batch 20] loss: 0.791
+[Epoch 36, Batch 30] loss: 0.799
+[Epoch 36, Batch 40] loss: 0.801
+[Epoch 36, Batch 50] loss: 0.796
+[Epoch 36, Batch 60] loss: 0.805
+[Epoch 36, Batch 70] loss: 0.800
+[Epoch 36, Batch 80] loss: 0.812
+[Epoch 36, Batch 90] loss: 0.811
+[Epoch 36, Batch 100] loss: 0.806
+[Epoch 36, Batch 110] loss: 0.813
+[Epoch 36, Batch 120] loss: 0.804
+[Epoch 36, Batch 130] loss: 0.804
+[Epoch 36, Batch 140] loss: 0.814
+[Epoch 36, Batch 150] loss: 0.808
+[Epoch 36, Batch 160] loss: 0.805
+[Epoch 36, Batch 170] loss: 0.818
+[Epoch 36, Batch 180] loss: 0.811
+epoch:  36 val_f1:  0.612234233948162 val_auroc:  0.6643699492190693 val_auprc:  0.4722053700270975
+EarlyStopping counter: 20 out of 50
+epoch:  36
+[Epoch 37, Batch 10] loss: 0.792
+[Epoch 37, Batch 20] loss: 0.789
+[Epoch 37, Batch 30] loss: 0.798
+[Epoch 37, Batch 40] loss: 0.799
+[Epoch 37, Batch 50] loss: 0.811
+[Epoch 37, Batch 60] loss: 0.798
+[Epoch 37, Batch 70] loss: 0.790
+[Epoch 37, Batch 80] loss: 0.803
+[Epoch 37, Batch 90] loss: 0.815
+[Epoch 37, Batch 100] loss: 0.796
+[Epoch 37, Batch 110] loss: 0.794
+[Epoch 37, Batch 120] loss: 0.809
+[Epoch 37, Batch 130] loss: 0.807
+[Epoch 37, Batch 140] loss: 0.805
+[Epoch 37, Batch 150] loss: 0.814
+[Epoch 37, Batch 160] loss: 0.797
+[Epoch 37, Batch 170] loss: 0.805
+[Epoch 37, Batch 180] loss: 0.811
+epoch:  37 val_f1:  0.5811132887633718 val_auroc:  0.6581630886453808 val_auprc:  0.4690421680914707
+EarlyStopping counter: 21 out of 50
+epoch:  37
+[Epoch 38, Batch 10] loss: 0.802
+[Epoch 38, Batch 20] loss: 0.807
+[Epoch 38, Batch 30] loss: 0.796
+[Epoch 38, Batch 40] loss: 0.801
+[Epoch 38, Batch 50] loss: 0.801
+[Epoch 38, Batch 60] loss: 0.797
+[Epoch 38, Batch 70] loss: 0.798
+[Epoch 38, Batch 80] loss: 0.793
+[Epoch 38, Batch 90] loss: 0.804
+[Epoch 38, Batch 100] loss: 0.796
+[Epoch 38, Batch 110] loss: 0.805
+[Epoch 38, Batch 120] loss: 0.809
+[Epoch 38, Batch 130] loss: 0.802
+[Epoch 38, Batch 140] loss: 0.804
+[Epoch 38, Batch 150] loss: 0.816
+[Epoch 38, Batch 160] loss: 0.809
+[Epoch 38, Batch 170] loss: 0.804
+[Epoch 38, Batch 180] loss: 0.795
+epoch:  38 val_f1:  0.6247032208572636 val_auroc:  0.6656856899321559 val_auprc:  0.47556506022373846
+EarlyStopping counter: 22 out of 50
+epoch:  38
+[Epoch 39, Batch 10] loss: 0.789
+[Epoch 39, Batch 20] loss: 0.795
+[Epoch 39, Batch 30] loss: 0.797
+[Epoch 39, Batch 40] loss: 0.797
+[Epoch 39, Batch 50] loss: 0.795
+[Epoch 39, Batch 60] loss: 0.797
+[Epoch 39, Batch 70] loss: 0.783
+[Epoch 39, Batch 80] loss: 0.798
+[Epoch 39, Batch 90] loss: 0.801
+[Epoch 39, Batch 100] loss: 0.819
+[Epoch 39, Batch 110] loss: 0.799
+[Epoch 39, Batch 120] loss: 0.805
+[Epoch 39, Batch 130] loss: 0.805
+[Epoch 39, Batch 140] loss: 0.806
+[Epoch 39, Batch 150] loss: 0.810
+[Epoch 39, Batch 160] loss: 0.802
+[Epoch 39, Batch 170] loss: 0.807
+[Epoch 39, Batch 180] loss: 0.795
+epoch:  39 val_f1:  0.6176585972703117 val_auroc:  0.6661688564190995 val_auprc:  0.47752324519046097
+EarlyStopping counter: 23 out of 50
+epoch:  39
+[Epoch 40, Batch 10] loss: 0.789
+[Epoch 40, Batch 20] loss: 0.784
+[Epoch 40, Batch 30] loss: 0.786
+[Epoch 40, Batch 40] loss: 0.786
+[Epoch 40, Batch 50] loss: 0.789
+[Epoch 40, Batch 60] loss: 0.801
+[Epoch 40, Batch 70] loss: 0.803
+[Epoch 40, Batch 80] loss: 0.806
+[Epoch 40, Batch 90] loss: 0.807
+[Epoch 40, Batch 100] loss: 0.796
+[Epoch 40, Batch 110] loss: 0.803
+[Epoch 40, Batch 120] loss: 0.803
+[Epoch 40, Batch 130] loss: 0.793
+[Epoch 40, Batch 140] loss: 0.799
+[Epoch 40, Batch 150] loss: 0.797
+[Epoch 40, Batch 160] loss: 0.812
+[Epoch 40, Batch 170] loss: 0.813
+[Epoch 40, Batch 180] loss: 0.808
+epoch:  40 val_f1:  0.6236091403180525 val_auroc:  0.6600762460623362 val_auprc:  0.4680559274310062
+EarlyStopping counter: 24 out of 50
+epoch:  40
+[Epoch 41, Batch 10] loss: 0.785
+[Epoch 41, Batch 20] loss: 0.788
+[Epoch 41, Batch 30] loss: 0.779
+[Epoch 41, Batch 40] loss: 0.790
+[Epoch 41, Batch 50] loss: 0.795
+[Epoch 41, Batch 60] loss: 0.793
+[Epoch 41, Batch 70] loss: 0.802
+[Epoch 41, Batch 80] loss: 0.801
+[Epoch 41, Batch 90] loss: 0.797
+[Epoch 41, Batch 100] loss: 0.791
+[Epoch 41, Batch 110] loss: 0.793
+[Epoch 41, Batch 120] loss: 0.799
+[Epoch 41, Batch 130] loss: 0.791
+[Epoch 41, Batch 140] loss: 0.816
+[Epoch 41, Batch 150] loss: 0.814
+[Epoch 41, Batch 160] loss: 0.796
+[Epoch 41, Batch 170] loss: 0.814
+[Epoch 41, Batch 180] loss: 0.798
+epoch:  41 val_f1:  0.614641023166299 val_auroc:  0.6645932888374696 val_auprc:  0.47358733831769995
+EarlyStopping counter: 25 out of 50
+epoch:  41
+[Epoch 42, Batch 10] loss: 0.787
+[Epoch 42, Batch 20] loss: 0.786
+[Epoch 42, Batch 30] loss: 0.791
+[Epoch 42, Batch 40] loss: 0.796
+[Epoch 42, Batch 50] loss: 0.781
+[Epoch 42, Batch 60] loss: 0.799
+[Epoch 42, Batch 70] loss: 0.789
+[Epoch 42, Batch 80] loss: 0.785
+[Epoch 42, Batch 90] loss: 0.789
+[Epoch 42, Batch 100] loss: 0.801
+[Epoch 42, Batch 110] loss: 0.794
+[Epoch 42, Batch 120] loss: 0.795
+[Epoch 42, Batch 130] loss: 0.813
+[Epoch 42, Batch 140] loss: 0.802
+[Epoch 42, Batch 150] loss: 0.795
+[Epoch 42, Batch 160] loss: 0.802
+[Epoch 42, Batch 170] loss: 0.806
+[Epoch 42, Batch 180] loss: 0.810
+epoch:  42 val_f1:  0.6319080947264766 val_auroc:  0.6608160543114668 val_auprc:  0.4707342629263802
+EarlyStopping counter: 26 out of 50
+epoch:  42
+[Epoch 43, Batch 10] loss: 0.772
+[Epoch 43, Batch 20] loss: 0.781
+[Epoch 43, Batch 30] loss: 0.787
+[Epoch 43, Batch 40] loss: 0.786
+[Epoch 43, Batch 50] loss: 0.784
+[Epoch 43, Batch 60] loss: 0.789
+[Epoch 43, Batch 70] loss: 0.782
+[Epoch 43, Batch 80] loss: 0.798
+[Epoch 43, Batch 90] loss: 0.794
+[Epoch 43, Batch 100] loss: 0.796
+[Epoch 43, Batch 110] loss: 0.812
+[Epoch 43, Batch 120] loss: 0.798
+[Epoch 43, Batch 130] loss: 0.803
+[Epoch 43, Batch 140] loss: 0.806
+[Epoch 43, Batch 150] loss: 0.797
+[Epoch 43, Batch 160] loss: 0.800
+[Epoch 43, Batch 170] loss: 0.797
+[Epoch 43, Batch 180] loss: 0.802
+epoch:  43 val_f1:  0.6188371003724908 val_auroc:  0.6630662474613465 val_auprc:  0.47449977629787676
+EarlyStopping counter: 27 out of 50
+epoch:  43
+[Epoch 44, Batch 10] loss: 0.782
+[Epoch 44, Batch 20] loss: 0.781
+[Epoch 44, Batch 30] loss: 0.786
+[Epoch 44, Batch 40] loss: 0.786
+[Epoch 44, Batch 50] loss: 0.795
+[Epoch 44, Batch 60] loss: 0.792
+[Epoch 44, Batch 70] loss: 0.785
+[Epoch 44, Batch 80] loss: 0.792
+[Epoch 44, Batch 90] loss: 0.802
+[Epoch 44, Batch 100] loss: 0.795
+[Epoch 44, Batch 110] loss: 0.793
+[Epoch 44, Batch 120] loss: 0.791
+[Epoch 44, Batch 130] loss: 0.792
+[Epoch 44, Batch 140] loss: 0.791
+[Epoch 44, Batch 150] loss: 0.800
+[Epoch 44, Batch 160] loss: 0.800
+[Epoch 44, Batch 170] loss: 0.797
+[Epoch 44, Batch 180] loss: 0.804
+epoch:  44 val_f1:  0.6315054046759626 val_auroc:  0.6579432180616948 val_auprc:  0.4677288583102921
+EarlyStopping counter: 28 out of 50
+epoch:  44
+[Epoch 45, Batch 10] loss: 0.784
+[Epoch 45, Batch 20] loss: 0.776
+[Epoch 45, Batch 30] loss: 0.798
+[Epoch 45, Batch 40] loss: 0.787
+[Epoch 45, Batch 50] loss: 0.781
+[Epoch 45, Batch 60] loss: 0.785
+[Epoch 45, Batch 70] loss: 0.801
+[Epoch 45, Batch 80] loss: 0.787
+[Epoch 45, Batch 90] loss: 0.794
+[Epoch 45, Batch 100] loss: 0.797
+[Epoch 45, Batch 110] loss: 0.786
+[Epoch 45, Batch 120] loss: 0.799
+[Epoch 45, Batch 130] loss: 0.795
+[Epoch 45, Batch 140] loss: 0.794
+[Epoch 45, Batch 150] loss: 0.802
+[Epoch 45, Batch 160] loss: 0.795
+[Epoch 45, Batch 170] loss: 0.799
+[Epoch 45, Batch 180] loss: 0.797
+epoch:  45 val_f1:  0.5973295257648562 val_auroc:  0.6614880744194893 val_auprc:  0.47286404963620776
+EarlyStopping counter: 29 out of 50
+epoch:  45
+[Epoch 46, Batch 10] loss: 0.793
+[Epoch 46, Batch 20] loss: 0.777
+[Epoch 46, Batch 30] loss: 0.785
+[Epoch 46, Batch 40] loss: 0.789
+[Epoch 46, Batch 50] loss: 0.791
+[Epoch 46, Batch 60] loss: 0.782
+[Epoch 46, Batch 70] loss: 0.792
+[Epoch 46, Batch 80] loss: 0.793
+[Epoch 46, Batch 90] loss: 0.777
+[Epoch 46, Batch 100] loss: 0.792
+[Epoch 46, Batch 110] loss: 0.793
+[Epoch 46, Batch 120] loss: 0.795
+[Epoch 46, Batch 130] loss: 0.795
+[Epoch 46, Batch 140] loss: 0.809
+[Epoch 46, Batch 150] loss: 0.807
+[Epoch 46, Batch 160] loss: 0.795
+[Epoch 46, Batch 170] loss: 0.796
+[Epoch 46, Batch 180] loss: 0.794
+epoch:  46 val_f1:  0.6151511076105943 val_auroc:  0.662259820187876 val_auprc:  0.4728271038377407
+EarlyStopping counter: 30 out of 50
+epoch:  46
+[Epoch 47, Batch 10] loss: 0.780
+[Epoch 47, Batch 20] loss: 0.770
+[Epoch 47, Batch 30] loss: 0.785
+[Epoch 47, Batch 40] loss: 0.783
+[Epoch 47, Batch 50] loss: 0.784
+[Epoch 47, Batch 60] loss: 0.786
+[Epoch 47, Batch 70] loss: 0.789
+[Epoch 47, Batch 80] loss: 0.790
+[Epoch 47, Batch 90] loss: 0.797
+[Epoch 47, Batch 100] loss: 0.801
+[Epoch 47, Batch 110] loss: 0.801
+[Epoch 47, Batch 120] loss: 0.791
+[Epoch 47, Batch 130] loss: 0.811
+[Epoch 47, Batch 140] loss: 0.805
+[Epoch 47, Batch 150] loss: 0.808
+[Epoch 47, Batch 160] loss: 0.794
+[Epoch 47, Batch 170] loss: 0.794
+[Epoch 47, Batch 180] loss: 0.787
+epoch:  47 val_f1:  0.6152787313932105 val_auroc:  0.6618586412072986 val_auprc:  0.4701125154629
+EarlyStopping counter: 31 out of 50
+epoch:  47
+[Epoch 48, Batch 10] loss: 0.778
+[Epoch 48, Batch 20] loss: 0.784
+[Epoch 48, Batch 30] loss: 0.782
+[Epoch 48, Batch 40] loss: 0.781
+[Epoch 48, Batch 50] loss: 0.786
+[Epoch 48, Batch 60] loss: 0.781
+[Epoch 48, Batch 70] loss: 0.782
+[Epoch 48, Batch 80] loss: 0.792
+[Epoch 48, Batch 90] loss: 0.790
+[Epoch 48, Batch 100] loss: 0.791
+[Epoch 48, Batch 110] loss: 0.787
+[Epoch 48, Batch 120] loss: 0.788
+[Epoch 48, Batch 130] loss: 0.792
+[Epoch 48, Batch 140] loss: 0.795
+[Epoch 48, Batch 150] loss: 0.801
+[Epoch 48, Batch 160] loss: 0.789
+[Epoch 48, Batch 170] loss: 0.788
+[Epoch 48, Batch 180] loss: 0.804
+epoch:  48 val_f1:  0.627548172237817 val_auroc:  0.6590827935092209 val_auprc:  0.4691189179023215
+EarlyStopping counter: 32 out of 50
+epoch:  48
+[Epoch 49, Batch 10] loss: 0.780
+[Epoch 49, Batch 20] loss: 0.787
+[Epoch 49, Batch 30] loss: 0.772
+[Epoch 49, Batch 40] loss: 0.782
+[Epoch 49, Batch 50] loss: 0.786
+[Epoch 49, Batch 60] loss: 0.790
+[Epoch 49, Batch 70] loss: 0.780
+[Epoch 49, Batch 80] loss: 0.783
+[Epoch 49, Batch 90] loss: 0.778
+[Epoch 49, Batch 100] loss: 0.794
+[Epoch 49, Batch 110] loss: 0.794
+[Epoch 49, Batch 120] loss: 0.787
+[Epoch 49, Batch 130] loss: 0.793
+[Epoch 49, Batch 140] loss: 0.794
+[Epoch 49, Batch 150] loss: 0.792
+[Epoch 49, Batch 160] loss: 0.787
+[Epoch 49, Batch 170] loss: 0.802
+[Epoch 49, Batch 180] loss: 0.791
+epoch:  49 val_f1:  0.6053798830555865 val_auroc:  0.6620505826720782 val_auprc:  0.4732778083637836
+EarlyStopping counter: 33 out of 50
+epoch:  49
+[Epoch 50, Batch 10] loss: 0.777
+[Epoch 50, Batch 20] loss: 0.775
+[Epoch 50, Batch 30] loss: 0.780
+[Epoch 50, Batch 40] loss: 0.771
+[Epoch 50, Batch 50] loss: 0.795
+[Epoch 50, Batch 60] loss: 0.798
+[Epoch 50, Batch 70] loss: 0.784
+[Epoch 50, Batch 80] loss: 0.788
+[Epoch 50, Batch 90] loss: 0.791
+[Epoch 50, Batch 100] loss: 0.790
+[Epoch 50, Batch 110] loss: 0.784
+[Epoch 50, Batch 120] loss: 0.785
+[Epoch 50, Batch 130] loss: 0.787
+[Epoch 50, Batch 140] loss: 0.803
+[Epoch 50, Batch 150] loss: 0.799
+[Epoch 50, Batch 160] loss: 0.782
+[Epoch 50, Batch 170] loss: 0.795
+[Epoch 50, Batch 180] loss: 0.791
+epoch:  50 val_f1:  0.6193717438241656 val_auroc:  0.6653747972221 val_auprc:  0.47586361125396126
+EarlyStopping counter: 34 out of 50
+epoch:  50
+[Epoch 51, Batch 10] loss: 0.782
+[Epoch 51, Batch 20] loss: 0.778
+[Epoch 51, Batch 30] loss: 0.784
+[Epoch 51, Batch 40] loss: 0.780
+[Epoch 51, Batch 50] loss: 0.765
+[Epoch 51, Batch 60] loss: 0.787
+[Epoch 51, Batch 70] loss: 0.780
+[Epoch 51, Batch 80] loss: 0.773
+[Epoch 51, Batch 90] loss: 0.788
+[Epoch 51, Batch 100] loss: 0.790
+[Epoch 51, Batch 110] loss: 0.787
+[Epoch 51, Batch 120] loss: 0.792
+[Epoch 51, Batch 130] loss: 0.789
+[Epoch 51, Batch 140] loss: 0.797
+[Epoch 51, Batch 150] loss: 0.791
+[Epoch 51, Batch 160] loss: 0.791
+[Epoch 51, Batch 170] loss: 0.792
+[Epoch 51, Batch 180] loss: 0.783
+epoch:  51 val_f1:  0.612569643750713 val_auroc:  0.6623601530029993 val_auprc:  0.4726289065142938
+EarlyStopping counter: 35 out of 50
+epoch:  51
+[Epoch 52, Batch 10] loss: 0.765
+[Epoch 52, Batch 20] loss: 0.769
+[Epoch 52, Batch 30] loss: 0.781
+[Epoch 52, Batch 40] loss: 0.779
+[Epoch 52, Batch 50] loss: 0.782
+[Epoch 52, Batch 60] loss: 0.779
+[Epoch 52, Batch 70] loss: 0.784
+[Epoch 52, Batch 80] loss: 0.784
+[Epoch 52, Batch 90] loss: 0.785
+[Epoch 52, Batch 100] loss: 0.796
+[Epoch 52, Batch 110] loss: 0.786
+[Epoch 52, Batch 120] loss: 0.790
+[Epoch 52, Batch 130] loss: 0.788
+[Epoch 52, Batch 140] loss: 0.796
+[Epoch 52, Batch 150] loss: 0.794
+[Epoch 52, Batch 160] loss: 0.774
+[Epoch 52, Batch 170] loss: 0.798
+[Epoch 52, Batch 180] loss: 0.791
+epoch:  52 val_f1:  0.6211708350796604 val_auroc:  0.6585722883564615 val_auprc:  0.4679262816428852
+EarlyStopping counter: 36 out of 50
+epoch:  52
+[Epoch 53, Batch 10] loss: 0.758
+[Epoch 53, Batch 20] loss: 0.781
+[Epoch 53, Batch 30] loss: 0.776
+[Epoch 53, Batch 40] loss: 0.770
+[Epoch 53, Batch 50] loss: 0.781
+[Epoch 53, Batch 60] loss: 0.770
+[Epoch 53, Batch 70] loss: 0.785
+[Epoch 53, Batch 80] loss: 0.781
+[Epoch 53, Batch 90] loss: 0.788
+[Epoch 53, Batch 100] loss: 0.787
+[Epoch 53, Batch 110] loss: 0.787
+[Epoch 53, Batch 120] loss: 0.784
+[Epoch 53, Batch 130] loss: 0.786
+[Epoch 53, Batch 140] loss: 0.798
+[Epoch 53, Batch 150] loss: 0.795
+[Epoch 53, Batch 160] loss: 0.789
+[Epoch 53, Batch 170] loss: 0.788
+[Epoch 53, Batch 180] loss: 0.785
+epoch:  53 val_f1:  0.618349878797771 val_auroc:  0.6604322706094654 val_auprc:  0.47019089589969315
+EarlyStopping counter: 37 out of 50
+epoch:  53
+[Epoch 54, Batch 10] loss: 0.768
+[Epoch 54, Batch 20] loss: 0.770
+[Epoch 54, Batch 30] loss: 0.781
+[Epoch 54, Batch 40] loss: 0.766
+[Epoch 54, Batch 50] loss: 0.786
+[Epoch 54, Batch 60] loss: 0.780
+[Epoch 54, Batch 70] loss: 0.790
+[Epoch 54, Batch 80] loss: 0.784
+[Epoch 54, Batch 90] loss: 0.787
+[Epoch 54, Batch 100] loss: 0.788
+[Epoch 54, Batch 110] loss: 0.784
+[Epoch 54, Batch 120] loss: 0.776
+[Epoch 54, Batch 130] loss: 0.784
+[Epoch 54, Batch 140] loss: 0.782
+[Epoch 54, Batch 150] loss: 0.785
+[Epoch 54, Batch 160] loss: 0.794
+[Epoch 54, Batch 170] loss: 0.803
+[Epoch 54, Batch 180] loss: 0.792
+epoch:  54 val_f1:  0.6203018091360842 val_auroc:  0.6623315175017762 val_auprc:  0.47108093021431935
+EarlyStopping counter: 38 out of 50
+epoch:  54
+[Epoch 55, Batch 10] loss: 0.770
+[Epoch 55, Batch 20] loss: 0.767
+[Epoch 55, Batch 30] loss: 0.771
+[Epoch 55, Batch 40] loss: 0.774
+[Epoch 55, Batch 50] loss: 0.781
+[Epoch 55, Batch 60] loss: 0.779
+[Epoch 55, Batch 70] loss: 0.778
+[Epoch 55, Batch 80] loss: 0.783
+[Epoch 55, Batch 90] loss: 0.781
+[Epoch 55, Batch 100] loss: 0.782
+[Epoch 55, Batch 110] loss: 0.777
+[Epoch 55, Batch 120] loss: 0.786
+[Epoch 55, Batch 130] loss: 0.779
+[Epoch 55, Batch 140] loss: 0.778
+[Epoch 55, Batch 150] loss: 0.789
+[Epoch 55, Batch 160] loss: 0.784
+[Epoch 55, Batch 170] loss: 0.799
+[Epoch 55, Batch 180] loss: 0.796
+epoch:  55 val_f1:  0.6190683614696039 val_auroc:  0.6550043827142058 val_auprc:  0.46275293684094965
+EarlyStopping counter: 39 out of 50
+epoch:  55
+[Epoch 56, Batch 10] loss: 0.769
+[Epoch 56, Batch 20] loss: 0.772
+[Epoch 56, Batch 30] loss: 0.774
+[Epoch 56, Batch 40] loss: 0.783
+[Epoch 56, Batch 50] loss: 0.773
+[Epoch 56, Batch 60] loss: 0.774
+[Epoch 56, Batch 70] loss: 0.782
+[Epoch 56, Batch 80] loss: 0.770
+[Epoch 56, Batch 90] loss: 0.769
+[Epoch 56, Batch 100] loss: 0.787
+[Epoch 56, Batch 110] loss: 0.783
+[Epoch 56, Batch 120] loss: 0.791
+[Epoch 56, Batch 130] loss: 0.786
+[Epoch 56, Batch 140] loss: 0.793
+[Epoch 56, Batch 150] loss: 0.793
+[Epoch 56, Batch 160] loss: 0.792
+[Epoch 56, Batch 170] loss: 0.782
+[Epoch 56, Batch 180] loss: 0.789
+epoch:  56 val_f1:  0.5986804934725211 val_auroc:  0.6546978402974706 val_auprc:  0.4658934077484522
+EarlyStopping counter: 40 out of 50
+epoch:  56
+[Epoch 57, Batch 10] loss: 0.781
+[Epoch 57, Batch 20] loss: 0.771
+[Epoch 57, Batch 30] loss: 0.772
+[Epoch 57, Batch 40] loss: 0.771
+[Epoch 57, Batch 50] loss: 0.768
+[Epoch 57, Batch 60] loss: 0.779
+[Epoch 57, Batch 70] loss: 0.778
+[Epoch 57, Batch 80] loss: 0.786
+[Epoch 57, Batch 90] loss: 0.792
+[Epoch 57, Batch 100] loss: 0.786
+[Epoch 57, Batch 110] loss: 0.782
+[Epoch 57, Batch 120] loss: 0.776
+[Epoch 57, Batch 130] loss: 0.785
+[Epoch 57, Batch 140] loss: 0.786
+[Epoch 57, Batch 150] loss: 0.783
+[Epoch 57, Batch 160] loss: 0.776
+[Epoch 57, Batch 170] loss: 0.782
+[Epoch 57, Batch 180] loss: 0.786
+epoch:  57 val_f1:  0.6184161380036152 val_auroc:  0.6610776152061417 val_auprc:  0.47008635576338414
+EarlyStopping counter: 41 out of 50
+epoch:  57
+[Epoch 58, Batch 10] loss: 0.773
+[Epoch 58, Batch 20] loss: 0.759
+[Epoch 58, Batch 30] loss: 0.773
+[Epoch 58, Batch 40] loss: 0.779
+[Epoch 58, Batch 50] loss: 0.780
+[Epoch 58, Batch 60] loss: 0.773
+[Epoch 58, Batch 70] loss: 0.766
+[Epoch 58, Batch 80] loss: 0.781
+[Epoch 58, Batch 90] loss: 0.775
+[Epoch 58, Batch 100] loss: 0.782
+[Epoch 58, Batch 110] loss: 0.785
+[Epoch 58, Batch 120] loss: 0.782
+[Epoch 58, Batch 130] loss: 0.784
+[Epoch 58, Batch 140] loss: 0.781
+[Epoch 58, Batch 150] loss: 0.775
+[Epoch 58, Batch 160] loss: 0.781
+[Epoch 58, Batch 170] loss: 0.768
+[Epoch 58, Batch 180] loss: 0.789
+epoch:  58 val_f1:  0.6139551873635937 val_auroc:  0.6515404135175835 val_auprc:  0.4580415519096168
+EarlyStopping counter: 42 out of 50
+epoch:  58
+[Epoch 59, Batch 10] loss: 0.754
+[Epoch 59, Batch 20] loss: 0.773
+[Epoch 59, Batch 30] loss: 0.770
+[Epoch 59, Batch 40] loss: 0.767
+[Epoch 59, Batch 50] loss: 0.774
+[Epoch 59, Batch 60] loss: 0.762
+[Epoch 59, Batch 70] loss: 0.776
+[Epoch 59, Batch 80] loss: 0.783
+[Epoch 59, Batch 90] loss: 0.782
+[Epoch 59, Batch 100] loss: 0.779
+[Epoch 59, Batch 110] loss: 0.782
+[Epoch 59, Batch 120] loss: 0.789
+[Epoch 59, Batch 130] loss: 0.787
+[Epoch 59, Batch 140] loss: 0.783
+[Epoch 59, Batch 150] loss: 0.786
+[Epoch 59, Batch 160] loss: 0.787
+[Epoch 59, Batch 170] loss: 0.780
+[Epoch 59, Batch 180] loss: 0.779
+epoch:  59 val_f1:  0.5983539552024938 val_auroc:  0.6567665875073094 val_auprc:  0.46531179314934656
+EarlyStopping counter: 43 out of 50
+epoch:  59
+[Epoch 60, Batch 10] loss: 0.762
+[Epoch 60, Batch 20] loss: 0.761
+[Epoch 60, Batch 30] loss: 0.776
+[Epoch 60, Batch 40] loss: 0.770
+[Epoch 60, Batch 50] loss: 0.766
+[Epoch 60, Batch 60] loss: 0.779
+[Epoch 60, Batch 70] loss: 0.777
+[Epoch 60, Batch 80] loss: 0.785
+[Epoch 60, Batch 90] loss: 0.776
+[Epoch 60, Batch 100] loss: 0.784
+[Epoch 60, Batch 110] loss: 0.798
+[Epoch 60, Batch 120] loss: 0.772
+[Epoch 60, Batch 130] loss: 0.784
+[Epoch 60, Batch 140] loss: 0.777
+[Epoch 60, Batch 150] loss: 0.783
+[Epoch 60, Batch 160] loss: 0.780
+[Epoch 60, Batch 170] loss: 0.778
+[Epoch 60, Batch 180] loss: 0.780
+epoch:  60 val_f1:  0.6194921067087441 val_auroc:  0.6646914268569111 val_auprc:  0.47479946344439794
+EarlyStopping counter: 44 out of 50
+epoch:  60
+[Epoch 61, Batch 10] loss: 0.762
+[Epoch 61, Batch 20] loss: 0.763
+[Epoch 61, Batch 30] loss: 0.770
+[Epoch 61, Batch 40] loss: 0.767
+[Epoch 61, Batch 50] loss: 0.771
+[Epoch 61, Batch 60] loss: 0.760
+[Epoch 61, Batch 70] loss: 0.772
+[Epoch 61, Batch 80] loss: 0.758
+[Epoch 61, Batch 90] loss: 0.776
+[Epoch 61, Batch 100] loss: 0.785
+[Epoch 61, Batch 110] loss: 0.775
+[Epoch 61, Batch 120] loss: 0.779
+[Epoch 61, Batch 130] loss: 0.778
+[Epoch 61, Batch 140] loss: 0.778
+[Epoch 61, Batch 150] loss: 0.773
+[Epoch 61, Batch 160] loss: 0.787
+[Epoch 61, Batch 170] loss: 0.789
+[Epoch 61, Batch 180] loss: 0.791
+epoch:  61 val_f1:  0.6270433359575946 val_auroc:  0.6589312573094359 val_auprc:  0.4676652800207516
+EarlyStopping counter: 45 out of 50
+epoch:  61
+[Epoch 62, Batch 10] loss: 0.759
+[Epoch 62, Batch 20] loss: 0.760
+[Epoch 62, Batch 30] loss: 0.771
+[Epoch 62, Batch 40] loss: 0.771
+[Epoch 62, Batch 50] loss: 0.774
+[Epoch 62, Batch 60] loss: 0.781
+[Epoch 62, Batch 70] loss: 0.762
+[Epoch 62, Batch 80] loss: 0.764
+[Epoch 62, Batch 90] loss: 0.782
+[Epoch 62, Batch 100] loss: 0.784
+[Epoch 62, Batch 110] loss: 0.771
+[Epoch 62, Batch 120] loss: 0.770
+[Epoch 62, Batch 130] loss: 0.770
+[Epoch 62, Batch 140] loss: 0.799
+[Epoch 62, Batch 150] loss: 0.792
+[Epoch 62, Batch 160] loss: 0.768
+[Epoch 62, Batch 170] loss: 0.781
+[Epoch 62, Batch 180] loss: 0.767
+epoch:  62 val_f1:  0.6126476391632533 val_auroc:  0.6606524870159267 val_auprc:  0.4691889584528044
+EarlyStopping counter: 46 out of 50
+epoch:  62
+[Epoch 63, Batch 10] loss: 0.763
+[Epoch 63, Batch 20] loss: 0.770
+[Epoch 63, Batch 30] loss: 0.764
+[Epoch 63, Batch 40] loss: 0.770
+[Epoch 63, Batch 50] loss: 0.768
+[Epoch 63, Batch 60] loss: 0.772
+[Epoch 63, Batch 70] loss: 0.776
+[Epoch 63, Batch 80] loss: 0.773
+[Epoch 63, Batch 90] loss: 0.780
+[Epoch 63, Batch 100] loss: 0.788
+[Epoch 63, Batch 110] loss: 0.776
+[Epoch 63, Batch 120] loss: 0.778
+[Epoch 63, Batch 130] loss: 0.777
+[Epoch 63, Batch 140] loss: 0.776
+[Epoch 63, Batch 150] loss: 0.777
+[Epoch 63, Batch 160] loss: 0.766
+[Epoch 63, Batch 170] loss: 0.774
+[Epoch 63, Batch 180] loss: 0.779
+epoch:  63 val_f1:  0.6033992864531955 val_auroc:  0.6542334769414806 val_auprc:  0.46437482602575947
+EarlyStopping counter: 47 out of 50
+epoch:  63
+[Epoch 64, Batch 10] loss: 0.748
+[Epoch 64, Batch 20] loss: 0.770
+[Epoch 64, Batch 30] loss: 0.772
+[Epoch 64, Batch 40] loss: 0.763
+[Epoch 64, Batch 50] loss: 0.769
+[Epoch 64, Batch 60] loss: 0.759
+[Epoch 64, Batch 70] loss: 0.768
+[Epoch 64, Batch 80] loss: 0.778
+[Epoch 64, Batch 90] loss: 0.771
+[Epoch 64, Batch 100] loss: 0.778
+[Epoch 64, Batch 110] loss: 0.781
+[Epoch 64, Batch 120] loss: 0.775
+[Epoch 64, Batch 130] loss: 0.775
+[Epoch 64, Batch 140] loss: 0.783
+[Epoch 64, Batch 150] loss: 0.774
+[Epoch 64, Batch 160] loss: 0.762
+[Epoch 64, Batch 170] loss: 0.770
+[Epoch 64, Batch 180] loss: 0.781
+epoch:  64 val_f1:  0.6277683487621585 val_auroc:  0.6574152262624102 val_auprc:  0.4639370118447512
+EarlyStopping counter: 48 out of 50
+epoch:  64
+[Epoch 65, Batch 10] loss: 0.765
+[Epoch 65, Batch 20] loss: 0.759
+[Epoch 65, Batch 30] loss: 0.756
+[Epoch 65, Batch 40] loss: 0.765
+[Epoch 65, Batch 50] loss: 0.768
+[Epoch 65, Batch 60] loss: 0.772
+[Epoch 65, Batch 70] loss: 0.766
+[Epoch 65, Batch 80] loss: 0.791
+[Epoch 65, Batch 90] loss: 0.796
+[Epoch 65, Batch 100] loss: 0.770
+[Epoch 65, Batch 110] loss: 0.776
+[Epoch 65, Batch 120] loss: 0.778
+[Epoch 65, Batch 130] loss: 0.772
+[Epoch 65, Batch 140] loss: 0.773
+[Epoch 65, Batch 150] loss: 0.777
+[Epoch 65, Batch 160] loss: 0.790
+[Epoch 65, Batch 170] loss: 0.772
+[Epoch 65, Batch 180] loss: 0.773
+epoch:  65 val_f1:  0.6163711448727813 val_auroc:  0.6548810192811916 val_auprc:  0.4637026497898559
+EarlyStopping counter: 49 out of 50
+epoch:  65
+[Epoch 66, Batch 10] loss: 0.767
+[Epoch 66, Batch 20] loss: 0.752
+[Epoch 66, Batch 30] loss: 0.760
+[Epoch 66, Batch 40] loss: 0.773
+[Epoch 66, Batch 50] loss: 0.771
+[Epoch 66, Batch 60] loss: 0.767
+[Epoch 66, Batch 70] loss: 0.764
+[Epoch 66, Batch 80] loss: 0.770
+[Epoch 66, Batch 90] loss: 0.772
+[Epoch 66, Batch 100] loss: 0.762
+[Epoch 66, Batch 110] loss: 0.773
+[Epoch 66, Batch 120] loss: 0.766
+[Epoch 66, Batch 130] loss: 0.780
+[Epoch 66, Batch 140] loss: 0.756
+[Epoch 66, Batch 150] loss: 0.776
+[Epoch 66, Batch 160] loss: 0.766
+[Epoch 66, Batch 170] loss: 0.772
+[Epoch 66, Batch 180] loss: 0.770
+epoch:  66 val_f1:  0.6195972683543463 val_auroc:  0.6568861233109702 val_auprc:  0.4666471443096886
+EarlyStopping counter: 50 out of 50
+Early stopping triggered
+Early stopping triggered!
+Time taken:  147125.79438519478
+{'time_elapsed': [147125.79438519478], 'epoch': [65], 'fold': [1], 'f1_train': [0.7024655833790012], 'auroc_train': [0.7755770711759813], 'auprc_train': [0.6213912009264441], 'f1_test': [0.6195972683543463], 'auroc_test': [0.6568861233109702], 'auprc_test': [0.4666471443096886]}
+==========================================================================================
+Layer (type:depth-idx)                   Output Shape              Param #
+==========================================================================================
+PGPredictor                              [1024, 1]                 --
+├─Sequential: 1-1                        [1024, 1]                 --
+│    └─Conv1d: 2-1                       [1024, 512, 1262]         10,240
+│    └─BatchNorm1d: 2-2                  [1024, 512, 1262]         1,024
+│    └─Tanh: 2-3                         [1024, 512, 1262]         --
+│    └─MaxPool1d: 2-4                    [1024, 512, 66]           --
+│    └─Dropout: 2-5                      [1024, 512, 66]           --
+│    └─Flatten: 2-6                      [1024, 33792]             --
+│    └─Linear: 2-7                       [1024, 1]                 33,793
+==========================================================================================
+Total params: 45,057
+Trainable params: 45,057
+Non-trainable params: 0
+Total mult-adds (G): 13.27
+==========================================================================================
+Input size (MB): 5.24
+Forward/backward pass size (MB): 10586.43
+Params size (MB): 0.18
+Estimated Total Size (MB): 10591.85
+==========================================================================================

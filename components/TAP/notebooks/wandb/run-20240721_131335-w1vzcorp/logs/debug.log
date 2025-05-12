@@ -1,0 +1,40 @@
+2024-07-21 13:13:35,824 INFO    MainThread:2515419 [wandb_setup.py:_flush():76] Current SDK version is 0.15.3
+2024-07-21 13:13:35,824 INFO    MainThread:2515419 [wandb_setup.py:_flush():76] Configure stats pid to 2515419
+2024-07-21 13:13:35,824 INFO    MainThread:2515419 [wandb_setup.py:_flush():76] Loading settings from /home/s2272596/.config/wandb/settings
+2024-07-21 13:13:35,824 INFO    MainThread:2515419 [wandb_setup.py:_flush():76] Loading settings from /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/settings
+2024-07-21 13:13:35,826 INFO    MainThread:2515419 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-21 13:13:35,827 INFO    MainThread:2515419 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-21 13:13:35,827 INFO    MainThread:2515419 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-21 13:13:35,827 INFO    MainThread:2515419 [wandb_init.py:_log_setup():507] Logging user logs to /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240721_131335-w1vzcorp/logs/debug.log
+2024-07-21 13:13:35,827 INFO    MainThread:2515419 [wandb_init.py:_log_setup():508] Logging internal logs to /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240721_131335-w1vzcorp/logs/debug-internal.log
+2024-07-21 13:13:35,827 INFO    MainThread:2515419 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1502fc8a4d00>
+2024-07-21 13:13:35,827 INFO    MainThread:2515419 [wandb_init.py:init():547] calling init triggers
+2024-07-21 13:13:35,827 INFO    MainThread:2515419 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'hidden_channels': [128, 64, 32], 'epochs': 100, 'classes': 2, 'batch_size': 16, 'lr': 0.0001, 'dataset': 'X.pkl, y.pkl (embedded peptide seq from classification', 'dropout_p': 0.2, 'architecture': 'CNN'}
+2024-07-21 13:13:35,827 INFO    MainThread:2515419 [wandb_init.py:init():596] starting backend
+2024-07-21 13:13:35,828 INFO    MainThread:2515419 [wandb_init.py:init():600] setting up manager
+2024-07-21 13:13:35,834 INFO    MainThread:2515419 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-21 13:13:35,841 INFO    MainThread:2515419 [wandb_init.py:init():606] backend started and connected
+2024-07-21 13:13:35,849 INFO    MainThread:2515419 [wandb_run.py:_label_probe_notebook():1238] probe notebook
+2024-07-21 13:13:35,849 INFO    MainThread:2515419 [wandb_run.py:_label_probe_notebook():1248] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-21 13:13:35,849 INFO    MainThread:2515419 [wandb_init.py:init():700] updated telemetry
+2024-07-21 13:13:35,936 INFO    MainThread:2515419 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2024-07-21 13:13:36,354 INFO    MainThread:2515419 [wandb_run.py:_on_init():2177] communicating current version
+2024-07-21 13:13:36,523 INFO    MainThread:2515419 [wandb_run.py:_on_init():2186] got version response upgrade_message: "wandb version 0.17.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-21 13:13:36,524 INFO    MainThread:2515419 [wandb_init.py:init():787] starting run threads in backend
+2024-07-21 13:13:41,748 INFO    MainThread:2515419 [wandb_run.py:_console_start():2158] atexit reg
+2024-07-21 13:13:41,748 INFO    MainThread:2515419 [wandb_run.py:_redirect():2013] redirect: SettingsConsole.WRAP_RAW
+2024-07-21 13:13:41,749 INFO    MainThread:2515419 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2024-07-21 13:13:41,749 INFO    MainThread:2515419 [wandb_run.py:_redirect():2103] Redirects installed.
+2024-07-21 13:13:41,749 INFO    MainThread:2515419 [wandb_init.py:init():829] run started, returning control to user process
+2024-07-21 13:20:18,362 INFO    MainThread:2515419 [wandb_run.py:_finish():1893] finishing run prborole/MHCCBM/w1vzcorp
+2024-07-21 13:20:18,364 INFO    MainThread:2515419 [jupyter.py:save_history():445] not saving jupyter history
+2024-07-21 13:20:18,364 INFO    MainThread:2515419 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-21 13:20:18,364 INFO    MainThread:2515419 [wandb_init.py:_jupyter_teardown():435] cleaning up jupyter logic
+2024-07-21 13:20:18,364 INFO    MainThread:2515419 [wandb_run.py:_atexit_cleanup():2127] got exitcode: 0
+2024-07-21 13:20:18,364 INFO    MainThread:2515419 [wandb_run.py:_restore():2110] restore
+2024-07-21 13:20:18,365 INFO    MainThread:2515419 [wandb_run.py:_restore():2116] restore done
+2024-07-21 13:20:23,155 INFO    MainThread:2515419 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2024-07-21 13:20:23,156 INFO    MainThread:2515419 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2024-07-21 13:20:23,173 INFO    MainThread:2515419 [wandb_run.py:_footer_sync_info():3428] logging synced files

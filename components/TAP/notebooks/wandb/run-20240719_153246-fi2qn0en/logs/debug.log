@@ -1,0 +1,32 @@
+2024-07-19 15:32:46,195 INFO    MainThread:2188257 [wandb_setup.py:_flush():76] Current SDK version is 0.15.3
+2024-07-19 15:32:46,196 INFO    MainThread:2188257 [wandb_setup.py:_flush():76] Configure stats pid to 2188257
+2024-07-19 15:32:46,196 INFO    MainThread:2188257 [wandb_setup.py:_flush():76] Loading settings from /home/s2272596/.config/wandb/settings
+2024-07-19 15:32:46,196 INFO    MainThread:2188257 [wandb_setup.py:_flush():76] Loading settings from /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/settings
+2024-07-19 15:32:46,197 INFO    MainThread:2188257 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-19 15:32:46,197 INFO    MainThread:2188257 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-19 15:32:46,197 INFO    MainThread:2188257 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-19 15:32:46,197 INFO    MainThread:2188257 [wandb_init.py:_log_setup():507] Logging user logs to /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_153246-fi2qn0en/logs/debug.log
+2024-07-19 15:32:46,197 INFO    MainThread:2188257 [wandb_init.py:_log_setup():508] Logging internal logs to /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_153246-fi2qn0en/logs/debug-internal.log
+2024-07-19 15:32:46,197 INFO    MainThread:2188257 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x15022b1037c0>
+2024-07-19 15:32:46,198 INFO    MainThread:2188257 [wandb_init.py:init():547] calling init triggers
+2024-07-19 15:32:46,198 INFO    MainThread:2188257 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'hidden_size': [4096, 2048, 1024, 512], 'epochs': 250, 'classes': 2, 'batch_size': 16, 'lr': 0.0001, 'dataset': 'X.pkl, y.pkl (embedded peptide seq from classification', 'dropout_p': 0.2, 'architecture': 'MLP', 'weight_decay': 0.0001}
+2024-07-19 15:32:46,198 INFO    MainThread:2188257 [wandb_init.py:init():596] starting backend
+2024-07-19 15:32:46,198 INFO    MainThread:2188257 [wandb_init.py:init():600] setting up manager
+2024-07-19 15:32:46,201 INFO    MainThread:2188257 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-07-19 15:32:46,209 INFO    MainThread:2188257 [wandb_init.py:init():606] backend started and connected
+2024-07-19 15:32:46,222 INFO    MainThread:2188257 [wandb_run.py:_label_probe_notebook():1238] probe notebook
+2024-07-19 15:32:46,223 INFO    MainThread:2188257 [wandb_run.py:_label_probe_notebook():1248] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-19 15:32:46,223 INFO    MainThread:2188257 [wandb_init.py:init():700] updated telemetry
+2024-07-19 15:32:46,280 INFO    MainThread:2188257 [wandb_init.py:init():737] communicating run to backend with 60.0 second timeout
+2024-07-19 15:32:46,681 INFO    MainThread:2188257 [wandb_run.py:_on_init():2177] communicating current version
+2024-07-19 15:32:46,768 INFO    MainThread:2188257 [wandb_run.py:_on_init():2186] got version response upgrade_message: "wandb version 0.17.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-19 15:32:46,768 INFO    MainThread:2188257 [wandb_init.py:init():787] starting run threads in backend
+2024-07-19 15:32:52,668 INFO    MainThread:2188257 [wandb_run.py:_console_start():2158] atexit reg
+2024-07-19 15:32:52,668 INFO    MainThread:2188257 [wandb_run.py:_redirect():2013] redirect: SettingsConsole.WRAP_RAW
+2024-07-19 15:32:52,669 INFO    MainThread:2188257 [wandb_run.py:_redirect():2078] Wrapping output streams.
+2024-07-19 15:32:52,669 INFO    MainThread:2188257 [wandb_run.py:_redirect():2103] Redirects installed.
+2024-07-19 15:32:52,670 INFO    MainThread:2188257 [wandb_init.py:init():829] run started, returning control to user process
+2024-07-19 15:42:28,780 INFO    MainThread:2188257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-07-19 15:42:28,781 INFO    MainThread:2188257 [wandb_init.py:_pause_backend():418] pausing backend

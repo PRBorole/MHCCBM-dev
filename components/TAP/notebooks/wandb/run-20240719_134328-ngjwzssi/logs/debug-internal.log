@@ -1,0 +1,609 @@
+2024-07-19 13:43:28,285 INFO    StreamThr :2183895 [internal.py:wandb_internal():86] W&B internal server running at pid: 2183895, started at: 2024-07-19 13:43:28.284027
+2024-07-19 13:43:28,288 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status
+2024-07-19 13:43:28,302 INFO    WriterThread:2183895 [datastore.py:open_for_write():85] open: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/run-ngjwzssi.wandb
+2024-07-19 13:43:28,306 DEBUG   SenderThread:2183895 [sender.py:send():375] send: header
+2024-07-19 13:43:28,387 DEBUG   SenderThread:2183895 [sender.py:send():375] send: run
+2024-07-19 13:43:28,809 INFO    SenderThread:2183895 [dir_watcher.py:__init__():219] watching files in: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files
+2024-07-19 13:43:28,809 INFO    SenderThread:2183895 [sender.py:_start_run_threads():1124] run started: ngjwzssi with start time 1721393008.284688
+2024-07-19 13:43:28,809 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:28,810 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:28,814 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: check_version
+2024-07-19 13:43:28,814 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: check_version
+2024-07-19 13:43:28,910 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: run_start
+2024-07-19 13:43:28,911 DEBUG   HandlerThread:2183895 [system_info.py:__init__():31] System info init
+2024-07-19 13:43:28,911 DEBUG   HandlerThread:2183895 [system_info.py:__init__():46] System info init done
+2024-07-19 13:43:28,911 INFO    HandlerThread:2183895 [system_monitor.py:start():181] Starting system monitor
+2024-07-19 13:43:28,911 INFO    SystemMonitor:2183895 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-07-19 13:43:28,911 INFO    HandlerThread:2183895 [system_monitor.py:probe():201] Collecting system info
+2024-07-19 13:43:28,912 INFO    SystemMonitor:2183895 [interfaces.py:start():190] Started cpu monitoring
+2024-07-19 13:43:28,913 INFO    SystemMonitor:2183895 [interfaces.py:start():190] Started disk monitoring
+2024-07-19 13:43:28,914 INFO    SystemMonitor:2183895 [interfaces.py:start():190] Started memory monitoring
+2024-07-19 13:43:28,915 INFO    SystemMonitor:2183895 [interfaces.py:start():190] Started network monitoring
+2024-07-19 13:43:28,940 DEBUG   HandlerThread:2183895 [system_info.py:probe():195] Probing system
+2024-07-19 13:43:28,948 DEBUG   HandlerThread:2183895 [system_info.py:_probe_git():180] Probing git
+2024-07-19 13:43:28,968 DEBUG   HandlerThread:2183895 [system_info.py:_probe_git():188] Probing git done
+2024-07-19 13:43:28,968 DEBUG   HandlerThread:2183895 [system_info.py:probe():240] Probing system done
+2024-07-19 13:43:28,969 DEBUG   HandlerThread:2183895 [system_monitor.py:probe():210] {'os': 'Linux-5.14.0-362.24.1.el9_3.x86_64-x86_64-with-glibc2.17', 'python': '3.8.16', 'heartbeatAt': '2024-07-19T12:43:28.940321', 'startedAt': '2024-07-19T12:43:28.256870', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'MHCCBM/MHCCBM/components/TAP/notebooks/2 - DeepTAP train and test.ipynb', 'root': '/exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM', 'git': {'remote': 'git@github.com:PRBorole/MHCCBM.git', 'commit': 'd0b06471a41c9b6752c1dabfed2cf5aae576faba'}, 'email': None, 'host': 'node1c20.ecdf.ed.ac.uk', 'username': 's2272596', 'executable': '/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/bin/python', 'cpu_count': 40, 'cpu_count_logical': 80, 'cpu_freq': {'current': 2687.4755375, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2788.236, 'min': 0.0, 'max': 0.0}, {'current': 2808.027, 'min': 0.0, 'max': 0.0}, {'current': 2799.999, 'min': 0.0, 'max': 0.0}, {'current': 2800.001, 'min': 0.0, 'max': 0.0}, {'current': 2800.0, 'min': 0.0, 'max': 0.0}, {'current': 2992.511, 'min': 0.0, 'max': 0.0}, {'current': 2799.999, 'min': 0.0, 'max': 0.0}, {'current': 2799.999, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2800.0, 'min': 0.0, 'max': 0.0}, {'current': 2799.999, 'min': 0.0, 'max': 0.0}, {'current': 2849.415, 'min': 0.0, 'max': 0.0}, {'current': 2800.0, 'min': 0.0, 'max': 0.0}, {'current': 2799.999, 'min': 0.0, 'max': 0.0}, {'current': 3134.559, 'min': 0.0, 'max': 0.0}, {'current': 2938.361, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2920.516, 'min': 0.0, 'max': 0.0}, {'current': 3134.154, 'min': 0.0, 'max': 0.0}, {'current': 2906.166, 'min': 0.0, 'max': 0.0}, {'current': 3133.931, 'min': 0.0, 'max': 0.0}, {'current': 2799.999, 'min': 0.0, 'max': 0.0}, {'current': 2800.001, 'min': 0.0, 'max': 0.0}, {'current': 2907.781, 'min': 0.0, 'max': 0.0}, {'current': 2800.0, 'min': 0.0, 'max': 0.0}, {'current': 2901.854, 'min': 0.0, 'max': 0.0}, {'current': 2800.0, 'min': 0.0, 'max': 0.0}, {'current': 2944.293, 'min': 0.0, 'max': 0.0}, {'current': 2799.999, 'min': 0.0, 'max': 0.0}, {'current': 2940.128, 'min': 0.0, 'max': 0.0}, {'current': 2799.999, 'min': 0.0, 'max': 0.0}, {'current': 3003.35, 'min': 0.0, 'max': 0.0}, {'current': 2854.996, 'min': 0.0, 'max': 0.0}, {'current': 3003.31, 'min': 0.0, 'max': 0.0}, {'current': 2805.876, 'min': 0.0, 'max': 0.0}, {'current': 3003.267, 'min': 0.0, 'max': 0.0}, {'current': 2945.655, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2830.38, 'min': 0.0, 'max': 0.0}, {'current': 2823.726, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2800.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2799.999, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2500.0, 'min': 0.0, 'max': 0.0}, {'current': 2827.558, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 70.31932830810547, 'used': 18.31163787841797}, 'memory': {'total': 376.0276069641113}}
+2024-07-19 13:43:28,969 INFO    HandlerThread:2183895 [system_monitor.py:probe():211] Finished collecting system info
+2024-07-19 13:43:28,969 INFO    HandlerThread:2183895 [system_monitor.py:probe():214] Publishing system info
+2024-07-19 13:43:28,969 DEBUG   HandlerThread:2183895 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-07-19 13:43:28,970 DEBUG   HandlerThread:2183895 [system_info.py:_save_pip():67] Saving pip packages done
+2024-07-19 13:43:28,970 DEBUG   HandlerThread:2183895 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-07-19 13:43:29,812 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_created():278] file/dir created: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/conda-environment.yaml
+2024-07-19 13:43:29,813 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_created():278] file/dir created: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:43:29,813 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_created():278] file/dir created: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/requirements.txt
+2024-07-19 13:43:36,368 DEBUG   HandlerThread:2183895 [system_info.py:_save_conda():86] Saving conda packages done
+2024-07-19 13:43:36,370 INFO    HandlerThread:2183895 [system_monitor.py:probe():216] Finished publishing system info
+2024-07-19 13:43:36,379 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:43:36,379 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: keepalive
+2024-07-19 13:43:36,379 DEBUG   SenderThread:2183895 [sender.py:send():375] send: files
+2024-07-19 13:43:36,379 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2024-07-19 13:43:36,400 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-19 13:43:36,400 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: stop_status
+2024-07-19 13:43:36,672 DEBUG   SenderThread:2183895 [sender.py:send():375] send: telemetry
+2024-07-19 13:43:36,818 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/conda-environment.yaml
+2024-07-19 13:43:36,819 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_created():278] file/dir created: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-metadata.json
+2024-07-19 13:43:36,827 INFO    wandb-upload_0:2183895 [upload_job.py:push():137] Uploaded file /tmp/tmp0aafsqhvwandb/7j4y1dny-wandb-metadata.json
+2024-07-19 13:43:38,820 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_created():278] file/dir created: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:43:39,327 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:43:39,889 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:39,890 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:39,891 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:39,894 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:40,822 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:43:40,822 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:43:41,408 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:41,409 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:41,409 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:41,410 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:41,823 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:43:42,824 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:43:42,901 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:42,902 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:42,902 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:42,902 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:43,825 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:43:44,387 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:43:44,388 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:44,389 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:44,389 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:44,390 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:44,826 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:43:44,826 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:43:44,984 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:44,985 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:44,985 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:44,986 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:45,249 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:45,251 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:45,251 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:45,251 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:45,827 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:43:46,690 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:46,691 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:46,691 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:46,692 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:46,828 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:43:46,828 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:43:48,132 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:48,133 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:48,133 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:48,134 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:48,829 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:43:48,830 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:43:49,577 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:43:49,578 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:49,579 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:49,579 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:49,580 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:49,830 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:43:50,831 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:43:51,000 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:51,001 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:51,001 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:51,002 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:51,401 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-19 13:43:51,402 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: stop_status
+2024-07-19 13:43:51,562 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:51,563 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:51,563 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:51,563 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:51,808 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:51,809 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:51,809 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:51,809 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:51,832 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:43:52,833 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:43:53,279 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:53,280 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:53,280 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:53,281 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:53,834 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:43:54,750 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:43:54,751 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:54,752 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:54,752 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:54,752 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:54,835 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:43:54,836 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:43:56,223 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:56,224 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:56,224 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:56,224 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:56,837 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:43:56,838 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:43:57,698 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:57,699 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:57,700 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:57,700 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:57,838 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:43:58,281 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:58,282 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:58,282 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:58,282 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:58,554 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:43:58,555 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:43:58,555 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:43:58,556 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:43:58,839 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:43:58,840 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:00,038 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:44:00,039 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:00,182 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:00,182 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:00,183 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:00,841 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:00,842 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/config.yaml
+2024-07-19 13:44:00,842 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:01,530 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:01,531 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:01,531 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:01,532 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:01,843 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:02,844 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:03,015 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:03,015 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:03,016 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:03,016 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:03,845 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:04,496 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:04,497 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:04,497 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:04,498 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:04,846 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:04,846 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:05,082 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:05,083 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:05,084 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:05,084 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:05,352 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:05,353 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:05,353 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:05,354 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:44:05,354 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:05,847 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:06,401 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-19 13:44:06,401 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: stop_status
+2024-07-19 13:44:06,844 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:06,845 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:06,845 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:06,846 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:06,847 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:06,848 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:08,317 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:08,318 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:08,318 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:08,319 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:08,849 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:08,850 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:09,789 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:09,790 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:09,790 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:09,791 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:09,851 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:10,791 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:44:10,852 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:11,274 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:11,275 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:11,275 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:11,276 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:11,853 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:11,858 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:11,859 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:11,859 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:11,859 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:12,126 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:12,127 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:12,127 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:12,128 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:12,854 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:12,855 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:13,610 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:13,611 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:13,611 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:13,612 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:13,856 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:14,856 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:15,090 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:15,091 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:15,091 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:15,092 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:15,857 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:16,093 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:44:16,439 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:16,440 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:16,440 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:16,440 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:16,859 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:16,859 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:17,767 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:17,768 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:17,768 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:17,769 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:17,860 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:18,272 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:18,272 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:18,273 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:18,273 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:18,510 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:18,511 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:18,511 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:18,512 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:18,860 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:18,861 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:19,841 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:19,842 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:19,842 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:19,843 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:19,861 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:20,862 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:21,116 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:44:21,117 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:21,117 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:21,118 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:21,118 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:21,400 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-19 13:44:21,401 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: stop_status
+2024-07-19 13:44:21,864 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:22,406 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:22,407 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:22,407 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:22,407 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:22,864 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:22,865 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:23,692 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:23,693 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:23,693 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:23,694 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:23,865 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:24,196 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:24,197 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:24,197 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:24,198 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:24,434 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:24,435 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:24,435 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:24,435 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:24,866 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:24,866 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:25,727 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:25,728 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:25,728 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:25,729 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:25,867 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:26,729 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:44:26,868 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:27,158 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:27,159 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:27,159 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:27,160 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:27,869 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:28,618 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:28,619 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:28,619 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:28,620 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:28,870 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:28,870 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:28,915 DEBUG   SystemMonitor:2183895 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-07-19 13:44:28,919 DEBUG   SenderThread:2183895 [sender.py:send():375] send: stats
+2024-07-19 13:44:30,109 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:30,110 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:30,110 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:30,111 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:30,676 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:30,677 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:30,677 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:30,678 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:30,872 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:30,873 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:30,936 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:30,937 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:30,938 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:30,938 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:31,873 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:31,941 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:44:32,369 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:32,370 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:32,370 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:32,370 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:32,874 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:32,875 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:33,788 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:33,789 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:33,789 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:33,790 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:33,875 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:34,876 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:35,211 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:35,212 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:35,212 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:35,213 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:35,878 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:36,401 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-19 13:44:36,401 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: stop_status
+2024-07-19 13:44:36,643 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:36,644 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:36,644 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:36,645 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:36,879 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:36,880 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:37,207 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:37,208 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:37,208 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:37,209 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:44:37,209 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:37,467 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:37,468 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:37,468 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:37,469 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:37,881 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:38,883 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:38,896 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:38,897 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:38,897 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:38,898 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:39,884 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:40,310 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:40,310 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:40,311 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:40,311 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:40,886 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:40,886 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:41,726 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:41,727 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:41,727 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:41,728 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:41,888 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:42,729 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:44:42,889 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:43,167 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:43,168 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:43,168 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:43,169 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:43,730 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:43,731 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:43,731 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:43,732 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:43,891 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:43,994 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:43,995 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:43,995 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:43,996 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:44,893 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:44,893 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:45,434 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:45,435 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:45,435 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:45,436 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:45,894 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:46,867 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:46,867 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:46,868 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:46,868 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:46,896 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:46,897 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:47,869 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:44:48,284 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:48,285 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:48,285 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:48,286 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:48,899 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:48,899 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:49,705 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:49,706 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:49,706 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:49,706 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:49,901 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:50,265 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:50,266 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:50,266 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:50,267 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:50,527 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: partial_history
+2024-07-19 13:44:50,528 DEBUG   SenderThread:2183895 [sender.py:send():375] send: history
+2024-07-19 13:44:50,529 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: summary_record
+2024-07-19 13:44:50,529 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:44:50,902 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:44:50,902 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:51,400 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-19 13:44:51,401 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: stop_status
+2024-07-19 13:44:51,764 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: pause
+2024-07-19 13:44:51,764 INFO    HandlerThread:2183895 [handler.py:handle_request_pause():716] stopping system metrics thread or process
+2024-07-19 13:44:51,765 INFO    HandlerThread:2183895 [system_monitor.py:finish():190] Stopping system monitor
+2024-07-19 13:44:51,765 DEBUG   SystemMonitor:2183895 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-07-19 13:44:51,765 DEBUG   SystemMonitor:2183895 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-07-19 13:44:51,767 INFO    HandlerThread:2183895 [interfaces.py:finish():202] Joined cpu monitor
+2024-07-19 13:44:51,768 INFO    HandlerThread:2183895 [interfaces.py:finish():202] Joined disk monitor
+2024-07-19 13:44:51,768 INFO    HandlerThread:2183895 [interfaces.py:finish():202] Joined memory monitor
+2024-07-19 13:44:51,768 INFO    HandlerThread:2183895 [interfaces.py:finish():202] Joined network monitor
+2024-07-19 13:44:51,769 DEBUG   SenderThread:2183895 [sender.py:send():375] send: stats
+2024-07-19 13:44:52,905 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:53,770 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:44:53,907 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:44:58,771 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:45:03,772 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:45:06,401 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-19 13:45:06,402 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: stop_status
+2024-07-19 13:45:09,556 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:45:14,558 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:45:19,559 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:45:21,401 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-19 13:45:21,402 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: stop_status
+2024-07-19 13:45:24,618 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:45:29,620 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:45:34,621 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:45:36,401 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-19 13:45:36,402 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: stop_status
+2024-07-19 13:45:39,643 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:45:44,644 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:45:49,645 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:45:51,401 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-19 13:45:51,402 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: stop_status
+2024-07-19 13:45:55,638 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:46:00,639 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:46:05,640 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:46:06,401 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-19 13:46:06,402 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: stop_status
+2024-07-19 13:46:11,579 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:46:16,580 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:46:21,402 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-19 13:46:21,403 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: stop_status
+2024-07-19 13:46:21,581 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:46:26,582 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:46:31,584 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:46:36,402 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-19 13:46:36,403 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: stop_status
+2024-07-19 13:46:36,608 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:46:41,609 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:46:46,611 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:46:51,402 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-19 13:46:51,403 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: stop_status
+2024-07-19 13:46:51,634 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:46:56,636 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:47:01,637 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:47:06,402 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: stop_status
+2024-07-19 13:47:06,403 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: stop_status
+2024-07-19 13:47:07,637 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:47:12,129 DEBUG   SenderThread:2183895 [sender.py:send():375] send: exit
+2024-07-19 13:47:12,129 INFO    SenderThread:2183895 [sender.py:send_exit():598] handling exit code: 0
+2024-07-19 13:47:12,130 INFO    SenderThread:2183895 [sender.py:send_exit():600] handling runtime: 82
+2024-07-19 13:47:12,131 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:47:12,132 INFO    SenderThread:2183895 [sender.py:send_exit():606] send defer
+2024-07-19 13:47:12,132 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: defer
+2024-07-19 13:47:12,132 INFO    HandlerThread:2183895 [handler.py:handle_request_defer():170] handle defer: 0
+2024-07-19 13:47:12,132 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: defer
+2024-07-19 13:47:12,132 INFO    SenderThread:2183895 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-07-19 13:47:12,132 INFO    SenderThread:2183895 [sender.py:transition_state():626] send defer: 1
+2024-07-19 13:47:12,132 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: defer
+2024-07-19 13:47:12,132 INFO    HandlerThread:2183895 [handler.py:handle_request_defer():170] handle defer: 1
+2024-07-19 13:47:12,133 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: defer
+2024-07-19 13:47:12,133 INFO    SenderThread:2183895 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-07-19 13:47:12,133 INFO    SenderThread:2183895 [sender.py:transition_state():626] send defer: 2
+2024-07-19 13:47:12,133 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: defer
+2024-07-19 13:47:12,133 INFO    HandlerThread:2183895 [handler.py:handle_request_defer():170] handle defer: 2
+2024-07-19 13:47:12,133 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: defer
+2024-07-19 13:47:12,133 INFO    SenderThread:2183895 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-07-19 13:47:12,133 INFO    SenderThread:2183895 [sender.py:transition_state():626] send defer: 3
+2024-07-19 13:47:12,133 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: defer
+2024-07-19 13:47:12,133 INFO    HandlerThread:2183895 [handler.py:handle_request_defer():170] handle defer: 3
+2024-07-19 13:47:12,133 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: defer
+2024-07-19 13:47:12,133 INFO    SenderThread:2183895 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-07-19 13:47:12,133 INFO    SenderThread:2183895 [sender.py:transition_state():626] send defer: 4
+2024-07-19 13:47:12,134 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: defer
+2024-07-19 13:47:12,134 INFO    HandlerThread:2183895 [handler.py:handle_request_defer():170] handle defer: 4
+2024-07-19 13:47:12,134 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: defer
+2024-07-19 13:47:12,134 INFO    SenderThread:2183895 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-07-19 13:47:12,134 INFO    SenderThread:2183895 [sender.py:transition_state():626] send defer: 5
+2024-07-19 13:47:12,134 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: defer
+2024-07-19 13:47:12,134 INFO    HandlerThread:2183895 [handler.py:handle_request_defer():170] handle defer: 5
+2024-07-19 13:47:12,134 DEBUG   SenderThread:2183895 [sender.py:send():375] send: summary
+2024-07-19 13:47:12,135 INFO    SenderThread:2183895 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2024-07-19 13:47:12,135 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: defer
+2024-07-19 13:47:12,135 INFO    SenderThread:2183895 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-07-19 13:47:12,135 INFO    SenderThread:2183895 [sender.py:transition_state():626] send defer: 6
+2024-07-19 13:47:12,135 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: defer
+2024-07-19 13:47:12,135 INFO    HandlerThread:2183895 [handler.py:handle_request_defer():170] handle defer: 6
+2024-07-19 13:47:12,135 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: defer
+2024-07-19 13:47:12,136 INFO    SenderThread:2183895 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-07-19 13:47:12,136 INFO    SenderThread:2183895 [sender.py:transition_state():626] send defer: 7
+2024-07-19 13:47:12,136 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: status_report
+2024-07-19 13:47:12,136 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: defer
+2024-07-19 13:47:12,136 INFO    HandlerThread:2183895 [handler.py:handle_request_defer():170] handle defer: 7
+2024-07-19 13:47:12,136 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: defer
+2024-07-19 13:47:12,136 INFO    SenderThread:2183895 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-07-19 13:47:13,098 INFO    Thread-12 :2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:47:13,130 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: poll_exit
+2024-07-19 13:47:13,918 INFO    SenderThread:2183895 [sender.py:transition_state():626] send defer: 8
+2024-07-19 13:47:13,919 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: poll_exit
+2024-07-19 13:47:13,919 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: defer
+2024-07-19 13:47:13,920 INFO    HandlerThread:2183895 [handler.py:handle_request_defer():170] handle defer: 8
+2024-07-19 13:47:13,920 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: defer
+2024-07-19 13:47:13,920 INFO    SenderThread:2183895 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-07-19 13:47:13,922 INFO    SenderThread:2183895 [sender.py:transition_state():626] send defer: 9
+2024-07-19 13:47:13,922 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: defer
+2024-07-19 13:47:13,922 INFO    HandlerThread:2183895 [handler.py:handle_request_defer():170] handle defer: 9
+2024-07-19 13:47:13,923 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: defer
+2024-07-19 13:47:13,923 INFO    SenderThread:2183895 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-07-19 13:47:13,923 INFO    SenderThread:2183895 [dir_watcher.py:finish():365] shutting down directory watcher
+2024-07-19 13:47:14,100 INFO    SenderThread:2183895 [dir_watcher.py:_on_file_modified():295] file/dir modified: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:47:14,101 INFO    SenderThread:2183895 [dir_watcher.py:finish():395] scan: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files
+2024-07-19 13:47:14,102 INFO    SenderThread:2183895 [dir_watcher.py:finish():409] scan save: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/conda-environment.yaml conda-environment.yaml
+2024-07-19 13:47:14,102 INFO    SenderThread:2183895 [dir_watcher.py:finish():409] scan save: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-metadata.json wandb-metadata.json
+2024-07-19 13:47:14,103 INFO    SenderThread:2183895 [dir_watcher.py:finish():409] scan save: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/config.yaml config.yaml
+2024-07-19 13:47:14,110 INFO    SenderThread:2183895 [dir_watcher.py:finish():409] scan save: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/requirements.txt requirements.txt
+2024-07-19 13:47:14,115 INFO    SenderThread:2183895 [dir_watcher.py:finish():409] scan save: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json wandb-summary.json
+2024-07-19 13:47:14,119 INFO    SenderThread:2183895 [dir_watcher.py:finish():409] scan save: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log output.log
+2024-07-19 13:47:14,122 INFO    SenderThread:2183895 [sender.py:transition_state():626] send defer: 10
+2024-07-19 13:47:14,125 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: defer
+2024-07-19 13:47:14,125 INFO    HandlerThread:2183895 [handler.py:handle_request_defer():170] handle defer: 10
+2024-07-19 13:47:14,126 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: defer
+2024-07-19 13:47:14,126 INFO    SenderThread:2183895 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-07-19 13:47:14,126 INFO    SenderThread:2183895 [file_pusher.py:finish():167] shutting down file pusher
+2024-07-19 13:47:14,131 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: poll_exit
+2024-07-19 13:47:14,131 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: poll_exit
+2024-07-19 13:47:14,522 INFO    wandb-upload_0:2183895 [upload_job.py:push():137] Uploaded file /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/conda-environment.yaml
+2024-07-19 13:47:14,640 INFO    wandb-upload_1:2183895 [upload_job.py:push():137] Uploaded file /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/config.yaml
+2024-07-19 13:47:14,647 INFO    wandb-upload_4:2183895 [upload_job.py:push():137] Uploaded file /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/output.log
+2024-07-19 13:47:14,659 INFO    wandb-upload_2:2183895 [upload_job.py:push():137] Uploaded file /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/requirements.txt
+2024-07-19 13:47:14,664 INFO    wandb-upload_3:2183895 [upload_job.py:push():137] Uploaded file /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/files/wandb-summary.json
+2024-07-19 13:47:14,865 INFO    Thread-11 :2183895 [sender.py:transition_state():626] send defer: 11
+2024-07-19 13:47:14,866 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: defer
+2024-07-19 13:47:14,866 INFO    HandlerThread:2183895 [handler.py:handle_request_defer():170] handle defer: 11
+2024-07-19 13:47:14,867 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: defer
+2024-07-19 13:47:14,867 INFO    SenderThread:2183895 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-07-19 13:47:14,867 INFO    SenderThread:2183895 [file_pusher.py:join():172] waiting for file pusher
+2024-07-19 13:47:14,867 INFO    SenderThread:2183895 [sender.py:transition_state():626] send defer: 12
+2024-07-19 13:47:14,867 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: defer
+2024-07-19 13:47:14,868 INFO    HandlerThread:2183895 [handler.py:handle_request_defer():170] handle defer: 12
+2024-07-19 13:47:14,868 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: defer
+2024-07-19 13:47:14,868 INFO    SenderThread:2183895 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-07-19 13:47:15,132 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: poll_exit
+2024-07-19 13:47:15,300 INFO    SenderThread:2183895 [sender.py:transition_state():626] send defer: 13
+2024-07-19 13:47:15,300 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: poll_exit
+2024-07-19 13:47:15,300 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: defer
+2024-07-19 13:47:15,300 INFO    HandlerThread:2183895 [handler.py:handle_request_defer():170] handle defer: 13
+2024-07-19 13:47:15,301 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: defer
+2024-07-19 13:47:15,301 INFO    SenderThread:2183895 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-07-19 13:47:15,301 INFO    SenderThread:2183895 [sender.py:transition_state():626] send defer: 14
+2024-07-19 13:47:15,301 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: defer
+2024-07-19 13:47:15,301 INFO    HandlerThread:2183895 [handler.py:handle_request_defer():170] handle defer: 14
+2024-07-19 13:47:15,302 DEBUG   SenderThread:2183895 [sender.py:send():375] send: final
+2024-07-19 13:47:15,302 DEBUG   SenderThread:2183895 [sender.py:send():375] send: footer
+2024-07-19 13:47:15,302 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: defer
+2024-07-19 13:47:15,302 INFO    SenderThread:2183895 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-07-19 13:47:15,303 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: poll_exit
+2024-07-19 13:47:15,303 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: poll_exit
+2024-07-19 13:47:15,303 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: server_info
+2024-07-19 13:47:15,303 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: get_summary
+2024-07-19 13:47:15,304 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: sampled_history
+2024-07-19 13:47:15,305 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: poll_exit
+2024-07-19 13:47:15,305 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: poll_exit
+2024-07-19 13:47:15,305 DEBUG   SenderThread:2183895 [sender.py:send_request():402] send_request: server_info
+2024-07-19 13:47:15,555 INFO    MainThread:2183895 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2024-07-19 13:47:15,556 INFO    MainThread:2183895 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2024-07-19 13:47:15,556 INFO    MainThread:2183895 [wandb_run.py:_footer_sync_info():3428] logging synced files
+2024-07-19 13:47:15,557 DEBUG   HandlerThread:2183895 [handler.py:handle_request():144] handle_request: shutdown
+2024-07-19 13:47:15,557 INFO    HandlerThread:2183895 [handler.py:finish():842] shutting down handler
+2024-07-19 13:47:16,305 INFO    WriterThread:2183895 [datastore.py:close():298] close: /exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TAP/notebooks/wandb/run-20240719_134328-ngjwzssi/run-ngjwzssi.wandb
+2024-07-19 13:47:16,556 INFO    SenderThread:2183895 [sender.py:finish():1550] shutting down sender
+2024-07-19 13:47:16,556 INFO    SenderThread:2183895 [file_pusher.py:finish():167] shutting down file pusher
+2024-07-19 13:47:16,557 INFO    SenderThread:2183895 [file_pusher.py:join():172] waiting for file pusher

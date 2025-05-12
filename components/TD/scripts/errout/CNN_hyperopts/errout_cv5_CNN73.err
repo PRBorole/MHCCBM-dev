@@ -1,0 +1,48 @@
+WARNING: If you use conda to create environments, your home directory may fill up. Please see our documentation at 
+ https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+Traceback (most recent call last):
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TD/scripts/TrainTDPredictor_CNN.py", line 122, in <module>
+    epoch = model.train_loop(train_loader=train_loader, 
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TD//../../src/TDPredictor_CNN.py", line 191, in train_loop
+    print(self.criterion(self(batch).squeeze(), label_batch))
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/loss.py", line 731, in forward
+    return F.binary_cross_entropy_with_logits(input, target,
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/functional.py", line 3224, in binary_cross_entropy_with_logits
+    raise ValueError(f"Target size ({target.size()}) must be the same as input size ({input.size()})")
+ValueError: Target size (torch.Size([1])) must be the same as input size (torch.Size([]))
+WARNING: If you use conda to create environments, your home directory may fill up. Please see our documentation at 
+ https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+Traceback (most recent call last):
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TD/scripts/TrainTDPredictor_CNN.py", line 122, in <module>
+    epoch = model.train_loop(train_loader=train_loader, 
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TD//../../src/TDPredictor_CNN.py", line 192, in train_loop
+    val_loss = val_loss + self.criterion(self(batch).squeeze(), label_batch)
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/loss.py", line 731, in forward
+    return F.binary_cross_entropy_with_logits(input, target,
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/functional.py", line 3224, in binary_cross_entropy_with_logits
+    raise ValueError(f"Target size ({target.size()}) must be the same as input size ({input.size()})")
+ValueError: Target size (torch.Size([1])) must be the same as input size (torch.Size([]))
+WARNING: If you use conda to create environments, your home directory may fill up. Please see our documentation at 
+ https://www.wiki.ed.ac.uk/display/ResearchServices/Anaconda for advice.
+Traceback (most recent call last):
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TD/scripts/TrainTDPredictor_CNN.py", line 120, in <module>
+    epoch = model.train_loop(train_loader=train_loader, 
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/MHCCBM/MHCCBM/components/TD//../../src/TDPredictor_CNN.py", line 192, in train_loop
+    val_loss = val_loss + self.criterion(self(batch).squeeze(), label_batch)
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/modules/loss.py", line 731, in forward
+    return F.binary_cross_entropy_with_logits(input, target,
+  File "/exports/csce/eddie/inf/groups/ajitha_project/piyush/.conda/envs/MHCex38/lib/python3.8/site-packages/torch/nn/functional.py", line 3224, in binary_cross_entropy_with_logits
+    raise ValueError(f"Target size ({target.size()}) must be the same as input size ({input.size()})")
+ValueError: Target size (torch.Size([1])) must be the same as input size (torch.Size([]))
